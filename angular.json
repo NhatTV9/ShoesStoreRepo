@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "shoesStore"
+    }
+  },
+  "defaultProject": "shoesStore",
+  "cli": {
+    "analytics": false
+  }
 }
