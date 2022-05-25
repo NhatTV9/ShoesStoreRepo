@@ -7,16 +7,53 @@
     <div class="collapse navbar-collapse text-capitalize">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" routerLink="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Shop</a>
+          <a class="nav-link" routerLink="/categories">Shop</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <div class="dropdown">
+            <button
+              class="btn nav-link"
+              (focus)="showDropdownBlog = !showDropdownBlog"
+            >
+              Blog
+            </button>
+            <div
+              class="dropdown-menu show mt-4"
+              [class.show]="showDropdownBlog"
+            >
+              <span
+                class="dropdown-item"
+                (click)="showDropdownBlog = !showDropdownBlog"
+                >Blog</span
+              >
+              <span class="dropdown-item" href="#">Blog Details</span>
+            </div>
+          </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">page</a>
+          <div class="dropdown">
+            <button
+              class="btn nav-link"
+              (focus)="showDropdownPage = !showDropdownPage"
+            >
+              Page
+            </button>
+            <div
+              class="dropdown-menu show mt-4"
+              [class.show]="showDropdownPage"
+            >
+              <span
+                class="dropdown-item"
+                (click)="showDropdownPage = !showDropdownPage"
+                routerLink="/login"
+                >Login</span
+              >
+              <span class="dropdown-item" href="#">Tracking</span>
+            </div>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">contact</a>
