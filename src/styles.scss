@@ -17,3 +17,6 @@ $btn-border-radius: 0.25rem;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 // Add SASS theme customizations here..
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
