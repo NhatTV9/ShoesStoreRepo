@@ -11,6 +11,9 @@ import { ShoePreviewComponent } from './components/shoes-container/shoe-preview/
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { ShoeCategoryComponent } from './components/shoe-category/shoe-category.component';
 import { LoginComponent } from './components/login/login.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatInputModule } from '@angular/material/input';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 @NgModule({
   declarations: [
@@ -24,7 +27,13 @@ import { LoginComponent } from './components/login/login.component';
     ShoeCategoryComponent,
     LoginComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatInputModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
