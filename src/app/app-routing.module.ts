@@ -6,6 +6,7 @@ import { ShoesContainerComponent } from './components/shoes-container/shoes-cont
 import { HomeComponent } from './components/home/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { TrackingComponent } from './components/tracking/tracking.component';
 
 const routes: Routes = [
   {
@@ -28,6 +29,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent,
+  },
+  {
+    path: 'tracking',
+    component: TrackingComponent,
   },
   {
     path: '**',
