@@ -4,6 +4,7 @@
       <img src="../../../assets/img/brand.webp" />
     </a>
 
+
     <div class="collapse navbar-collapse" id="nav-bar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
@@ -53,6 +54,7 @@
             <button
               class="btn nav-link"
               (focus)="showDropdownPage = !showDropdownPage"
+              routerLinkActive="active"
             >
               Login
             </button>
@@ -66,7 +68,7 @@
                 routerLink="/login"
                 >Login</span
               >
-              <span class="dropdown-item" href="#">Tracking</span>
+              <span class="dropdown-item" routerLink="/tracking">Tracking</span>
             </div>
           </div>
-        </li> -->
+
