@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
     LoginComponent,
     TrackingComponent,
     ShoppingCartComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,

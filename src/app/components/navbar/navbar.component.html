@@ -5,12 +5,14 @@
     </a>
 
     <div class="collapse navbar-collapse text-capitalize">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" routerLink="/">Home</a>
+      <ul class="navbar-nav ml-auto align-items-center">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/" routerLinkActive="active">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/categories">Shop</a>
+          <a class="nav-link" routerLink="/categories" routerLinkActive="active"
+            >Shop</a
+          >
         </li>
         <li class="nav-item">
           <div class="dropdown">
@@ -38,6 +40,7 @@
             <button
               class="btn nav-link"
               (focus)="showDropdownPage = !showDropdownPage"
+              routerLinkActive="active"
             >
               Page
             </button>
@@ -51,12 +54,14 @@
                 routerLink="/login"
                 >Login</span
               >
-              <span class="dropdown-item" href="#">Tracking</span>
+              <span class="dropdown-item" routerLink="/tracking">Tracking</span>
             </div>
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
+          <span class="nav-link" routerLink="/contact" routerLinkActive="active"
+            >Contact</span
+          >
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fas fa-briefcase"></i></a>

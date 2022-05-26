@@ -4,7 +4,7 @@ $success: #015668;
 $danger: #ff304f;
 $info: #0f81c7;
 $warning: #0de2ea;
-$light: #828bb2;
+$light: #e8f0f2;
 $dark: #000000;
 $enable-gradients: true;
 $spacer: 1rem;
@@ -18,5 +18,11 @@ $btn-border-radius: 0.25rem;
 }
 // Add SASS theme customizations here..
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
