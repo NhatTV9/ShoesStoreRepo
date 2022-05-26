@@ -15,6 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { TrackingComponent } from './components/tracking/tracking.component';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { TrackingComponent } from './components/tracking/tracking.component';
     ShoeCategoryComponent,
     LoginComponent,
     TrackingComponent,
+    ShoppingCartComponent,
   ],
   imports: [
     BrowserModule,
