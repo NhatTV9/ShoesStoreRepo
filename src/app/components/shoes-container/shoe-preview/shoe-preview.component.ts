@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ProductsService } from '../../../servicesdata/products.service';
 
 @Component({
@@ -7,6 +7,7 @@ import { ProductsService } from '../../../servicesdata/products.service';
   styleUrls: ['./shoe-preview.component.scss'],
 })
 export class ShoePreviewComponent implements OnInit {
+  @Input('numberCharater') number;
   public products = [];
   constructor(private productService: ProductsService) {}
 

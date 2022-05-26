@@ -14,6 +14,8 @@ import { LoginComponent } from './components/login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { TextcustomPipe } from './pipes/textcustom.pipe';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     NotFoundComponent,
     ShoeCategoryComponent,
     LoginComponent,
+    ProductDetailComponent,
+    TextcustomPipe,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,31 @@
+<div class="container-xl">
+  <div class="detail-product row">
+    <div class="col-6 p-5">
+      <img
+        [src]="detailProduct.images_list[0]"
+        alt=""
+        class="detailProductImg"
+      />
+    </div>
+    <div class="col-6 p-5">
+      <h3>{{ detailProduct.brand }}</h3>
+      <h2 class="text-warning">{{ detailProduct.price }}</h2>
+      <p>
+        <span class="d-inline-block w-15">Material</span>
+        <span class="text-primary"
+          >:{{ detailProduct.features[0]["Outer Material"] }}</span
+        >
+      </p>
+      <hr />
+      <p>{{ detailProduct.product_details }}</p>
+      <div>
+        <label>Quantily: </label>
+        <input type="number" class="ml-3 w-15 border border-light rounded" />
+      </div>
+      <div class="my-3" id="icon-product">
+        <button class="btn btn-primary text-uppercase px-4">add to card</button>
+        <i class="fas fa-heart mx-2 rounded-circle"></i>
+      </div>
+    </div>
+  </div>
+</div>
