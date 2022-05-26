@@ -16,6 +16,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
 import { TextcustomPipe } from './pipes/textcustom.pipe';
+import { TrackingComponent } from './components/tracking/tracking.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { TextcustomPipe } from './pipes/textcustom.pipe';
     LoginComponent,
     ProductDetailComponent,
     TextcustomPipe,
+    TrackingComponent,
   ],
   imports: [
     BrowserModule,

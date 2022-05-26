@@ -5,7 +5,11 @@ import { ShoeCategoryComponent } from './components/shoe-category/shoe-category.
 import { ShoesContainerComponent } from './components/shoes-container/shoes-container.component';
 import { HomeComponent } from './components/home/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+
 import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+
+import { ContactComponent } from './components/contact/contact.component';
+import { TrackingComponent } from './components/tracking/tracking.component';
 
 const routes: Routes = [
   {
@@ -28,6 +32,14 @@ const routes: Routes = [
   {
     path: 'productDetail',
     component: ProductDetailComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+  },
+  {
+    path: 'tracking',
+    component: TrackingComponent,
   },
   {
     path: '**',
