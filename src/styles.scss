@@ -1,9 +1,9 @@
-$primary: #f87a26;
+$primary: #ff7200;
 $secondary: #222222;
 $success: #015668;
 $danger: #ff304f;
 $info: #0f81c7;
-$warning: #0de2ea;
+$warning: #ffae00;
 $light: #828bb2;
 $dark: #000000;
 $enable-gradients: true;
@@ -18,5 +18,14 @@ $btn-border-radius: 0.25rem;
 }
 // Add SASS theme customizations here..
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.w-15 {
+  width: 15%;
+}
