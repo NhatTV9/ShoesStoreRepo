@@ -1,20 +1,9 @@
-// product
-#title1 {
-  font-size: 14px;
-  font-weight: 800;
-  height: 75px;
-  line-height: 1.6;
-}
-.imgproduct {
-  width: 100%;
-  height: 200px;
+.detailProductImg {
+  max-width: 100%;
+  height: 400px;
   object-fit: contain;
 }
-.price {
-  font-size: 14px;
-}
 #icon-product > i {
-  color: white;
   background-color: #828bb2;
   width: 2em;
   text-align: center;

@@ -2,6 +2,34 @@
   margin-right: 8px;
   cursor: pointer;
 }
+#nav-bar * {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#nav-bar .nav-link {
+  color: black;
+  font-size: 12px;
+}
+#nav-bar .nav-link:hover {
+  color: #ffba00;
+}
+#nav-bar .active {
+  color: #ffba00;
+}
 .show {
   display: block;
+}
+#drop-down p {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffba00;
+  font-size: 12px;
+  cursor: pointer;
+}
+#drop-down p:hover {
+  background-color: #ffba00;
+  color: white;
+}
+#drop-down p:last-child {
+  border-top: 1px solid #9199bb88;
 }

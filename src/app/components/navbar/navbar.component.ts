@@ -11,4 +11,7 @@ export class NavbarComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+  onclick() {
+    console.log('click');
+  }
 }
