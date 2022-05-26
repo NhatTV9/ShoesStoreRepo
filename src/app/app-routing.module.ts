@@ -5,6 +5,7 @@ import { ShoeCategoryComponent } from './components/shoe-category/shoe-category.
 import { ShoesContainerComponent } from './components/shoes-container/shoes-container.component';
 import { HomeComponent } from './components/home/home/home.component';
 import { LoginComponent } from './components/login/login.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
   {
@@ -23,6 +24,10 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
   },
   {
     path: '**',
