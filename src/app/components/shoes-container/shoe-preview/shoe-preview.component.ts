@@ -7,12 +7,10 @@ import { ProductsService } from '../../../servicesdata/products.service';
   styleUrls: ['./shoe-preview.component.scss'],
 })
 export class ShoePreviewComponent implements OnInit {
-  @Input('numberCharater') number;
+  @Input('numberCharater') numberCharater;
+  @Input('product') item;
   public products = [];
   constructor(private productService: ProductsService) {}
 
-  ngOnInit(): void {
-    this.products = this.productService.getData(12);
-    console.log(this.productService.getData(12));
-  }
+  ngOnInit(): void {}
 }

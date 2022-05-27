@@ -10,7 +10,6 @@ export class HomeComponent implements OnInit {
   public products = [];
   constructor(private productService: ProductsService) {}
   ngOnInit(): void {
-    this.products = this.productService.getData(16);
-    console.log(this.productService.getData(12));
+    this.products = this.productService.getProduct(8);
   }
 }

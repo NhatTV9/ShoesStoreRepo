@@ -1,17 +1,17 @@
-<div class="product row ml-5" *ngIf="products" routerLink="/productDetail">
-  <div class="col-3 px-3" *ngFor="let item of products">
+<div class="px-3">
+  <div routerLink="/productDetail/{{ item.id }}">
     <img [src]="item.images_list[0]" alt="" class="imgproduct" />
-    <h6 class="text-uppercase mt-5" id="title1">
-      {{ item.title | textcustom: number }}
+    <h6 class="text-uppercase mt-3" id="title1">
+      {{ item.title | textcustom: numberCharater }}
     </h6>
     <div class="price text-secondary font-weight-bold">
       <span>{{ item.price }}</span>
       <span *ngIf="!item.price">£161.63 - £202.04</span>
     </div>
-    <div class="my-4" id="icon-product">
-      <i class="fas fa-briefcase mx-2 rounded-circle"></i>
-      <i class="fas fa-heart mx-2 rounded-circle"></i>
-      <i class="fas fa-info mx-2 rounded-circle"></i>
-    </div>
+  </div>
+  <div class="my-4" id="icon-product">
+    <i class="fas fa-briefcase mx-2 rounded-circle"></i>
+    <i class="fas fa-heart mx-2 rounded-circle"></i>
+    <i class="fas fa-info mx-2 rounded-circle"></i>
   </div>
 </div>
