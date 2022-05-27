@@ -11,6 +11,7 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
 import { ContactComponent } from './components/contact/contact.component';
 import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 const routes: Routes = [
   {
@@ -45,6 +46,10 @@ const routes: Routes = [
   {
     path: 'shopping-cart',
     component: ShoppingCartComponent,
+  },
+  {
+    path: 'checkout',
+    component: CheckoutComponent,
   },
   {
     path: '**',

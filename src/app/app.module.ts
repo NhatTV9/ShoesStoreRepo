@@ -18,6 +18,7 @@ import { ProductDetailComponent } from './components/product-detail/product-deta
 import { TextcustomPipe } from './pipes/textcustom.pipe';
 import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
     TextcustomPipe,
     TrackingComponent,
     ShoppingCartComponent,
+    CheckoutComponent,
   ],
   imports: [
     BrowserModule,
