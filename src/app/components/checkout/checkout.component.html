@@ -1,15 +1,214 @@
 <div class="row bg-light align-items-center">
-  <h2>
+  <h2 class="w-100">
     Returning Customer?
     <a class="text-danger" style="text-decoration: underline"
       >Click here to login</a
     >
   </h2>
 </div>
-<div>
+<div class="p-4">
   <p class="text-muted">
     If you have shopped with us before, please enter your details in the boxes
     below. If you are a new customer, please proceed to the Billing & Shipping
     section.
   </p>
+  <div class="row">
+    <div class="col-xl-4 col-md-4 mt-2">
+      <input type="text" class="form-control" placeholder="Username or Email" />
+    </div>
+    <div class="col-xl-4 col-md-4 mt-2">
+      <input type="password" class="form-control" placeholder="Password" />
+    </div>
+    <div class="col-12 mt-4">
+      <div class="row justify-content-start">
+        <div class="col-3">
+          <button
+            class="btn btn-primary gradient px-5 rounded-0 border-0 text-white font-weight-bold mr-5"
+          >
+            LOGIN
+          </button>
+        </div>
+        <div class="col-3 form-check">
+          <input type="checkbox" class="form-check-input" />
+          <label class="form-check-label text-muted">Remember me</label>
+        </div>
+      </div>
+    </div>
+    <div class="col mt-4 mb-2">
+      <a href="#" class="text-muted">Lost your password?</a>
+    </div>
+  </div>
+</div>
+<div class="row bg-light align-items-center">
+  <h2 class="w-100">
+    Have a coupon?
+    <a class="text-danger" style="text-decoration: underline"
+      >Click here to enter your code</a
+    >
+  </h2>
+</div>
+<div class="row p-4">
+  <div class="col-8 mt-4">
+    <input type="text" class="form-control" placeholder="Enter coupon code" />
+  </div>
+  <div class="col-12 mt-4">
+    <button class="btn bg-white border px-5 rounded-0 font-weight-bold">
+      APPLY COUPON
+    </button>
+  </div>
+</div>
+<div class="row mt-4">
+  <div class="col-8 p-0">
+    <h5 class="border-bottom w-100 p-2">Billing Details</h5>
+    <div class="form-row mt-4">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First name" />
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last name" />
+      </div>
+    </div>
+    <div class="form-group mt-4">
+      <input type="text" class="form-control" placeholder="Company Name" />
+    </div>
+    <div class="form-row mt-4">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Phone Number" />
+      </div>
+      <div class="col">
+        <input type="email" class="form-control" placeholder="Email Address" />
+      </div>
+    </div>
+    <select class="form-control mt-4">
+      <option>Country</option>
+      <option>Country</option>
+    </select>
+    <div class="form-group mt-4">
+      <input type="text" class="form-control" placeholder="Address line 1" />
+    </div>
+    <div class="form-group mt-4">
+      <input type="text" class="form-control" placeholder="Address line 2" />
+    </div>
+    <div class="form-group mt-4">
+      <input type="text" class="form-control" placeholder="Town/City" />
+    </div>
+    <select class="form-control mt-4">
+      <option><span class="text-muted">District</span></option>
+      <option>District</option>
+    </select>
+    <div class="form-group mt-4">
+      <input type="text" class="form-control" placeholder="Postcode/ZIP" />
+    </div>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" />
+      <label class="form-check-label text-muted">Create an account?</label>
+    </div>
+    <h5 class="border-bottom w-100 p-2 mt-4">Shipping Details</h5>
+    <div class="form-check mt-4">
+      <input type="checkbox" class="form-check-input" />
+      <label class="form-check-label text-muted"
+        >Ship to a different address?</label
+      >
+    </div>
+    <div class="form-group mt-4">
+      <textarea
+        class="form-control"
+        rows="5"
+        placeholder="Order Notes"
+      ></textarea>
+    </div>
+  </div>
+  <div class="col bg-light p-4 ml-4">
+    <h5 class="border-bottom w-100 p-4">Shipping Details</h5>
+    <table class="table table-borderless text-muted">
+      <thead>
+        <tr>
+          <th scope="col">Product</th>
+          <th scope="col"></th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Fresh Blackberry</td>
+          <td>x 02</td>
+          <td>$720.00</td>
+        </tr>
+        <tr>
+          <td>Fresh Tomatoes</td>
+          <td>x 02</td>
+          <td>$720.00</td>
+        </tr>
+        <tr>
+          <td>Larry the Bird</td>
+          <td>x 02</td>
+          <td>$720.00</td>
+        </tr>
+      </tbody>
+      <thead class="border-top">
+        <tr>
+          <th scope="col">SUBTOTAL</th>
+          <th scope="col"></th>
+          <th scope="col">$2160</th>
+        </tr>
+        <tr>
+          <th scope="col">SHIPPING</th>
+          <th scope="col"></th>
+          <th scope="col">$50</th>
+        </tr>
+        <tr>
+          <th scope="col">TOTAL</th>
+          <th scope="col"></th>
+          <th scope="col">$2210</th>
+        </tr>
+      </thead>
+    </table>
+    <div class="custom-control custom-radio custom-control-inline">
+      <label class="custom-control-label font-weight-bold">CHECK PAYMENT</label>
+      <input
+        type="radio"
+        name="customRadioInline"
+        class="custom-control-input"
+      />
+    </div>
+    <div class="bg-white p-4 mt-4">
+      <p class="text-muted p-0 m-0">
+        Please send a check to Store Name, Store Street, Store Town, Store State
+        / County, Store Postcode.
+      </p>
+    </div>
+    <div class="row mt-4">
+      <div class="col">
+        <div class="custom-control custom-radio custom-control-inline">
+          <label class="custom-control-label font-weight-bold">PAYPAL</label>
+          <input
+            type="radio"
+            name="customRadioInline"
+            class="custom-control-input"
+          />
+        </div>
+      </div>
+      <div class="col">
+        <img src="../../../assets/img/paypal.webp" alt="" />
+      </div>
+    </div>
+    <div class="bg-white p-4 mt-4">
+      <p class="text-muted p-0 m-0">
+        Pay via PayPal; you can pay with your credit card if you don’t have a
+        PayPal account.
+      </p>
+    </div>
+    <div class="form-check mt-4">
+      <input type="checkbox" class="form-check-input" />
+      <label class="form-check-label"
+        ><p class="text-muted p-0 m-0">I’ve read and accept the</p>
+        <p class="text-danger p-0 m-0">terms & conditions*</p></label
+      >
+    </div>
+    <button
+      class="btn btn-primary gradient w-100 border-0 rounded-0 mt-4 font-weight-bold"
+    >
+      PROCEED TO PAYPAL
+    </button>
+  </div>
 </div>
