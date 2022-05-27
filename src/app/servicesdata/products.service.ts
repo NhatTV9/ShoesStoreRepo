@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import data from '../../assets/amazon_uk_shoes_dataset.json';
+import data from '../../assets/mockData';
 export interface Feature {
   'Outer Material': string;
   ' Inner Material': string;
@@ -12,6 +12,7 @@ export interface Feature {
 }
 
 export interface Product {
+  id?: number;
   url: string;
   title: string;
   asin: string;
@@ -26,16 +27,29 @@ export interface Product {
   providedIn: 'root',
 })
 export class ProductsService {
-  private products = data;
+  private productList: Product[] = [];
+  private totalProducts: Product[] = <Product[]>data.map((p, i) => {
+    p['id'] = i;
+    return p;
+  });
+
   constructor() {}
-  getData(number) {
-    let productList = [];
+  getProduct(number) {
+    let arr = [];
     for (let i = 0; i < number; i++) {
-      productList.push(this.products[i]);
+      arr.push(this.totalProducts[i]);
     }
-    return productList;
+    this.productList = arr;
+    return this.productList;
   }
-  getDataProduct(): Product {
-    return this.products[3];
+
+  getDetailProduct(id): Product {
+    let index = this.totalProducts.findIndex((p) => p.id == id);
+    if (index >= 0) {
+      return this.productList[index];
+    }
+  }
+  getNumberPage(numberItem) {
+    return this.totalProducts.length / numberItem;
   }
 }
