@@ -28,10 +28,12 @@ export interface Product {
 })
 export class ProductsService {
   private productList: Product[] = [];
+
   private totalProducts: Product[] = <Product[]>data.map((p, i) => {
     p['id'] = i;
     return p;
   });
+  public categories = this.getCategories();
 
   constructor() {}
   getProduct(number) {
@@ -51,5 +53,51 @@ export class ProductsService {
   }
   getNumberPage(numberItem) {
     return this.totalProducts.length / numberItem;
+  }
+  getDealsWeek(numberItem) {
+    let arr = [];
+    for (
+      let i = this.totalProducts.length - 1;
+      i > this.totalProducts.length - numberItem - 1;
+      i--
+    ) {
+      arr.push(this.totalProducts[i]);
+    }
+    return arr;
+  }
+  getCategories() {
+    let categories = [];
+    for (let product of this.totalProducts) {
+      let category = product.breadcrumbs.split('/');
+      if (category) {
+        for (let i = 1; i < category.length; i++) {
+          const found = categories.some((el) => el.category === category[i]);
+          if (!found) {
+            categories.push({ category: category[i], quantity: 1 });
+          } else {
+            categories.map((p) => {
+              if (p.category == category[i]) {
+                p.quantity++;
+              }
+            });
+          }
+        }
+      }
+    }
+    return categories;
+  }
+  getProductCate(number, value) {
+    let arr = [];
+    let count = 0;
+    for (let i = 0; i < this.totalProducts.length; i++) {
+      if (this.totalProducts[i].breadcrumbs.indexOf(value) != -1) {
+        arr.push(this.totalProducts[i]);
+        count++;
+      }
+      if (count >= number) {
+        break;
+      }
+    }
+    return arr;
   }
 }
