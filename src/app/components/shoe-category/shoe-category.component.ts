@@ -11,10 +11,11 @@ export class ShoeCategoryComponent implements OnInit {
   public shows = [24, 30];
   public show = 12;
   public pages = [];
-  constructor(private productService: ProductsService) {}
+  constructor(public productService: ProductsService) {}
   ngOnInit(): void {
     this.products = this.productService.getProduct(this.show);
     this.getPages();
+    console.log(this.productService.categories);
   }
   sort(value) {
     this.show = value;
@@ -26,9 +27,8 @@ export class ShoeCategoryComponent implements OnInit {
     for (let i = 1; i < ps + 2; i++) {
       this.pages.push(i);
     }
-    console.log(ps);
-    console.log(this.pages);
+  }
+  handleChange(e) {
+    this.products = this.productService.getProductCate(this.show, e);
   }
 }
-// (click)="goToPage(page)"
-// [class.active]="currentPage == page"

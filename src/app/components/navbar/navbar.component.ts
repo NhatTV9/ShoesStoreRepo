@@ -12,14 +12,10 @@ export class NavbarComponent implements OnInit {
   constructor(private router: Router) {}
 
   ngOnInit(): void {
-    this.router.events.subscribe((e) => {
-      if (e instanceof NavigationEnd) {
-        console.log(e);
-      }
-    });
-  }
-
-  onclick() {
-    console.log('click');
+    // this.router.events.subscribe((e) => {
+    //   if (e instanceof NavigationEnd) {
+    //     console.log(e);
+    //   }
+    // });
   }
 }

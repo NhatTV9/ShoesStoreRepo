@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row container-xl mx-auto m-50 my-50">
   <div class="col signin-container d-flex align-items-center">
     <div class="container mx-auto text-center text-white sign-in">
       <h3>New to our website?</h3>
@@ -6,14 +6,14 @@
         There are advances being made in science and technology everyday, and a
         good example of this is the
       </p>
-      <button class="bg-primary px-4 py-2 border-0 text-white font-weight-bold">
+      <button class="bg-primary px-4 py-2 border-0 text-white rounded">
         {{ "Create an account" | uppercase }}
       </button>
     </div>
   </div>
   <div class="col d-flex align-items-center px-3 shadow">
-    <div class="mx-auto w-100 text-center">
-      <h5 class="mb-4">{{ "Log in to enter" | uppercase }}</h5>
+    <div class="w-100 text-center">
+      <h6 class="mb-4 font-weight-bold">{{ "Log in to enter" | uppercase }}</h6>
       <form>
         <mat-form-field class="w-75 mt-2">
           <mat-label>User Name</mat-label>
@@ -28,35 +28,11 @@
           <label class="form-check-label">Keep me log in</label>
         </div>
         <button
-          class="bg-primary px-4 py-2 border-0 text-white font-weight-bold w-75 mt-2"
+          class="bg-primary px-4 py-2 border-0 text-white w-75 mt-2 rounded"
         >
           Log In
         </button>
       </form>
-
-      <!-- <form class="example-form">
-      <mat-form-field class="example-full-width">
-        <mat-label>Email</mat-label>
-        <input
-          matInput
-          [formControl]="emailFormControl"
-          [errorStateMatcher]="matcher"
-          placeholder="Ex. pat@example.com"
-        />
-        <mat-hint>Errors appear instantly!</mat-hint>
-        <mat-error
-          *ngIf="
-            emailFormControl.hasError('email') &&
-            !emailFormControl.hasError('required')
-          "
-        >
-          Please enter a valid email address
-        </mat-error>
-        <mat-error *ngIf="emailFormControl.hasError('required')">
-          Email is <strong>required</strong>
-        </mat-error>
-      </mat-form-field>
-    </form> -->
     </div>
   </div>
 </div>
