@@ -12,6 +12,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
+import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 
 const routes: Routes = [
   {
@@ -50,6 +51,10 @@ const routes: Routes = [
   {
     path: 'checkout',
     component: CheckoutComponent,
+  },
+  {
+    path: 'confirmation',
+    component: ConfirmationComponent,
   },
   {
     path: '**',

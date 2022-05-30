@@ -19,6 +19,7 @@ import { TextcustomPipe } from './pipes/textcustom.pipe';
 import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
+import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { CheckoutComponent } from './components/checkout/checkout.component';
     TrackingComponent,
     ShoppingCartComponent,
     CheckoutComponent,
+    ConfirmationComponent,
   ],
   imports: [
     BrowserModule,
