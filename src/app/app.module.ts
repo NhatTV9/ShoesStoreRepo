@@ -19,8 +19,12 @@ import { TextcustomPipe } from './pipes/textcustom.pipe';
 import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
+
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { DealWeekComponent } from './components/deal-week/deal-week.component';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +42,11 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     TrackingComponent,
     ShoppingCartComponent,
     CheckoutComponent,
+ confirmation-feature
     ConfirmationComponent,
+
+    DealWeekComponent,
+
   ],
   imports: [
     BrowserModule,

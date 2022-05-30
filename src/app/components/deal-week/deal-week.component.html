@@ -1,0 +1,33 @@
+<div class="my-50">
+  <div class="w-75 text-center mx-auto my-5">
+    <h5>Deals of the week</h5>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+  </div>
+
+  <div class="row deal">
+    <div class="col-9 row">
+      <div class="col-4 row" *ngFor="let item of productDeal">
+        <div class="col-4">
+          <img class="deal-img" [src]="item.images_list[0]" alt="" />
+        </div>
+        <div class="col-8">
+          <p class="text-uppercase mt-3" id="title1">
+            {{ item.title | textcustom: 15 }}
+          </p>
+          <p>{{ item.price }}</p>
+          <p *ngIf="!item.price">£161.63 - £202.04</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-3">
+      <img
+        class="deal-img"
+        src="../../../../assets/img/layout-3-img-5.webp"
+        alt=""
+      />
+    </div>
+  </div>
+</div>
