@@ -1,15 +1,15 @@
 <div>
   <!-- background-img -->
   <ngb-carousel *ngIf="images">
-    <ng-template ngbSlide>
+    <ng-template ngbSlide class="content-slide">
       <div class="picsum-img-wrapper">
         <img src="../../../../assets/img/backgroup.webp" id="img-slide" />
       </div>
-      <div class="carousel-caption text-primary">
-        <div class="slide row my-auto">
+      <div class="carousel-caption text-primary content-slide">
+        <div class="slide row my-auto text-dark">
           <div class="col-6">
             <h1 class="text-capitalize">Nike new collection</h1>
-            <p>
+            <p class="text-left" style="opacity: 0.7">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation.
@@ -31,52 +31,67 @@
         </div>
       </div>
     </ng-template>
-    <!-- <ng-template ngbSlide>
+    <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
-        <img [src]="images[1]" id="img-slide" />
+        <img src="../../../../assets/img/backgroup.webp" id="img-slide" />
       </div>
-      <div class="carousel-caption">
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <div class="carousel-caption text-primary content-slide">
+        <div class="slide row my-auto text-dark">
+          <div class="col-6">
+            <h1 class="text-capitalize">Nike</h1>
+            <p class="text-left" style="opacity: 0.7">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+            <div class="row">
+              <div class="col-1">
+                <i class="fas fa-plus add-icon bg-gradient-warning"></i>
+              </div>
+              <div class="col-3 ml-4 my-auto">Add to bag</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <img
+              id="img-slide"
+              src="../../../../assets/img/xbanner-img.png.pagespeed.ic.xt3MuruiIf.webp"
+              alt=""
+            />
+          </div>
+        </div>
       </div>
     </ng-template>
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
-        <img [src]="images[2]" id="img-slide" />
+        <img src="../../../../assets/img/backgroup.webp" id="img-slide" />
       </div>
-      <div class="carousel-caption">
-        <h3>Third slide label</h3>
-        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-      </div>
-    </ng-template> -->
-  </ngb-carousel>
-  <!-- <div class="backgroud-img" style="height: 100vh">
-    <div class="layout1 container-xl">
-      <div class="slide row my-auto">
-        <div class="col-6">
-          <h1 class="text-capitalize">Nike new collection</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation.
-          </p>
-          <div class="row">
-            <div class="col-1">
-              <i class="fas fa-plus add-icon bg-gradient-warning"></i>
+      <div class="carousel-caption text-primary content-slide">
+        <div class="slide row my-auto text-dark">
+          <div class="col-6">
+            <h1 class="text-capitalize">Nike new collection</h1>
+            <p class="text-left" style="opacity: 0.7">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation.
+            </p>
+            <div class="row">
+              <div class="col-1">
+                <i class="fas fa-plus add-icon bg-gradient-warning"></i>
+              </div>
+              <div class="col-3 ml-4 my-auto">Add to bag</div>
             </div>
-            <div class="col-3 ml-4 my-auto">Add to bag</div>
+          </div>
+          <div class="col-6">
+            <img
+              id="img-slide"
+              src="../../../../assets/img/xbanner-img.png.pagespeed.ic.xt3MuruiIf.webp"
+              alt=""
+            />
           </div>
         </div>
-        <div class="col-6">
-          <img
-            class="img-slide"
-            src="../../../../assets/img/xbanner-img.png.pagespeed.ic.xt3MuruiIf.webp"
-            alt=""
-          />
-        </div>
       </div>
-    </div>
-  </div> -->
+    </ng-template>
+  </ngb-carousel>
 </div>
 <div class="container-xl">
   <!-- layout2 -->
