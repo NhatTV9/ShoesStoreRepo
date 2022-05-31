@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "nhattv9-ngaht10-hn22-angular01": {
+      "hosting": {
+        "shoesStore": [
+          "nhattv9-ngaht10-hn22-angular01"
+        ]
+      }
+    }
+  }
+}

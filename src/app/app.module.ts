@@ -24,6 +24,7 @@ import { ConfirmationComponent } from './components/confirmation/confirmation.co
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { DealWeekComponent } from './components/deal-week/deal-week.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -50,8 +51,12 @@ import { DealWeekComponent } from './components/deal-week/deal-week.component';
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatInputModule,
+
+    NgbModule,
+
     FormsModule,
     ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],

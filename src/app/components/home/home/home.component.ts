@@ -7,9 +7,7 @@ import { ProductsService } from 'src/app/servicesdata/products.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  public products = [];
   constructor(private productService: ProductsService) {}
-  ngOnInit(): void {
-    this.products = this.productService.getProduct(8);
-  }
+  ngOnInit(): void {}
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
 }
