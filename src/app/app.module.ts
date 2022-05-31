@@ -26,7 +26,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DealWeekComponent } from './components/deal-week/deal-week.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -43,11 +42,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     TrackingComponent,
     ShoppingCartComponent,
     CheckoutComponent,
- confirmation-feature
     ConfirmationComponent,
-
     DealWeekComponent,
-
   ],
   imports: [
     BrowserModule,
