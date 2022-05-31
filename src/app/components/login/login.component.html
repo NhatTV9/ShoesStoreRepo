@@ -12,12 +12,20 @@
     </div>
   </div>
   <div class="col d-flex align-items-center px-3 shadow">
-    <div class="w-100 text-center">
-      <h6 class="mb-4 font-weight-bold">{{ "Log in to enter" | uppercase }}</h6>
-      <form>
+
+    <div class="mx-auto w-100 text-center">
+      <h5 class="mb-4">{{ "Log in to enter" | uppercase }}</h5>
+      <form [formGroup]="loginForm">
+
         <mat-form-field class="w-75 mt-2">
-          <mat-label>User Name</mat-label>
-          <input matInput type="text" />
+          <mat-label>Email Address</mat-label>
+          <input
+            matInput
+            type="email"
+            formControlName="email"
+            (blur)="log()"
+            required
+          />
         </mat-form-field>
         <mat-form-field class="w-75 mt-2">
           <mat-label>Password</mat-label>
