@@ -19,17 +19,22 @@
 .show {
   display: block;
 }
-#drop-down p {
+#drop-down {
+  padding: 0px;
+  margin-top: 20px;
+  border: none;
+}
+#drop-down button {
   text-transform: uppercase;
   font-weight: 600;
   color: #ffba00;
   font-size: 12px;
   cursor: pointer;
 }
-#drop-down p:hover {
-  background-color: #ffba00;
+#drop-down button:hover {
+  background: #ffba00;
   color: white;
 }
-#drop-down p:last-child {
-  border-top: 1px solid #9199bb88;
-}
+// #drop-down button:last-child {
+//   border-top: 1px solid #9199bb88;
+// }

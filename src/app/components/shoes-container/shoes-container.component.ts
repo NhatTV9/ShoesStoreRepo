@@ -11,6 +11,6 @@ export class ShoesContainerComponent implements OnInit {
   constructor(private productService: ProductsService) {}
 
   ngOnInit(): void {
-    this.products = this.productService.getProduct(8);
+    this.products = this.productService.getProduct(0, 8);
   }
 }
