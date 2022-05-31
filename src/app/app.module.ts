@@ -20,6 +20,7 @@ import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { DealWeekComponent } from './components/deal-week/deal-week.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -45,6 +46,7 @@ import { DealWeekComponent } from './components/deal-week/deal-week.component';
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatInputModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
