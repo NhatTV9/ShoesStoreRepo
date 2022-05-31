@@ -26,6 +26,7 @@ import { DealWeekComponent } from './components/deal-week/deal-week.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SigupComponent } from './components/sigup/sigup.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +46,7 @@ import { SigupComponent } from './components/sigup/sigup.component';
     ConfirmationComponent,
     DealWeekComponent,
     SigupComponent,
+
   ],
   imports: [
     BrowserModule,

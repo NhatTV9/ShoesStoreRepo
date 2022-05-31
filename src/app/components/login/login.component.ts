@@ -17,11 +17,21 @@ export class LoginComponent implements OnInit {
       Validators.minLength(6),
       Validators.pattern('^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{8,}$'),
     ]),
+    stayLogIn: new FormControl(''),
   });
   constructor() {}
 
   ngOnInit(): void {}
   log() {
-    console.log(this.loginForm);
+    console.log(this.stayLogIn.value);
+  }
+  get email() {
+    return this.loginForm.get('email');
+  }
+  get password() {
+    return this.loginForm.get('password');
+  }
+  get stayLogIn() {
+    return this.loginForm.get('stayLogIn');
   }
 }
