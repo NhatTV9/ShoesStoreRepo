@@ -1,0 +1,102 @@
+<div class="jumbotron template-driven text-center w-50 my-5 mx-auto border p-5">
+  <h3></h3>
+  <hr />
+  <form [formGroup]="createAccount">
+    <!-- name -->
+    <div class="form-group row">
+      <div class="col-3">
+        <label
+          for="validationServer03"
+          class="form-label float-right font-weight-bold"
+          >Name</label
+        >
+      </div>
+      <div class="col-9">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Your Name"
+          formControlName="name"
+          [ngClass]="{ 'is-invalid': name.errors && name.touched }"
+        />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+          Please provide name
+        </div>
+      </div>
+    </div>
+    <!-- email -->
+    <div class="form-group row">
+      <div class="col-3">
+        <label
+          for="validationServer03"
+          class="form-label float-right font-weight-bold my-3"
+          >Your E-mail</label
+        >
+      </div>
+      <div class="col-9">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Your Email"
+          formControlName="email"
+          [ngClass]="{ 'is-invalid': email.errors && email.touched }"
+        />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+          Please provide email
+        </div>
+      </div>
+    </div>
+    <!-- password -->
+    <div class="form-group row">
+      <div class="col-3">
+        <label
+          for="validationServer03"
+          class="form-label float-right font-weight-bold my-3"
+          >password</label
+        >
+      </div>
+      <div class="col-9">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Password"
+          formControlName="password"
+          [ngClass]="{ 'is-invalid': password.errors && password.touched }"
+        />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+          Please provide password
+        </div>
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="col-3">
+        <label
+          for="validationServer03"
+          class="form-label float-right font-weight-bold my-3"
+          >Password Confirm</label
+        >
+      </div>
+      <div class="col-9">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Password Confirm"
+          formControlName="passwordConfirm"
+          [ngClass]="{
+            'is-invalid': passwordConfirm.errors && passwordConfirm.touched
+          }"
+        />
+        <div id="validationServer03Feedback" class="invalid-feedback">
+          Please provide password Confirm
+        </div>
+      </div>
+    </div>
+    <button
+      class="btn btn-primary float-right"
+      [disabled]="f.invalid"
+      (click)="submit()"
+    >
+      Submit
+    </button>
+  </form>
+</div>

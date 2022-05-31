@@ -13,6 +13,7 @@ import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
+import { SigupComponent } from './components/sigup/sigup.component';
 
 const routes: Routes = [
   {
@@ -55,6 +56,10 @@ const routes: Routes = [
   {
     path: 'confirmation',
     component: ConfirmationComponent,
+  },
+  {
+    path: 'sigup',
+    component: SigupComponent,
   },
   {
     path: '**',

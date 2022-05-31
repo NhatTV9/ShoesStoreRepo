@@ -28,17 +28,6 @@
               <button ngbDropdownItem class="py-2">Blog</button>
               <button ngbDropdownItem class="py-2">Blog Details</button>
             </div>
-            <!-- <div class="dropdown">
-              <button class="btn nav-link">Blog</button>
-              <div
-                class="dropdown-menu show border-0 p-0"
-                id="drop-down"
-                [class.show]="showDropdownBlog"
-              >
-                <p class="mt-3 mb-0 p-3 pl-4">Blog</p>
-                <p class="mb-0 p-3 pl-4" href="#">Blog Details</p>
-              </div>
-            </div> -->
           </li>
           <li class="nav-item" routerLink="/contact">
             <a class="nav-link">contact</a>
@@ -54,8 +43,18 @@
               ><i class="fas fa-shopping-cart"></i
             ></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link"><i class="fas fa-search"></i></a>
+          <li class="nav-item my-auto">
+            <div class="searchBox">
+              <input
+                class="searchInput"
+                type="text"
+                name=""
+                placeholder="Search"
+              />
+              <button class="searchButton">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
           </li>
         </ul>
       </div>

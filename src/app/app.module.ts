@@ -25,7 +25,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { DealWeekComponent } from './components/deal-week/deal-week.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-
+import { CreateAccountComponent } from './components/create-account/create-account.component';
+import { SigupComponent } from './components/sigup/sigup.component';
 
 @NgModule({
   declarations: [
@@ -43,11 +44,13 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     TrackingComponent,
     ShoppingCartComponent,
     CheckoutComponent,
- confirmation-feature
     ConfirmationComponent,
 
     DealWeekComponent,
 
+    CreateAccountComponent,
+
+    SigupComponent,
   ],
   imports: [
     BrowserModule,
@@ -60,7 +63,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
     FormsModule,
     ReactiveFormsModule,
-
   ],
   providers: [],
   bootstrap: [AppComponent],
