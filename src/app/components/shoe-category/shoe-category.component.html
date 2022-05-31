@@ -21,9 +21,9 @@
   </div>
   <div class="col-9 pl-5">
     <!-- nav-catagory -->
-    <div class="row bg-light p-3">
+    <div class="row bg-light p-2 align-items-center">
       <select
-        class="form-select w-15 p-2"
+        class="form-select w-10"
         aria-label="Default select example"
         (change)="sort($event.target.value)"
       >
@@ -31,6 +31,7 @@
         <option *ngFor="let i of shows">{{ i }}</option>
       </select>
       <ngb-pagination
+        class="ml-auto align-self-center"
         [directionLinks]="true"
         [collectionSize]="productService.productList.length"
         [(page)]="page"

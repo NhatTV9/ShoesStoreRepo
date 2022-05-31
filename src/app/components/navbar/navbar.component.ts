@@ -7,15 +7,8 @@ import { NavigationEnd, Router } from '@angular/router';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  showDropdownPage: boolean = false;
-  showDropdownBlog: boolean = false;
+  public showSearch = false;
   constructor(private router: Router) {}
 
-  ngOnInit(): void {
-    // this.router.events.subscribe((e) => {
-    //   if (e instanceof NavigationEnd) {
-    //     console.log(e);
-    //   }
-    // });
-  }
+  ngOnInit(): void {}
 }

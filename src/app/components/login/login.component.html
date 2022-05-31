@@ -6,68 +6,37 @@
         There are advances being made in science and technology everyday, and a
         good example of this is the
       </p>
-      <button class="bg-primary gradient px-4 py-2 border-0 text-white rounded">
-        {{ "Create an account" | uppercase }}
+
+      <button
+        class="bg-primary px-4 py-2 border-0 text-white rounded"
+        routerLink="/sigup"
+      >
+        {{ "SigUp" | uppercase }}
       </button>
     </div>
   </div>
-  <div class="col d-flex align-items-center px-3 shadow justify-content-center">
-    <div class="w-100">
-      <h5 class="mb-4 text-center col-12">
-        {{ "Log in to enter" | uppercase }}
-      </h5>
+  <div class="col d-flex align-items-center px-3 shadow">
+    <div class="mx-auto w-100 text-center">
+      <h5 class="mb-4">{{ "Log in to enter" | uppercase }}</h5>
       <form [formGroup]="loginForm">
-        <div class="mx-auto w-75">
-          <mat-form-field class="w-100 mt-2">
-            <mat-label>Email Address</mat-label>
-            <input matInput type="email" formControlName="email" required />
-          </mat-form-field>
-          <div class="text-danger" *ngIf="email.errors && email.touched">
-            <p class="font-italic" *ngIf="email.errors.required">
-              Email Address is required
-            </p>
-            <p class="font-italic" *ngIf="email.errors.pattern">
-              Email Address is not valid
-            </p>
-          </div>
-          <mat-form-field class="w-100 mt-2">
-            <mat-label>Password</mat-label>
-            <input
-              matInput
-              placeholder="password"
-              type="password"
-              formControlName="password"
-              required
-            />
-          </mat-form-field>
-          <div class="text-danger" *ngIf="password.errors && password.touched">
-            <p class="font-italic" *ngIf="password.errors.required">
-              Password is required
-            </p>
-            <p class="font-italic" *ngIf="password.errors.minlength">
-              Password must have at least 6 characters
-            </p>
-            <p
-              class="font-italic"
-              *ngIf="!password.errors.minlength && password.errors.pattern"
-            >
-              Password must contain at least one number and one uppercase and
-              lowercase letter
-            </p>
-          </div>
-          <div class="form-group form-check mt-2">
-            <input
-              type="checkbox"
-              class="form-check-input mr-2"
-              formControlName="stayLogIn"
-            />
-            <label class="form-check-label">Keep me logged in</label>
-          </div>
-          <button
-            class="bg-primary gradient px-4 py-2 border-0 text-white w-100 mt-2 rounded"
-          >
-            Log In
-          </button>
+        <mat-form-field class="w-75 mt-2">
+          <mat-label>Email Address</mat-label>
+          <input
+            matInput
+            type="email"
+            formControlName="email"
+            (blur)="log()"
+            required
+          />
+        </mat-form-field>
+        <mat-form-field class="w-75 mt-2">
+          <mat-label>Password</mat-label>
+          <input matInput placeholder="password" type="password" />
+        </mat-form-field>
+        <div class="form-group form-check mt-2">
+          <input type="checkbox" class="form-check-input mr-2" />
+          <label class="form-check-label">Keep me log in</label>
+
         </div>
       </form>
     </div>
