@@ -1,5 +1,5 @@
 <div class="jumbotron template-driven text-center w-50 my-5 mx-auto border p-5">
-  <h3></h3>
+  <h3>Sigup</h3>
   <hr />
   <form [formGroup]="createAccount">
     <!-- name -->
@@ -29,13 +29,13 @@
       <div class="col-3">
         <label
           for="validationServer03"
-          class="form-label float-right font-weight-bold my-3"
+          class="form-label float-right font-weight-bold"
           >Your E-mail</label
         >
       </div>
       <div class="col-9">
         <input
-          type="text"
+          type="email"
           class="form-control"
           placeholder="Your Email"
           formControlName="email"
@@ -51,13 +51,13 @@
       <div class="col-3">
         <label
           for="validationServer03"
-          class="form-label float-right font-weight-bold my-3"
-          >password</label
+          class="form-label float-right font-weight-bold"
+          >Password</label
         >
       </div>
       <div class="col-9">
         <input
-          type="text"
+          type="password"
           class="form-control"
           placeholder="Password"
           formControlName="password"
@@ -72,13 +72,13 @@
       <div class="col-3">
         <label
           for="validationServer03"
-          class="form-label float-right font-weight-bold my-3"
+          class="form-label float-right font-weight-bold"
           >Password Confirm</label
         >
       </div>
       <div class="col-9">
         <input
-          type="text"
+          type="password"
           class="form-control"
           placeholder="Password Confirm"
           formControlName="passwordConfirm"

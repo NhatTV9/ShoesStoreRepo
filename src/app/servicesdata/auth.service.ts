@@ -5,6 +5,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root',
 })
 export class AuthService {
-  private baseUrl = 'https://jobs-api-06.herokuapp.com/api/v1/auth/register';
+  private baseUrl = 'https://jobs-api-06.herokuapp.com/api/v1';
   constructor(private http: HttpClient) {}
+
+  sigup(user) {
+    return this.http.post(`${this.baseUrl}/auth/register`, user);
+  }
 }
