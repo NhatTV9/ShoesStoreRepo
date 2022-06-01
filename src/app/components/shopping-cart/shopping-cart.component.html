@@ -9,21 +9,21 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr *ngFor="let item of cartService.getCart()">
         <td>
           <div class="row align-items-center">
             <div class="col-4">
-              <img src="https://m.media-amazon.com/images/I/41OuvqjhaqL.jpg" />
+              <img [src]="item.item.images_list[0]" />
             </div>
-            <div class="col-8">Minimalistic shop for multipurpose use</div>
+            <div class="col-8">{{ item.item.title }}</div>
           </div>
         </td>
         <td>
-          <span class="font-weight-bold">$360.00</span>
+          <span class="font-weight-bold">{{ item.item.price }}</span>
         </td>
         <td>
           <div style="width: 70px">
-            <input type="number" class="form-control" value="1" />
+            <input type="number" class="form-control" [value]="item.quantity" />
           </div>
         </td>
         <td><span class="font-weight-bold">$360.00</span></td>
