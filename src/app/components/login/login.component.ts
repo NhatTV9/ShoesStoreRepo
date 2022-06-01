@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+import { AuthService } from '../../servicesdata/auth.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-login',
@@ -7,6 +9,10 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent implements OnInit {
+  user = {
+    email: 'nga@gmail.com',
+    password: 'Nga12345',
+  };
   loginForm = new FormGroup({
     email: new FormControl('', [
       Validators.required,
@@ -17,14 +23,11 @@ export class LoginComponent implements OnInit {
       Validators.minLength(6),
       Validators.pattern('^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{8,}$'),
     ]),
-    stayLogIn: new FormControl(''),
+    stayLogIn: new FormControl(false, []),
   });
-  constructor() {}
+  constructor(private authService: AuthService, private router: Router) {}
 
   ngOnInit(): void {}
-  log() {
-    console.log(this.stayLogIn.value);
-  }
   get email() {
     return this.loginForm.get('email');
   }
@@ -33,5 +36,11 @@ export class LoginComponent implements OnInit {
   }
   get stayLogIn() {
     return this.loginForm.get('stayLogIn');
+  }
+  onFormSubmit() {
+    this.authService.login(this.user, this.stayLogIn.value).subscribe((res) => {
+      // console.log(res);
+      this.router.navigateByUrl('/');
+    });
   }
 }

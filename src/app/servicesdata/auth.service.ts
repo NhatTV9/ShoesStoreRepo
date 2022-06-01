@@ -10,12 +10,19 @@ export interface User {
   __v: number;
 }
 
+
 export interface UserRespone {
   user: User;
   token: string;
   location: string;
 }
 
+
+export interface UserRespone {
+  user: User;
+  token: string;
+  location: string;
+}
 @Injectable({
   providedIn: 'root',
 })
@@ -35,8 +42,10 @@ export class AuthService {
       })
     );
   }
+
   sigup(user) {
     return this.http.post(`${this.baseUrl}/auth/register`, user);
 
   }
+
 }

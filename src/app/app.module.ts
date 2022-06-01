@@ -58,6 +58,7 @@ import { SigupComponent } from './components/sigup/sigup.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
