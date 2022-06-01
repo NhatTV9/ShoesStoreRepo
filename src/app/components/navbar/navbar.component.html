@@ -12,21 +12,20 @@
               >Home</a
             >
           </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              routerLink="/categories"
-              routerLinkActive="active"
-              >Shop</a
-            >
-          </li>
           <li class="nav-item" ngbDropdown>
             <a href (click)="(false)" class="nav-link" ngbDropdownToggle
-              >Blog</a
+              >Shop</a
             >
             <div ngbDropdownMenu id="drop-down">
-              <button ngbDropdownItem class="py-2">Blog</button>
-              <button ngbDropdownItem class="py-2">Blog Details</button>
+              <button ngbDropdownItem class="py-2" routerLink="/categories">
+                Shop Category
+              </button>
+              <button ngbDropdownItem class="py-2" routerLink="/checkout">
+                Product checkout
+              </button>
+              <button ngbDropdownItem class="py-2" routerLink="/confirmation">
+                Confirmation
+              </button>
             </div>
           </li>
           <li class="nav-item" routerLink="/contact">

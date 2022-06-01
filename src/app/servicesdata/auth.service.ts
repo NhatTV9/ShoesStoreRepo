@@ -10,13 +10,11 @@ export interface User {
   __v: number;
 }
 
-
 export interface UserRespone {
   user: User;
   token: string;
   location: string;
 }
-
 
 export interface UserRespone {
   user: User;
@@ -27,7 +25,6 @@ export interface UserRespone {
   providedIn: 'root',
 })
 export class AuthService {
-
   private baseUrl = 'https://jobify-prod.herokuapp.com/api/v1';
   public user = null;
   private savedToken = 'token';
@@ -42,10 +39,7 @@ export class AuthService {
       })
     );
   }
-
   sigup(user) {
     return this.http.post(`${this.baseUrl}/auth/register`, user);
-
   }
-
 }

@@ -2,17 +2,13 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../../servicesdata/auth.service';
 import { Router } from '@angular/router';
-
+import Swal from 'sweetalert2';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss'],
 })
 export class LoginComponent implements OnInit {
-  user = {
-    email: 'nga@gmail.com',
-    password: 'Nga12345',
-  };
   loginForm = new FormGroup({
     email: new FormControl('', [
       Validators.required,
@@ -38,9 +34,24 @@ export class LoginComponent implements OnInit {
     return this.loginForm.get('stayLogIn');
   }
   onFormSubmit() {
-    this.authService.login(this.user, this.stayLogIn.value).subscribe((res) => {
-      // console.log(res);
-      this.router.navigateByUrl('/');
-    });
+    let user = {
+      email: this.email.value,
+      password: this.password.value,
+    };
+
+    console.log(user);
+
+    this.authService.login(user, this.stayLogIn.value).subscribe(
+      (res) => {
+        this.router.navigateByUrl('/');
+      },
+      (err) => {
+        Swal.fire({
+          icon: 'error',
+          title: 'LogIn failure',
+          html: `${err.error.msg}`,
+        });
+      }
+    );
   }
 }
