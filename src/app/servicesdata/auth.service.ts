@@ -1,4 +1,3 @@
-
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { tap } from 'rxjs/operators';
@@ -35,7 +34,8 @@ export class AuthService {
         }
       })
     );
- sigup(user) {
+  }
+  sigup(user) {
     return this.http.post(`${this.baseUrl}/auth/register`, user);
 
   }
