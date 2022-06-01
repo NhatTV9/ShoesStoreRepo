@@ -13,6 +13,9 @@
 .price {
   font-size: 14px;
 }
+#icon-product {
+  padding-bottom: 20px;
+}
 #icon-product > i {
   color: white;
   background-color: #828bb2;
@@ -24,4 +27,11 @@
 #icon-product i:hover {
   background-color: rgb(255, 168, 0);
   cursor: pointer;
+}
+.shadow1 {
+  box-shadow: none;
+  transition: 0.5s;
+}
+.shadow1:hover {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%);
 }

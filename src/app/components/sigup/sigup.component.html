@@ -5,11 +5,7 @@
     <!-- name -->
     <div class="form-group row">
       <div class="col-3">
-        <label
-          for="validationServer03"
-          class="form-label float-right font-weight-bold"
-          >Name</label
-        >
+        <label class="float-left form-label font-weight-bold">Name</label>
       </div>
       <div class="col-9">
         <input
@@ -19,17 +15,13 @@
           formControlName="name"
           [ngClass]="{ 'is-invalid': name.errors && name.touched }"
         />
-        <div id="validationServer03Feedback" class="invalid-feedback">
-          Please provide name
-        </div>
+        <div class="invalid-feedback text-left pt-2">Please provide name</div>
       </div>
     </div>
     <!-- email -->
     <div class="form-group row">
       <div class="col-3">
-        <label
-          for="validationServer03"
-          class="form-label float-right font-weight-bold"
+        <label class="float-left form-label font-weight-bold"
           >Your E-mail</label
         >
       </div>
@@ -40,20 +32,18 @@
           placeholder="Your Email"
           formControlName="email"
           [ngClass]="{ 'is-invalid': email.errors && email.touched }"
+          (blur)="onBlur()"
         />
-        <div id="validationServer03Feedback" class="invalid-feedback">
-          Please provide email
+        <div class="invalid-feedback text-left pt-2">
+          <p *ngIf="email.errors.required">Please provide email</p>
+          <p *ngIf="email.errors.pattern">Email is not valid</p>
         </div>
       </div>
     </div>
     <!-- password -->
     <div class="form-group row">
       <div class="col-3">
-        <label
-          for="validationServer03"
-          class="form-label float-right font-weight-bold"
-          >Password</label
-        >
+        <label class="float-left form-label font-weight-bold">Password</label>
       </div>
       <div class="col-9">
         <input
@@ -63,16 +53,15 @@
           formControlName="password"
           [ngClass]="{ 'is-invalid': password.errors && password.touched }"
         />
-        <div id="validationServer03Feedback" class="invalid-feedback">
-          Please provide password
+        <div class="invalid-feedback text-left pt-2">
+          <p *ngIf="password.errors.required">Please provide password</p>
+          <p *ngIf="password.errors.pattern">Password is not password</p>
         </div>
       </div>
     </div>
     <div class="form-group row">
       <div class="col-3">
-        <label
-          for="validationServer03"
-          class="form-label float-right font-weight-bold"
+        <label class="float-left form-label font-weight-bold"
           >Password Confirm</label
         >
       </div>
@@ -86,8 +75,13 @@
             'is-invalid': passwordConfirm.errors && passwordConfirm.touched
           }"
         />
-        <div id="validationServer03Feedback" class="invalid-feedback">
-          Please provide password Confirm
+        <div class="invalid-feedback text-left pt-2">
+          <p *ngIf="passwordConfirm.errors.required">
+            Please provide password confirm
+          </p>
+          <p *ngIf="passwordConfirm.errors.pattern">
+            Password is not password confirm
+          </p>
         </div>
       </div>
     </div>
