@@ -32,15 +32,25 @@
             <a class="nav-link">contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/login" routerLinkActive="active"
+            <a
+              class="nav-link"
+              routerLink="/login"
+              routerLinkActive="active"
+              *ngIf="!authService.isLogin(); else elseBlock"
               >Login</a
             >
+            <ng-template #elseBlock>
+              <span class="nav-link" (click)="onLogout()">Logout</span>
+            </ng-template>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" routerLink="shopping-cart"
-              ><i class="fas fa-shopping-cart"></i
-            ></a>
+            <span
+              class="nav-link cart"
+              routerLink="shopping-cart"
+              [attr.data-totalitems]="cartService.getTotalItems()"
+              ><i class="fas fa-shopping-cart" style="font-size: 16px"></i
+            ></span>
           </li>
           <li class="nav-item my-auto">
             <div class="searchBox d-flex align-items-center">

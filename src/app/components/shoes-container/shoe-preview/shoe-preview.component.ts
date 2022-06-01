@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { ProductsService } from '../../../servicesdata/products.service';
+import { CartService } from '../../../servicesdata/cart.service';
 
 @Component({
   selector: 'app-shoe-preview',
@@ -10,7 +11,13 @@ export class ShoePreviewComponent implements OnInit {
   @Input('numberCharater') numberCharater;
   @Input('product') item;
   public products = [];
-  constructor(private productService: ProductsService) {}
+  constructor(
+    private productService: ProductsService,
+    private cartService: CartService
+  ) {}
 
   ngOnInit(): void {}
+  addItem() {
+    this.cartService.addItem(this.item);
+  }
 }
