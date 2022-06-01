@@ -39,19 +39,23 @@ a {
 .form-control {
   font-size: 0.75rem;
 }
+li a {
+  margin-top: auto;
+  margin-bottom: auto;
+}
 //search
 .searchBox {
-  height: 40px;
-  border-radius: 20px;
+  height: 30px;
+  border-radius: 15px;
   padding: 5px;
 }
 .searchBox:hover {
   background: linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
-  padding: 10px;
+  padding: 5px 10px;
 }
 .searchBox:hover > .searchInput {
   width: 140px;
-  padding: 0 6px;
+  padding: 3px 10px;
 }
 
 .searchBox:hover > .searchButton {
@@ -73,17 +77,22 @@ a {
 
 .searchInput {
   border: none;
-  border-radius: 20px;
+  border-radius: 15px;
   background: none;
   outline: none;
   float: left;
   padding: 0;
   color: white;
-  font-size: 10px;
+  font-size: 14px;
   transition: 0.4s;
-  line-height: 20px;
+  line-height: 15px;
   width: 0px;
+  text-transform: none !important;
 }
+.searchInput::placeholder {
+  color: white;
+}
+
 .cart {
   position: relative;
   &:before {
@@ -103,6 +112,7 @@ a {
     border-radius: 22px;
   }
 }
+
 @media screen and (max-width: 620px) {
   .searchBox:hover > .searchInput {
     width: 150px;

@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+
 import { Product } from './products.service';
 export interface CartItem {
   item: Product;
@@ -41,4 +42,5 @@ export class CartService {
   getTotalItems() {
     return this.cart.length;
   }
+
 }
