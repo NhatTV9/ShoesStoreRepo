@@ -16,7 +16,7 @@ export class ShoePreviewComponent implements OnInit {
   public products = [];
   constructor(
     private productService: ProductsService,
-    private cartService: CartService
+    private cartService: CartService,
     config: NgbRatingConfig
   ) {
     config.max = 5;
