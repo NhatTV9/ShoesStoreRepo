@@ -28,18 +28,30 @@ export class AuthService {
   private baseUrl = 'https://jobify-prod.herokuapp.com/api/v1';
   public user = null;
   private savedToken = 'token';
-  constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {
+    let token = localStorage.getItem(this.savedToken);
+    if (token) {
+      this.user = JSON.parse(token);
+    }
+  }
   login(user, stayLogIn) {
     return this.http.post(`${this.baseUrl}/auth/login`, user).pipe(
       tap((res: UserRespone) => {
         this.user = res.user;
         if (stayLogIn) {
-          localStorage.setItem(this.savedToken, res.token);
+          localStorage.setItem(this.savedToken, JSON.stringify(res.user));
         }
       })
     );
   }
   sigup(user) {
     return this.http.post(`${this.baseUrl}/auth/register`, user);
+  }
+  isLogin() {
+    return !!this.user;
+  }
+  logout() {
+    this.user = null;
+    localStorage.removeItem(this.savedToken);
   }
 }
