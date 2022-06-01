@@ -1,26 +1,24 @@
-.img-slide {
+#img-slide {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.layout1 {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  height: 100vh;
-}
+
 .add-icon {
   width: 2.6em;
   text-align: center;
   line-height: 2.6em;
   border-radius: 1.3em;
 }
-.slide {
-  position: absolute;
+.carousel-caption {
+  left: 50%;
   top: 50%;
-  transform: translate(0%, -50%);
-  margin: 50px;
+  transform: translate(-50%, -50%);
 }
+.content-slide {
+  width: 60%;
+}
+//layout2
 .margin-100 {
   margin: 100px 0px;
 }
@@ -32,4 +30,32 @@ p i {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+.btn-prev {
+  opacity: 0.3;
+}
+.btn-prev:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+// product
+.cost {
+  text-decoration: line-through;
+}
+.icon-product {
+}
+.icon-product > i {
+  width: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 0.8em; /* or 50% width & line-height */
+}
+.icon-product > i:hover {
+  background-color: rgb(255, 168, 0);
+  cursor: pointer;
+}
+.imgproduct {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
 }

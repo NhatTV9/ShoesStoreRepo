@@ -1,6 +1,93 @@
 .nav-item {
   margin-right: 8px;
+  cursor: pointer;
 }
-.show {
-  display: block;
+#nav-bar * {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#nav-bar .nav-link {
+  color: black;
+  font-size: 12px;
+}
+#nav-bar .nav-link:hover {
+  color: #ffba00;
+}
+#nav-bar .active {
+  color: #ffba00;
+}
+#drop-down {
+  padding: 0px;
+  margin-top: 20px;
+  border: none;
+}
+#drop-down button {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ffba00;
+  font-size: 12px;
+  cursor: pointer;
+}
+#drop-down button:hover {
+  background: #ffba00;
+  color: white;
+}
+fieldset,
+a {
+  display: inline;
+}
+.form-control {
+  font-size: 0.75rem;
+}
+//search
+.searchBox {
+  height: 40px;
+  border-radius: 20px;
+  padding: 5px;
+}
+.searchBox:hover {
+  background: linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
+  padding: 10px;
+}
+.searchBox:hover > .searchInput {
+  width: 140px;
+  padding: 0 6px;
+}
+
+.searchBox:hover > .searchButton {
+  color: white;
+}
+
+.searchButton {
+  color: black;
+  float: right;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+
+.searchInput {
+  border: none;
+  border-radius: 20px;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 10px;
+  transition: 0.4s;
+  line-height: 20px;
+  width: 0px;
+}
+
+@media screen and (max-width: 620px) {
+  .searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+  }
 }

@@ -1,19 +1,27 @@
 // product
-.cost {
-  text-decoration: line-through;
-}
-.icon-product > i {
-  width: 2em;
-  text-align: center;
-  line-height: 2em;
-  border-radius: 0.8em; /* or 50% width & line-height */
-}
-.icon-product > i:hover {
-  background-color: rgb(255, 168, 0);
-  cursor: pointer;
+#title1 {
+  font-size: 14px;
+  font-weight: 800;
+  height: 75px;
+  line-height: 1.6;
 }
 .imgproduct {
   width: 100%;
   height: 200px;
   object-fit: contain;
+}
+.price {
+  font-size: 14px;
+}
+#icon-product > i {
+  color: white;
+  background-color: #828bb2;
+  width: 2em;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 0.8em;
+}
+#icon-product i:hover {
+  background-color: rgb(255, 168, 0);
+  cursor: pointer;
 }

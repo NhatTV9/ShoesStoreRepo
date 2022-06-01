@@ -6,6 +6,15 @@ import { ShoesContainerComponent } from './components/shoes-container/shoes-cont
 import { HomeComponent } from './components/home/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+
+import { ContactComponent } from './components/contact/contact.component';
+import { TrackingComponent } from './components/tracking/tracking.component';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { ConfirmationComponent } from './components/confirmation/confirmation.component';
+import { SigupComponent } from './components/sigup/sigup.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -23,6 +32,34 @@ const routes: Routes = [
   {
     path: 'login',
     component: LoginComponent,
+  },
+  {
+    path: 'productDetail/:id',
+    component: ProductDetailComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
+  },
+  {
+    path: 'tracking',
+    component: TrackingComponent,
+  },
+  {
+    path: 'shopping-cart',
+    component: ShoppingCartComponent,
+  },
+  {
+    path: 'checkout',
+    component: CheckoutComponent,
+  },
+  {
+    path: 'confirmation',
+    component: ConfirmationComponent,
+  },
+  {
+    path: 'sigup',
+    component: SigupComponent,
   },
   {
     path: '**',

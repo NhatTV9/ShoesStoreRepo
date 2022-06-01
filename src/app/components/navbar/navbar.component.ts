@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NavigationEnd, Router } from '@angular/router';
 
 @Component({
   selector: 'app-navbar',
@@ -6,9 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navbar.component.scss'],
 })
 export class NavbarComponent implements OnInit {
-  showDropdownPage: boolean = false;
-  showDropdownBlog: boolean = false;
-  constructor() {}
+  public showSearch = false;
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
 }

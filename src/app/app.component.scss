@@ -1,50 +1,14 @@
-.app-container {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-.content-container {
-  flex-grow: 1;
-}
-.backgroud-img {
-  height: 100vh;
-  background-image: url("../assets/img/backgroup.webp");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 50px 0px;
-}
-.img-slide {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-.layout1 {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  height: 100vh;
-}
-.add-icon {
-  width: 2.6em;
-  text-align: center;
-  line-height: 2.6em;
-  border-radius: 1.3em;
-}
-.slide {
-  position: absolute;
-  top: 50%;
-  transform: translate(0%, -50%);
-  margin: 50px;
-}
-.margin-100 {
-  margin: 100px 0px;
-}
-p i {
-  font-size: 25px;
-}
-// layout3
-.flash-sale img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+// .app-container {
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+// }
+// .content-container {
+//   flex-grow: 1;
+// }
+// navcontainer
+.nav-container {
+  position: sticky;
+  // top: 50px;
+  box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
 }

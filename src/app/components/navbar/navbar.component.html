@@ -1,81 +1,63 @@
-<div class="container-xl">
-  <nav class="navbar navbar-expand-lg navbar-light bg-white">
-    <a class="navbar-brand" href="#">
-      <img src="../../../assets/img/brand.webp" />
-    </a>
+<div class="bg-white">
+  <div class="container-xl">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">
+        <img src="../../../assets/img/brand.webp" />
+      </a>
 
-    <div class="collapse navbar-collapse text-capitalize">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" routerLink="/">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/categories">Shop</a>
-        </li>
-        <li class="nav-item">
-          <div class="dropdown">
-            <button
-              class="btn nav-link"
-              (focus)="showDropdownBlog = !showDropdownBlog"
+      <div class="collapse navbar-collapse" id="nav-bar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home" routerLinkActive="active"
+              >Home</a
             >
-              Blog
-            </button>
-            <div
-              class="dropdown-menu show mt-4"
-              [class.show]="showDropdownBlog"
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              routerLink="/categories"
+              routerLinkActive="active"
+              >Shop</a
             >
-              <span
-                class="dropdown-item"
-                (click)="showDropdownBlog = !showDropdownBlog"
-                >Blog</span
-              >
-              <span class="dropdown-item" href="#">Blog Details</span>
+          </li>
+          <li class="nav-item" ngbDropdown>
+            <a href (click)="(false)" class="nav-link" ngbDropdownToggle
+              >Blog</a
+            >
+            <div ngbDropdownMenu id="drop-down">
+              <button ngbDropdownItem class="py-2">Blog</button>
+              <button ngbDropdownItem class="py-2">Blog Details</button>
             </div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <div class="dropdown">
-            <button
-              class="btn nav-link"
-              (focus)="showDropdownPage = !showDropdownPage"
+          </li>
+          <li class="nav-item" routerLink="/contact">
+            <a class="nav-link">contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/login" routerLinkActive="active"
+              >Login</a
             >
-              Page
-            </button>
-            <div
-              class="dropdown-menu show mt-4"
-              [class.show]="showDropdownPage"
-            >
-              <span
-                class="dropdown-item"
-                (click)="showDropdownPage = !showDropdownPage"
-                routerLink="/login"
-                >Login</span
-              >
-              <span class="dropdown-item" href="#">Tracking</span>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="shopping-cart"
+              ><i class="fas fa-shopping-cart"></i
+            ></a>
+          </li>
+          <li class="nav-item my-auto">
+            <div class="searchBox">
+              <input
+                class="searchInput"
+                type="text"
+                name=""
+                placeholder="Search"
+              />
+              <button class="searchButton">
+                <i class="fas fa-search"></i>
+              </button>
             </div>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"><i class="fas fa-briefcase"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"><i class="fas fa-search"></i></a>
-        </li>
-      </ul>
-      <!-- <form class="form-inline my-2 my-lg-0">
-        <input
-          class="form-control mr-sm-2"
-          type="search"
-          placeholder="Search"
-          aria-label="Search"
-        />
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-          Search
-        </button>
-      </form> -->
-    </div>
-  </nav>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 </div>

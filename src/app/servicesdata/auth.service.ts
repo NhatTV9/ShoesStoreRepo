@@ -1,3 +1,4 @@
+
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { tap } from 'rxjs/operators';
@@ -15,10 +16,12 @@ export interface UserRespone {
   token: string;
   location: string;
 }
+
 @Injectable({
   providedIn: 'root',
 })
 export class AuthService {
+
   private baseUrl = 'https://jobify-prod.herokuapp.com/api/v1';
   public user = null;
   private savedToken = 'token';
@@ -32,5 +35,8 @@ export class AuthService {
         }
       })
     );
+ sigup(user) {
+    return this.http.post(`${this.baseUrl}/auth/register`, user);
+
   }
 }

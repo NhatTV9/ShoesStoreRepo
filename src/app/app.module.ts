@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -14,6 +15,17 @@ import { LoginComponent } from './components/login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
+import { ProductDetailComponent } from './components/product-detail/product-detail.component';
+import { TextcustomPipe } from './pipes/textcustom.pipe';
+import { TrackingComponent } from './components/tracking/tracking.component';
+import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { ConfirmationComponent } from './components/confirmation/confirmation.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DealWeekComponent } from './components/deal-week/deal-week.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SigupComponent } from './components/sigup/sigup.component';
+
 
 @NgModule({
   declarations: [
@@ -26,6 +38,15 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     NotFoundComponent,
     ShoeCategoryComponent,
     LoginComponent,
+    ProductDetailComponent,
+    TextcustomPipe,
+    TrackingComponent,
+    ShoppingCartComponent,
+    CheckoutComponent,
+    ConfirmationComponent,
+    DealWeekComponent,
+    SigupComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -33,6 +54,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatInputModule,
+    NgbModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
