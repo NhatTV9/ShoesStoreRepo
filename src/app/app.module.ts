@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
@@ -19,11 +20,12 @@ import { TextcustomPipe } from './pipes/textcustom.pipe';
 import { TrackingComponent } from './components/tracking/tracking.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './components/checkout/checkout.component';
-
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-
 import { DealWeekComponent } from './components/deal-week/deal-week.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SigupComponent } from './components/sigup/sigup.component';
+
 
 @NgModule({
   declarations: [
@@ -43,6 +45,8 @@ import { DealWeekComponent } from './components/deal-week/deal-week.component';
     CheckoutComponent,
     ConfirmationComponent,
     DealWeekComponent,
+    SigupComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -50,6 +54,8 @@ import { DealWeekComponent } from './components/deal-week/deal-week.component';
     BrowserAnimationsModule,
     MatFormFieldModule,
     MatInputModule,
+    NgbModule,
+    HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,

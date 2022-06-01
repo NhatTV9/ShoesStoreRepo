@@ -27,33 +27,36 @@ export interface Product {
   providedIn: 'root',
 })
 export class ProductsService {
-  private productList: Product[] = [];
-
   private totalProducts: Product[] = <Product[]>data.map((p, i) => {
     p['id'] = i;
     return p;
   });
+  public productList: Product[] = this.totalProducts;
   public categories = this.getCategories();
 
   constructor() {}
-  getProduct(number) {
+  getProduct(numberStart, numberEnd) {
     let arr = [];
-    for (let i = 0; i < number; i++) {
-      arr.push(this.totalProducts[i]);
+    if (numberEnd >= this.productList.length) {
+      for (let i = numberStart; i < this.productList.length; i++) {
+        arr.push(this.productList[i]);
+      }
+      return arr;
+    } else {
+      for (let i = numberStart; i < numberEnd; i++) {
+        arr.push(this.productList[i]);
+      }
     }
-    this.productList = arr;
-    return this.productList;
+    return arr;
   }
 
   getDetailProduct(id): Product {
     let index = this.totalProducts.findIndex((p) => p.id == id);
     if (index >= 0) {
-      return this.productList[index];
+      return this.totalProducts[index];
     }
   }
-  getNumberPage(numberItem) {
-    return this.totalProducts.length / numberItem;
-  }
+
   getDealsWeek(numberItem) {
     let arr = [];
     for (
@@ -96,6 +99,15 @@ export class ProductsService {
       }
       if (count >= number) {
         break;
+      }
+    }
+    return arr;
+  }
+  getAllProductCategory(value) {
+    let arr = [];
+    for (let i = 0; i < this.totalProducts.length; i++) {
+      if (this.totalProducts[i].breadcrumbs.indexOf(value) != -1) {
+        arr.push(this.totalProducts[i]);
       }
     }
     return arr;

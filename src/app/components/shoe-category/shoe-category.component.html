@@ -15,31 +15,31 @@
             {{ item.category }}
             <span style="opacity: 0.6">({{ item.quantity }})</span>
           </p>
-          <!-- <input
-            class="form-check-input"
-            type="radio"
-            (change)="handleChange($event)"
-            [value]="item.category"
-            name="exampleRadios"
-          />
-          <label class="category" for="exampleRadios1">
-            {{ item.category }} ({{ item.quantity }})
-          </label> -->
         </div>
       </div>
     </div>
   </div>
   <div class="col-9 pl-5">
     <!-- nav-catagory -->
-    <div class="row bg-light p-3">
+    <div class="row bg-light p-2 align-items-center">
       <select
-        class="form-select w-15 p-2"
+        class="form-select w-10"
         aria-label="Default select example"
         (change)="sort($event.target.value)"
       >
         <option selected>12</option>
         <option *ngFor="let i of shows">{{ i }}</option>
       </select>
+      <ngb-pagination
+        class="ml-auto align-self-center"
+        [directionLinks]="true"
+        [collectionSize]="productService.productList.length"
+        [(page)]="page"
+        [maxSize]="3"
+        [rotate]="true"
+        [pageSize]="show"
+        (pageChange)="next($event)"
+      ></ngb-pagination>
     </div>
     <!-- show product -->
     <div class="row">
@@ -51,17 +51,6 @@
       </div>
     </div>
     <!-- paging -->
-    <nav aria-label="Page navigation example">
-      <ul class="pagination">
-        <li class="page-item">
-          <span class="page-link"></span>
-        </li>
-        <li class="page-item" *ngFor="let page of pages">
-          <span class="page-link">{{ page }}</span>
-        </li>
-        <li class="page-item"><span class="page-link" href="#">Next</span></li>
-      </ul>
-    </nav>
   </div>
   <app-deal-week></app-deal-week>
 </div>
