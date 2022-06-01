@@ -38,9 +38,6 @@ export class LoginComponent implements OnInit {
       email: this.email.value,
       password: this.password.value,
     };
-
-    console.log(user);
-
     this.authService.login(user, this.stayLogIn.value).subscribe(
       (res) => {
         this.router.navigateByUrl('/');
@@ -53,5 +50,9 @@ export class LoginComponent implements OnInit {
         });
       }
     );
+  }
+  fillAccount() {
+    this.email.setValue('nga@gmail.com');
+    this.password.setValue('Nga12345');
   }
 }

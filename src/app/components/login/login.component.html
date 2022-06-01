@@ -26,12 +26,12 @@
             <input matInput type="email" formControlName="email" required />
           </mat-form-field>
           <div class="text-danger" *ngIf="email.errors && email.touched">
-            <p class="font-italic" *ngIf="email.errors.required">
+            <small class="font-italic" *ngIf="email.errors.required">
               Email Address is required
-            </p>
-            <p class="font-italic" *ngIf="email.errors.pattern">
+            </small>
+            <small class="font-italic" *ngIf="email.errors.pattern">
               Email Address is not valid
-            </p>
+            </small>
           </div>
           <mat-form-field class="w-100 mt-2">
             <mat-label>Password</mat-label>
@@ -44,19 +44,19 @@
             />
           </mat-form-field>
           <div class="text-danger" *ngIf="password.errors && password.touched">
-            <p class="font-italic" *ngIf="password.errors.required">
+            <small class="font-italic" *ngIf="password.errors.required">
               Password is required
-            </p>
-            <p class="font-italic" *ngIf="password.errors.minlength">
+            </small>
+            <small class="font-italic" *ngIf="password.errors.minlength">
               Password must have at least 6 characters
-            </p>
-            <p
+            </small>
+            <small
               class="font-italic"
               *ngIf="!password.errors.minlength && password.errors.pattern"
             >
               Password must contain at least one number and one uppercase and
               lowercase letter
-            </p>
+            </small>
           </div>
           <div class="form-group form-check mt-2">
             <input
@@ -72,6 +72,15 @@
           >
             Log In
           </button>
+          <div class="row justify-content-end">
+            <small
+              class="btn text-muted font-italic"
+              (click)="fillAccount()"
+              style="font-size: 13px"
+            >
+              Login with fake account
+            </small>
+          </div>
         </div>
       </form>
     </div>
