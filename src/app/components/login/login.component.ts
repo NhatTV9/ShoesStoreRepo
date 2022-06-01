@@ -37,7 +37,6 @@ export class LoginComponent implements OnInit {
   get stayLogIn() {
     return this.loginForm.get('stayLogIn');
   }
-  test() {}
   onFormSubmit() {
     this.authService.login(this.user, this.stayLogIn.value).subscribe((res) => {
       // console.log(res);
