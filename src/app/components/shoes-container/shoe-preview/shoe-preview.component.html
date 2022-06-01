@@ -1,4 +1,4 @@
-<div class="px-3">
+<div class="px-4 shadow1 singerProduct pb-3">
   <div routerLink="/productDetail/{{ item['id'] }}">
     <img [src]="item.images_list[0]" alt="" class="imgproduct" />
     <h6 class="text-uppercase mt-3" id="title1">
@@ -14,4 +14,9 @@
     <i class="fas fa-heart mx-2 rounded-circle"></i>
     <i class="fas fa-info mx-2 rounded-circle"></i>
   </div>
+  <ngb-rating
+    [rate]="rate"
+    style="color: #ffa41c; font-size: 20px"
+  ></ngb-rating>
+  <span class="pl-1"> ({{ rate }})</span>
 </div>
