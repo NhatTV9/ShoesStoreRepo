@@ -1,31 +1,33 @@
 <div class="container-xl" *ngIf="cartService.getCart().length">
-  <table class="table mb-4">
-    <thead>
-      <tr>
-        <th scope="col">Product</th>
-        <th scope="col">Price</th>
-        <th scope="col">Quantity</th>
-        <th scope="col">Total</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let item of cartService.getCart()">
-        <td>
-          <div class="row align-items-center">
-            <div class="col-4">
-              <img [src]="item.item.images_list[0]" />
-            </div>
-            <div class="col-8">{{ item.item.title }}</div>
-          </div>
-        </td>
-        <td>
-          <span class="font-weight-bold">{{
-            item.item.price | currency: "USD"
-          }}</span>
-        </td>
-        <td style="width: 120px">
-          <div>
-            <div
+  <div class="row">
+    <div class="col-8 py-4 pr-5 shoppping-cart">
+      <table class="table table-borderless">
+        <thead>
+          <tr class="border-bottom">
+            <th scope="col"><h2 class="font-weight-bolder">Cart</h2></th>
+            <th scope="col"></th>
+            <th scope="col">Total</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of cartService.getCart()">
+            <td>
+              <div class="row align-items-center">
+                <div class="col-4 pl-2">
+                  <img [src]="item.item.images_list[0]" />
+                </div>
+                <div class="col-8">
+                  <h6>{{ item.item.title | titlecase }}</h6>
+                  <p class="font-weight-bold">
+                    {{ item.item.price | currency: "USD" }}
+                  </p>
+                </div>
+              </div>
+            </td>
+            <td>
+              <div style="width: 120px">
+                <div
               class="border rounded"
               style="font-size: 15px"
               id="add-product"
@@ -48,133 +50,69 @@
                 +
               </button>
             </div>
-            <!-- <span class="border rounded" style="font-size: 15px">
-              <span
-                (click)="cartService.remove(item.item)"
-                class="border-right px-2"
-              >
-                <i class="fas fa-minus"></i>
-              </span>
-              <span class="px-2">{{
-                cartService.getQuantityItem(item.item.id)
+              </div>
+            </td>
+            <td>
+              <span class="font-weight-bold">{{
+                item.item.price * item.quantity | currency: "USD"
               }}</span>
-              <span
-                (click)="cartService.addItem(item.item)"
-                class="border-left px-2"
-              >
-                <i class="fas fa-plus"></i>
-              </span>
-            </span> -->
-          </div>
-        </td>
-        <td>
-          <span class="font-weight-bold">{{
-            item.item.price * item.quantity | currency: "USD"
-          }}</span>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <button
-            class="btn btn-secondary rounded-0 px-5 text-white font-weight-bold"
-          >
-            UPDATE CART
-          </button>
-        </td>
-        <td colspan="3">
-          <div class="d-flex align-items-center">
-            <input
-              type="text"
-              class="form-control rounded-0"
-              placeholder="Enter Coupon"
-            />
-            <button
-              class="btn btn-primary gradient px-5 rounded-0 text-white font-weight-bold"
-            >
-              Apply
-            </button>
-          </div>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="1"></td>
-        <td><p class="font-weight-bold">Subtotal</p></td>
-        <td colspan="2">
-          <p class="font-weight-bold">{{ total | currency: "USD" }}</p>
-        </td>
-      </tr>
-      <!-- <tr>
-        <td colspan="1"></td>
-        <td><p class="font-weight-bold">Shipping</p></td>
-        <td colspan="2">
-          <ul class="list">
-            <li>
-              <div class="custom-control custom-radio custom-control-inline">
-                <label class="custom-control-label">Flat Rate: $5.00</label>
-                <input
-                  type="radio"
-                  name="customRadioInline"
-                  class="custom-control-input"
-                />
-              </div>
-            </li>
-            <li>
-              <div class="custom-control custom-radio custom-control-inline">
-                <label class="custom-control-label">Free Shipping</label>
-                <input
-                  type="radio"
-                  name="customRadioInline"
-                  class="custom-control-input"
-                />
-              </div>
-            </li>
-            <li>
-              <div class="custom-control custom-radio custom-control-inline">
-                <label class="custom-control-label">Flat Rate: $10.00</label>
-                <input
-                  type="radio"
-                  name="customRadioInline"
-                  class="custom-control-input"
-                />
-              </div>
-            </li>
-            <li>
-              <div class="custom-control custom-radio custom-control-inline">
-                <label class="custom-control-label"
-                  >Local Delivery: $2.00</label
-                >
-                <input
-                  type="radio"
-                  name="customRadioInline"
-                  class="custom-control-input"
-                />
-              </div>
-            </li>
-          </ul>
-        </td>
-      </tr> -->
-      <tr>
-        <td></td>
-        <td colspan="3">
-          <div class="d-flex align-items-center float-right">
-            <!-- <button
-              class="btn btn-secondary rounded gradient px-5 rounded-0 text-white font-weight-bold"
+            </td>
+            <td>
+              <i
+                class="fas fa-times"
+                style="font-size: 24px"
+                (click)="cartService.deleteItem(item)"
+              ></i>
+            </td>
+          </tr>
+          <tr class="border-top">
+            <h5
+              class="text-muted mt-4"
+              style="font-size: 18px; cursor: pointer"
+              routerLink="/categories"
             >
               CONTINUE SHOPPING
-            </button> -->
-            <button
-              class="btn btn-primary rounded gradient px-5 rounded-0 text-white font-weight-bold"
-            >
-              CHECKOUT
-            </button>
-          </div>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+            </h5>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-4 bg-light p-5 sumary">
+      <h4 class="font-weight-bold">Order Sumary</h4>
+      <table class="table table-borderless w-100 mt-4">
+        <tbody>
+          <tr>
+            <td>{{ cartService.getTotalItems() }} items</td>
+            <td class="text-right">{{ getTotalPrice() | currency: "USD" }}</td>
+          </tr>
+          <tr>
+            <td>Delivery fee</td>
+            <td class="text-right">{{ deliveryfee | currency: "USD" }}</td>
+          </tr>
+          <tr>
+            <td scope="col"><h5 class="font-weight-bold">Total Cost</h5></td>
+            <td scope="col" class="text-right">
+              <h5 class="font-weight-bold text-black">
+                {{ getTotalPrice() + deliveryfee | currency: "USD" }}
+              </h5>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <button
+        class="bg-primary gradient px-4 py-2 border-0 text-white w-100"
+        routerLink="/checkout"
+      >
+        PROCESS TO CHECKOUT
+      </button>
+      <p class="text-muted text-center mt-3">
+        Shiping and tax calcualted at Checkout
+      </p>
+    </div>
+  </div>
 </div>
 <div
-  class="contaiiner-xl text-center"
+  class="container-xl text-center"
   style="height: 60vh"
   *ngIf="!cartService.getCart().length"
 >
