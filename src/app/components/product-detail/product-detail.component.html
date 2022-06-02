@@ -12,7 +12,7 @@
     <div class="col-6 p-5">
       <h3>{{ detailProduct.brand }}</h3>
       <h2 class="text-warning">
-        {{ detailProduct.price | price | currency: "USD" }}
+        {{ detailProduct.price | currency: "USD" }}
       </h2>
       <p>
         <span class="d-inline-block w-15">Material</span>
@@ -22,15 +22,18 @@
       </p>
       <hr />
       <p>{{ detailProduct.product_details }}</p>
-      <div>
+      <!-- <div>
         <label>Quantily: </label>
         <input type="number" class="ml-3 w-15 border border-light rounded" />
-      </div>
+      </div> -->
       <div class="my-3" id="icon-product">
-        <button class="btn bg-primary gradient text-uppercase px-4">
+        <button
+          class="btn bg-primary gradient text-uppercase px-4"
+          (click)="addItem(detailProduct)"
+        >
           add to card
         </button>
-        <i class="fas fa-heart mx-2 rounded-circle"></i>
+        <!-- <i class="fas fa-heart mx-2 rounded-circle"></i> -->
       </div>
     </div>
   </div>

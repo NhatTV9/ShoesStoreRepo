@@ -9,9 +9,9 @@ $enable-gradients: true;
 $spacer: 1rem;
 $border-width: 1px;
 $btn-border-radius: 0.25rem;
-.xl {
-  max-width: 1400px;
-}
+$container-max-widths: (
+  xl: 1440px,
+);
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap");
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import "../node_modules/@fortawesome/fontawesome-free/css/all.css";

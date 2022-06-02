@@ -16,7 +16,7 @@
             <a href (click)="(false)" class="nav-link" ngbDropdownToggle
               >Shop</a
             >
-            <div ngbDropdownMenu id="drop-down">
+            <div ngbDropdownMenu id="drop-down" class="shadow">
               <button ngbDropdownItem class="py-2" routerLink="/categories">
                 Shop Category
               </button>
@@ -40,7 +40,20 @@
               >Login</a
             >
             <ng-template #elseBlock>
-              <span class="nav-link" (click)="onLogout()">Logout</span>
+              <!-- <span class="nav-link" (click)="onLogout()">Logout</span> -->
+              <div class="nav-item" ngbDropdown>
+                <a href (click)="(false)" class="nav-link" ngbDropdownToggle
+                  ><i class="fas fa-user"></i
+                ></a>
+                <div ngbDropdownMenu id="drop-down" class="shadow">
+                  <button ngbDropdownItem class="py-2" (click)="onLogout()">
+                    Logout
+                  </button>
+                  <button ngbDropdownItem class="py-2" (click)="onLogout()">
+                    My Profile
+                  </button>
+                </div>
+              </div>
             </ng-template>
           </li>
 
