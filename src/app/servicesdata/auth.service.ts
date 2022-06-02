@@ -31,6 +31,8 @@ export class AuthService {
   constructor(private http: HttpClient) {
     let token = localStorage.getItem(this.savedToken);
     if (token) {
+      console.log(token);
+
       this.user = JSON.parse(token);
     }
   }

@@ -29,6 +29,11 @@ export interface Product {
 export class ProductsService {
   private totalProducts: Product[] = <Product[]>data.map((p, i) => {
     p['id'] = i;
+    if (p.price) {
+      p.price = Number.parseFloat(p.price.slice(1, p.price.indexOf('-')));
+    } else {
+      p.price = 51.25;
+    }
     return p;
   });
   public productList: Product[] = this.totalProducts;

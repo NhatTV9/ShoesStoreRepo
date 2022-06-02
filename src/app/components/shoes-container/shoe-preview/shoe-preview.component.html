@@ -1,22 +1,39 @@
-<div class="px-4 shadow1 singerProduct pb-3">
+<div class="px-4 shadow1 singerProduct mt-5">
   <div routerLink="/productDetail/{{ item['id'] }}">
     <img [src]="item.images_list[0]" alt="" class="imgproduct" />
     <h6 class="text-uppercase mt-3" id="title1">
       {{ item.title | textcustom: numberCharater }}
     </h6>
     <div class="price text-secondary font-weight-bold">
-      <span>{{ item.price }}</span>
-      <span *ngIf="!item.price">£161.63 - £202.04</span>
+      <span>{{ item.price | currency: "USD" }}</span>
     </div>
-  </div>
-  <div class="my-4" id="icon-product">
-    <i class="fas fa-briefcase mx-2 rounded-circle" (click)="addItem()"></i>
-    <i class="fas fa-heart mx-2 rounded-circle"></i>
-    <i class="fas fa-info mx-2 rounded-circle"></i>
   </div>
   <ngb-rating
     [rate]="rate"
     style="color: #ffa41c; font-size: 20px"
   ></ngb-rating>
   <span class="pl-1"> ({{ rate }})</span>
+  <div class="my-4" id="icon-product">
+    <i
+      class="fas fa-briefcase mx-2 rounded-circle"
+      (click)="cartService.addItem(item)"
+      *ngIf="cartService.getQuantityItem(item.id) === 0; else updateQuantity"
+    ></i>
+    <ng-template #updateQuantity>
+      <span class="border rounded" style="font-size: 15px">
+        <span (click)="cartService.remove(item)" class="border-right px-2">
+          <i class="fas fa-minus"></i>
+        </span>
+        <span class="px-2">{{ cartService.getQuantityItem(item.id) }}</span>
+        <span (click)="cartService.addItem(item)" class="border-left px-2">
+          <i class="fas fa-plus"></i>
+        </span>
+      </span>
+    </ng-template>
+    <i class="fas fa-heart mx-2 rounded-circle"></i>
+    <i
+      class="fas fa-info mx-2 rounded-circle"
+      routerLink="/productDetail/{{ item['id'] }}"
+    ></i>
+  </div>
 </div>

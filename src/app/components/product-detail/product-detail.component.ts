@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { CartService } from 'src/app/servicesdata/cart.service';
 import {
   Product,
   ProductsService,
@@ -15,14 +16,17 @@ export class ProductDetailComponent implements OnInit {
 
   constructor(
     public productService: ProductsService,
-    public activedRouter: ActivatedRoute
+    public activedRouter: ActivatedRoute,
+    public cartService: CartService
   ) {}
 
   ngOnInit(): void {
     let id = this.activedRouter.params.subscribe((p) => {
       this.detailProduct = this.productService.getDetailProduct(p.id);
-      console.log(p);
-      console.log(this.detailProduct);
+      // console.log(this.detailProduct);
     });
+  }
+  addItem(product) {
+    this.cartService.addItem(product);
   }
 }
