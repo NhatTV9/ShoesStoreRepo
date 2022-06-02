@@ -39,3 +39,15 @@
 .singerProduct img:hover {
   cursor: pointer;
 }
+#add-product {
+  display: inline-block;
+}
+.input {
+  width: 30px;
+  text-align: center;
+  border: 1px solid rgb(236, 236, 236);
+}
+
+#add-product button:hover {
+  background-color: rgb(228, 217, 217);
+}
