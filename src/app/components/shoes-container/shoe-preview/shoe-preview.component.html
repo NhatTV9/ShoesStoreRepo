@@ -15,20 +15,30 @@
   <span class="pl-1"> ({{ rate }})</span>
   <div class="my-4" id="icon-product">
     <i
-      class="fas fa-briefcase mx-2 rounded-circle"
+      class="fas fa-cart-plus"
       (click)="cartService.addItem(item)"
       *ngIf="cartService.getQuantityItem(item.id) === 0; else updateQuantity"
     ></i>
     <ng-template #updateQuantity>
-      <span class="border rounded" style="font-size: 15px">
-        <span (click)="cartService.remove(item)" class="border-right px-2">
-          <i class="fas fa-minus"></i>
-        </span>
-        <span class="px-2">{{ cartService.getQuantityItem(item.id) }}</span>
-        <span (click)="cartService.addItem(item)" class="border-left px-2">
-          <i class="fas fa-plus"></i>
-        </span>
-      </span>
+      <div class="border rounded" style="font-size: 15px" id="add-product">
+        <button
+          (click)="cartService.remove(item)"
+          class="btn border-right px-2"
+        >
+          -
+        </button>
+        <input
+          type="text"
+          [value]="cartService.getQuantityItem(item.id)"
+          class="input border-0"
+        />
+        <button
+          (click)="cartService.addItem(item)"
+          class="btn border-left px-2"
+        >
+          +
+        </button>
+      </div>
     </ng-template>
     <i class="fas fa-heart mx-2 rounded-circle"></i>
     <i
