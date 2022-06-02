@@ -9,7 +9,6 @@ import { CartService } from '../../servicesdata/cart.service';
 export class ShoppingCartComponent implements OnInit {
   public total = 0;
   constructor(public cartService: CartService) {
-    console.log(this.cartService.getCart());
     for (let i of this.cartService.getCart()) {
       console.log(typeof i.item.price);
       this.total += i.quantity * Number.parseFloat(i.item.price);
@@ -17,4 +16,10 @@ export class ShoppingCartComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+  ngOnChanges() {
+    for (let i of this.cartService.getCart()) {
+      console.log(typeof i.item.price);
+      this.total += i.quantity * Number.parseFloat(i.item.price);
+    }
+  }
 }
