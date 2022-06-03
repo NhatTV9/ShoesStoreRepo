@@ -36,9 +36,10 @@
             <i class="fas fa-minus"></i>
           </button>
           <input
-            type="text"
+            type="number"
             [value]="cartService.getQuantityItem(item.id)"
             class="input border-0 font-weight-bold"
+            (keyup)="onKeyup($event, item)"
           />
           <button
             (click)="cartService.addItem(item)"
