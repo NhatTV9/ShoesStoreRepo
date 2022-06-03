@@ -74,6 +74,24 @@
                 [formControl]="search"
                 placeholder="Search"
               />
+              <div
+                class="dropdown-menu w-100"
+                *ngIf="showDropdown"
+                [class.show]="showDropdown"
+              >
+                <div class="col-4 row" *ngFor="let item of productSearch">
+                  <div class="col-4">
+                    <img class="deal-img" [src]="item.images_list[0]" alt="" />
+                  </div>
+                  <div class="col-8">
+                    <p class="text-uppercase mt-3" id="title1">
+                      {{ item.title | textcustom: 15 }}
+                    </p>
+                    <p>{{ item.price }}</p>
+                    <p *ngIf="!item.price">£161.63 - £202.04</p>
+                  </div>
+                </div>
+              </div>
               <button class="searchButton">
                 <i class="fas fa-search"></i>
               </button>

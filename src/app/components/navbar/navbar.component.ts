@@ -47,10 +47,12 @@ export class NavbarComponent implements OnInit {
       )
       .subscribe((v) => {
         console.log();
-
         this.productSearch = this.productService.productList.filter((p) => {
           return p.title.includes(v);
         });
+        if (this.productSearch) {
+          this.showDropdown = true;
+        }
         console.log(this.productSearch);
       });
   }
