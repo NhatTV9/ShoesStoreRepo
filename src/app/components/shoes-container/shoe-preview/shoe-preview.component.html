@@ -1,18 +1,23 @@
 <div class="px-4 shadow1 singerProduct mt-5">
-  <div routerLink="/productDetail/{{ item['id'] }}">
-    <img [src]="item.images_list[0]" alt="" class="imgproduct" />
-    <h6 class="text-uppercase mt-3" id="title1">
-      {{ item.title | textcustom: numberCharater }}
-    </h6>
-    <div class="price text-secondary font-weight-bold">
-      <span>{{ item.price | currency: "USD" }}</span>
+  <div class="d-flex align-items-center" style="height: 250px">
+    <div>
+      <img [src]="item.images_list[0]" alt="" class="imgproduct" />
     </div>
   </div>
-  <ngb-rating
-    [rate]="rate"
-    style="color: #ffa41c; font-size: 20px"
-  ></ngb-rating>
-  <span class="pl-1"> ({{ rate }})</span>
+  <div routerLink="/productDetail/{{ item['id'] }}">
+    <h5 class="font-weight-bold m-0 mb-2 title">
+      {{ item.title | textcustom: numberCharater | titlecase }}
+    </h5>
+    <ngb-rating
+      [rate]="rate"
+      style="color: #ffa41c; font-size: 20px"
+    ></ngb-rating>
+    <span class="pl-1 ml-1 text-muted"> {{ rate }} reviews</span>
+    <h5 class="text-secondary font-weight-bold mt-2">
+      {{ item.price | currency: "USD" }}
+    </h5>
+  </div>
+
   <div class="my-4" id="icon-product">
     <i
       class="fas fa-cart-plus"
