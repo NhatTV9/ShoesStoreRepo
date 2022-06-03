@@ -24,4 +24,8 @@ export class ShoePreviewComponent implements OnInit {
   }
 
   ngOnInit(): void {}
+  onKeyup(event, item) {
+    const inputValue = event.target.value;
+    this.cartService.addByQuantity(item, inputValue);
+  }
 }
