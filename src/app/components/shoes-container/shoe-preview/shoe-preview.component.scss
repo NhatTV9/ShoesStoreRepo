@@ -11,6 +11,7 @@
 }
 #icon-product {
   padding-bottom: 20px;
+  display: inline-block;
 }
 #icon-product > i {
   color: white;
@@ -18,7 +19,7 @@
   width: 2em;
   text-align: center;
   line-height: 2em;
-  border-radius: 0.8em;
+  border-radius: 50%;
 }
 #icon-product i:hover {
   background-color: rgb(255, 168, 0);
