@@ -34,12 +34,14 @@ export class CartService {
     localStorage.setItem('shoesCart', JSON.stringify(this.cart));
   }
   addByQuantity(item, quantity: number) {
-    let index = this.cart.findIndex((c) => {
-      return c.item.id === item.id;
-    });
-    this.cart[index].quantity = quantity;
-    console.log(this.cart[index]);
-    localStorage.setItem('shoesCart', JSON.stringify(this.cart));
+    if (quantity) {
+      let index = this.cart.findIndex((c) => {
+        return c.item.id === item.id;
+      });
+      this.cart[index].quantity = Number(quantity);
+      console.log(this.cart[index]);
+      localStorage.setItem('shoesCart', JSON.stringify(this.cart));
+    }
   }
   remove(item) {
     let index = this.cart.findIndex((c) => {
