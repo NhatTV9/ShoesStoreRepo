@@ -3,18 +3,25 @@
   height: 400px;
   object-fit: contain;
 }
-#icon-product > i {
-  background-color: #828bb2;
-  width: 2em;
-  text-align: center;
-  line-height: 2em;
-  border-radius: 0.8em;
-}
-#icon-product i:hover {
-  background-color: rgb(255, 168, 0);
-  cursor: pointer;
-}
 #img-product-detail {
   width: 500px;
   height: 400px;
+  object-fit: contain;
+}
+#img-item {
+  width: 70px;
+  height: 40px;
+  object-fit: contain;
+}
+.content-left div:hover {
+  cursor: pointer;
+}
+.product-details {
+  white-space: break-spaces;
+  line-height: 2;
+}
+.item-img {
+  border: 0.3px solid black;
+  border-radius: 5px;
+  padding: 3px;
 }

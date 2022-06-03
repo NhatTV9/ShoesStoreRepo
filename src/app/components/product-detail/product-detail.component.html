@@ -1,13 +1,27 @@
 <div class="container-xl" *ngIf="detailProduct">
   <div class="detail-product row">
     <div class="col-6 p-5">
-      <ngb-carousel *ngIf="detailProduct.images_list">
-        <ng-template ngbSlide *ngFor="let img of detailProduct.images_list">
-          <div class="picsum-img-wrapper" id="img-product-detail">
-            <img [src]="img" class="mx-auto" />
+      <div class="content-left">
+        <div class="picsum-img-wrapper p-3">
+          <img [src]="imgcontainer" class="mx-auto" id="img-product-detail" />
+        </div>
+        <div class="row mt-4">
+          <div
+            class="col-2"
+            *ngFor="let img of detailProduct.images_list; let i = index"
+            (click)="clickImg(img, i)"
+          >
+            <div *ngIf="i < 5">
+              <div class="item-img" *ngIf="i == imgcurrent">
+                <img [src]="img" class="mx-auto" id="img-item" />
+              </div>
+              <div *ngIf="i != imgcurrent">
+                <img [src]="img" class="mx-auto" id="img-item" />
+              </div>
+            </div>
           </div>
-        </ng-template>
-      </ngb-carousel>
+        </div>
+      </div>
     </div>
     <div class="col-6 p-5">
       <h3>{{ detailProduct.brand }}</h3>
@@ -21,19 +35,16 @@
         >
       </p>
       <hr />
-      <p>{{ detailProduct.product_details }}</p>
-      <!-- <div>
-        <label>Quantily: </label>
-        <input type="number" class="ml-3 w-15 border border-light rounded" />
-      </div> -->
+      <p class="product-details">
+        {{ detailProduct.product_details }}
+      </p>
       <div class="my-3" id="icon-product">
         <button
-          class="btn bg-primary gradient text-uppercase px-4"
+          class="btn bg-primary gradient text-capitalize text-white px-4"
           (click)="addItem(detailProduct)"
         >
           add to card
         </button>
-        <!-- <i class="fas fa-heart mx-2 rounded-circle"></i> -->
       </div>
     </div>
   </div>

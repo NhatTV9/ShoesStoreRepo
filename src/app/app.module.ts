@@ -25,8 +25,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DealWeekComponent } from './components/deal-week/deal-week.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SigupComponent } from './components/sigup/sigup.component';
-import { PricePipe } from './pipes/price.pipe';
-
 
 @NgModule({
   declarations: [
@@ -47,8 +45,6 @@ import { PricePipe } from './pipes/price.pipe';
     ConfirmationComponent,
     DealWeekComponent,
     SigupComponent,
-    PricePipe,
-
   ],
   imports: [
     BrowserModule,

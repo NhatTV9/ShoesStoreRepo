@@ -13,7 +13,8 @@ import {
 })
 export class ProductDetailComponent implements OnInit {
   public detailProduct: Product;
-
+  public imgcontainer;
+  public imgcurrent = 0;
   constructor(
     public productService: ProductsService,
     public activedRouter: ActivatedRoute,
@@ -23,10 +24,15 @@ export class ProductDetailComponent implements OnInit {
   ngOnInit(): void {
     let id = this.activedRouter.params.subscribe((p) => {
       this.detailProduct = this.productService.getDetailProduct(p.id);
-      // console.log(this.detailProduct);
+      console.log(this.detailProduct);
     });
+    this.imgcontainer = this.detailProduct.images_list[0];
   }
   addItem(product) {
     this.cartService.addItem(product);
+  }
+  clickImg(img, index) {
+    this.imgcontainer = img;
+    this.imgcurrent = index;
   }
 }

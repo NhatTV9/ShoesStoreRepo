@@ -6,7 +6,7 @@ export default [
     price: '\u00a399.79 - \u00a3124.99',
     brand: 'ASICS',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.25 x 9 x 7.8 cm; 330 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Dec. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAsics\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07G84GMTL\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1011A011.020\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 25.25 x 9 x 7.8 cm; 330 Grams \n Date First Available : 10 Dec. 2019 \n Manufacturer : Asics \n ASIN : B07G84GMTL \n Item model number : 1011A011.020 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -32,7 +32,7 @@ export default [
     price: '\u00a328.77 - \u00a362.87',
     brand: 'bugatti',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n32.4 x 20 x 10.4 cm; 929.86 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Dec. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nBugatti\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07KQKYZYR\n\n\nItem model number\n\u200f\n:\n\u200e\n\n4.32636E+11\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 32.4 x 20 x 10.4 cm; 929.86 Grams \n Date First Available : 4 Dec. 2018 \n Manufacturer : Bugatti \n ASIN : B07KQKYZYR \n Item model number : 4.32636E+11 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -60,7 +60,7 @@ export default [
     price: '\u00a325.76 - \u00a336.69',
     brand: 'Pablosky',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n23 x 16 x 8 cm; 347 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPablosky\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08HJM8WSS\n\n\nItem model number\n\u200f\n:\n\u200e\n\n495000\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 23 x 16 x 8 cm; 347 Grams \n Date First Available : 4 Sept. 2020 \n Manufacturer : Pablosky \n ASIN : B08HJM8WSS \n Item model number : 495000 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Sandals",
     images_list: [
       'https://m.media-amazon.com/images/I/31lTfKx5r0L.jpg',
@@ -84,7 +84,7 @@ export default [
     price: '\u00a325.99 - \u00a328.99',
     brand: 'Visit the HROYL Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n17.4 x 6.4 x 10 cm; 145.15 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Mar. 2017\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01J76Z3KE\n\n\nItem model number\n\u200f\n:\n\u200e\n\nI-206-Black-25\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 17.4 x 6.4 x 10 cm; 145.15 Grams \n Date First Available : 7 Mar. 2017 \n ASIN : B01J76Z3KE \n Item model number : I-206-Black-25 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Dance Shoes",
     images_list: [
@@ -131,7 +131,7 @@ export default [
     price: '\u00a3108.49 - \u00a3143.40',
     brand: 'Visit the MILLET Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n35 x 25.6 x 12.2 cm; 1.22 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMillet\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07VKYC3DK\n\n\nItem model number\n\u200f\n:\n\u200e\n\nMIG1330\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 35 x 25.6 x 12.2 cm; 1.22 Kilograms \n Date First Available : 23 July 2019 \n Manufacturer : Millet \n ASIN : B07VKYC3DK \n Item model number : MIG1330 \n Department : Men's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Trekking & Hiking Footwear/Trekking & Hiking Boots",
     images_list: [
@@ -159,7 +159,7 @@ export default [
     price: '\u00a327.50 - \u00a3214.11',
     brand: 'adidas Originals',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n30 x 35 x 20 cm; 200 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 Nov. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0813VB74R\n\n\nItem model number\n\u200f\n:\n\u200e\n\nEG4960\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 30 x 35 x 20 cm; 200 Grams \n Date First Available : 18 Nov. 2019 \n Manufacturer : adidas \n ASIN : B0813VB74R \n Item model number : EG4960 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -189,7 +189,7 @@ export default [
     price: '\u00a342.49 - \u00a375.49',
     brand: 'VICTORIA',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n29 x 29 x 11 cm; 690 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Dec. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVictoria\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0824F5JRM\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1125188\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 29 x 29 x 11 cm; 690 Grams \n Date First Available : 1 Dec. 2019 \n Manufacturer : Victoria \n ASIN : B0824F5JRM \n Item model number : 1125188 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -219,7 +219,7 @@ export default [
     price: '\u00a38.06 - \u00a39.10',
     brand: 'ZYLDK',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n23 x 19.1 x 7.8 cm; 100 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n26 Feb. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08XGDS78M\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 23 x 19.1 x 7.8 cm; 100 Grams \n Date First Available : 26 Feb. 2021 \n ASIN : B08XGDS78M \n Department : Unisex Kids',
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/4182E9SwDNL.jpg',
@@ -252,7 +252,7 @@ export default [
     price: '\u00a399.23 - \u00a3189.89',
     brand: 'Hugo Boss',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n36.2 x 19.9 x 12.7 cm; 1.37 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 July 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nHUGO BOSS\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08CDZHCXS\n\n\nItem model number\n\u200f\n:\n\u200e\n\n50452155\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 36.2 x 19.9 x 12.7 cm; 1.37 Kilograms \n Date First Available : 7 July 2020 \n Manufacturer : HUGO BOSS \n ASIN : B08CDZHCXS \n Item model number : 50452155 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -280,7 +280,7 @@ export default [
     price: '\u00a316.99',
     brand: 'Visit the Absolute Footwear Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.8 x 15.6 x 10.4 cm; 680 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 July 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB09B446F64\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 31.8 x 15.6 x 10.4 cm; 680 Grams \n Date First Available : 23 July 2021 \n ASIN : B09B446F64 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/41qDDJ5CiyL.jpg',
@@ -308,7 +308,7 @@ export default [
     price: '\u00a3140.00',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33 x 22.6 x 12.8 cm; 900 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 July 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAdidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0919PVV9Z\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFY9348\n\n\nCountry of origin\n\u200f\n:\n\u200e\n\nChina\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 33 x 22.6 x 12.8 cm; 900 Grams \n Date First Available : 12 July 2021 \n Manufacturer : Adidas \n ASIN : B0919PVV9Z \n Item model number : FY9348 \n Country of origin : China \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -336,7 +336,7 @@ export default [
     price: '\u00a328.02 - \u00a390.84',
     brand: 'Visit the Clarks Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n30 x 20 x 10 cm; 860 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08JQFGBKS\n\n\nItem model number\n\u200f\n:\n\u200e\n\n261531758\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 30 x 20 x 10 cm; 860 Grams \n Date First Available : 28 Sept. 2020 \n Manufacturer : Clarks \n ASIN : B08JQFGBKS \n Item model number : 261531758 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/31B4LeV-WbL.jpg',
@@ -364,7 +364,7 @@ export default [
     price: '\u00a326.24 - \u00a353.59',
     brand: 'Visit the Kappa Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n31.4 x 20 x 11.2 cm; 500 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 April 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nKappa\n\n\nASIN\n\u200f\n:\n\u200e\n\nB087DJ5V8W\n\n\nItem model number\n\u200f\n:\n\u200e\n\n242798\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 31.4 x 20 x 11.2 cm; 500 Grams \n Date First Available : 24 April 2020 \n Manufacturer : Kappa \n ASIN : B087DJ5V8W \n Item model number : 242798 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -391,7 +391,7 @@ export default [
     price: '\u00a327.00 - \u00a385.69',
     brand: 'Visit the Teva Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n24.21 x 15.19 x 10.11 cm; 381 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Jan. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nTEVA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08RXX93VV\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1116671C\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 24.21 x 15.19 x 10.11 cm; 381 Grams \n Date First Available : 29 Jan. 2021 \n Manufacturer : TEVA \n ASIN : B08RXX93VV \n Item model number : 1116671C \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Water Shoes",
     images_list: ['https://m.media-amazon.com/images/I/41U7yOvW4IS.jpg'],
@@ -412,7 +412,7 @@ export default [
     price: '\u00a336.40 - \u00a349.00',
     brand: 'Capezio',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n23.8 x 14.6 x 9.2 cm; 458.13 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 Sept. 2010\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCapezio\n\n\nASIN\n\u200f\n:\n\u200e\n\nB002ZMTUL6\n\n\nItem model number\n\u200f\n:\n\u200e\n\nS000DS19C0MPAT125\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 23.8 x 14.6 x 9.2 cm; 458.13 Grams \n Date First Available : 28 Sept. 2010 \n Manufacturer : Capezio \n ASIN : B002ZMTUL6 \n Item model number : S000DS19C0MPAT125 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes",
     images_list: [
@@ -441,7 +441,7 @@ export default [
     price: '\u00a340.31 - \u00a3199.90',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Batteries\n\u200f\n:\n\u200e\n\n1 Unknown batteries required.\n\n\nIs Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 Sept. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07TTDKR5L\n\n\nItem model number\n\u200f\n:\n\u200e\n\n149019\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Batteries : 1 Unknown batteries required. \n Is Discontinued By Manufacturer : No \n Date First Available : 9 Sept. 2019 \n Manufacturer : Skechers \n ASIN : B07TTDKR5L \n Item model number : 149019 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -475,7 +475,7 @@ export default [
     price: '\u00a329.39 - \u00a341.35',
     brand: 'Rieker',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.2 x 17.2 x 11.6 cm; 600 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 Aug. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRieker\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07W6S16VZ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nL2327\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 32.2 x 17.2 x 11.6 cm; 600 Grams \n Date First Available : 8 Aug. 2019 \n Manufacturer : Rieker \n ASIN : B07W6S16VZ \n Item model number : L2327 \n Department : Women's",
     breadcrumbs: "Shoes/Women's Shoes/Flat Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/41IyKyn39IL.jpg',
@@ -535,7 +535,7 @@ export default [
     price: '\u00a337.15 - \u00a3162.50',
     brand: 'Visit the Dockers Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 340.19 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n17 Nov. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDockers Footwear\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01LZGTAJF\n\n\nItem model number\n\u200f\n:\n\u200e\n\n90-21398\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 25.4 x 38.1 x 15.24 cm; 340.19 Grams \n Date First Available : 17 Nov. 2016 \n Manufacturer : Dockers Footwear \n ASIN : B01LZGTAJF \n Item model number : 90-21398 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Sandals",
     images_list: [
       'https://m.media-amazon.com/images/I/31gygukQhsL.jpg',
@@ -563,7 +563,7 @@ export default [
     price: '\u00a331.43',
     brand: 'NINE WEST',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n12.7 x 12.7 x 1.78 cm; 294.84 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Oct. 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNine West Kids\n\n\nASIN\n\u200f\n:\n\u200e\n\nB071HXDK1Z\n\n\nItem model number\n\u200f\n:\n\u200e\n\n9W100280G\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Product Dimensions : 12.7 x 12.7 x 1.78 cm; 294.84 Grams \n Date First Available : 23 Oct. 2017 \n Manufacturer : Nine West Kids \n ASIN : B071HXDK1Z \n Item model number : 9W100280G \n Department : Girl's",
     breadcrumbs:
       "Shoes/Girls' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -592,7 +592,7 @@ export default [
     price: '\u00a317.68 - \u00a318.28',
     brand: 'JYC Store',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n10 Aug. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nzhjk598\n\n\nASIN\n\u200f\n:\n\u200e\n\nB09C8B5L7H\n\n\nItem model number\n\u200f\n:\n\u200e\n\nwomen sandals clearance\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 10 Aug. 2021 \n Manufacturer : zhjk598 \n ASIN : B09C8B5L7H \n Item model number : women sandals clearance \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -627,7 +627,7 @@ export default [
     price: '\u00a346.00 - \u00a3144.26',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33.02 x 22.35 x 12.69 cm; 770 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Feb. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07P23CT99\n\n\nItem model number\n\u200f\n:\n\u200e\n\n52558\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 33.02 x 22.35 x 12.69 cm; 770 Grams \n Date First Available : 20 Feb. 2019 \n Manufacturer : Skechers \n ASIN : B07P23CT99 \n Item model number : 52558 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -655,7 +655,7 @@ export default [
     price: '\u00a375.95 - \u00a3104.14',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n18.03 x 14.73 x 7.62 cm; 1.36 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Mar. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPuma\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07DW84SJH\n\n\nItem model number\n\u200f\n:\n\u200e\n\n365130-02\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 18.03 x 14.73 x 7.62 cm; 1.36 Kilograms \n Date First Available : 2 Mar. 2018 \n Manufacturer : Puma \n ASIN : B07DW84SJH \n Item model number : 365130-02 \n Department : Boy's",
     breadcrumbs: 'Shoes/Baby Shoes/Baby Boys/First Walking Shoes',
     images_list: [
       'https://m.media-amazon.com/images/I/41ZdwZEHJCL.jpg',
@@ -677,7 +677,7 @@ export default [
     price: '\u00a317.96 - \u00a378.72',
     brand: 'IGI&Co',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33.5 x 20 x 13 cm; 890 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nIMAC S.P.A. - Divisione IGI\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08J8145G4\n\n\nItem model number\n\u200f\n:\n\u200e\n\n7113111\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 33.5 x 20 x 13 cm; 890 Grams \n Date First Available : 16 Sept. 2020 \n Manufacturer : IMAC S.P.A. - Divisione IGI \n ASIN : B08J8145G4 \n Item model number : 7113111 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/41TJYpNDhcL.jpg',
@@ -706,7 +706,7 @@ export default [
     price: '\u00a329.90 - \u00a330.90',
     brand: 'Visit the Jamron Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n29 x 9.5 x 8 cm; 480 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 April 2017\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01E1CIZ8G\n\n\nItem model number\n\u200f\n:\n\u200e\n\nS2088-23\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 29 x 9.5 x 8 cm; 480 Grams \n Date First Available : 3 April 2017 \n ASIN : B01E1CIZ8G \n Item model number : S2088-23 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/51MkgEHu8tL.jpg',
@@ -735,7 +735,7 @@ export default [
     price: '\u00a317.99 - \u00a321.00',
     brand: 'Pure and Precious',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 Jan. 2013\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00AYXO91O\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nP7-APXH-XBI2\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Date First Available : 9 Jan. 2013 \n ASIN : B00AYXO91O \n Manufacturer reference : P7-APXH-XBI2 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Boots",
     images_list: ['https://m.media-amazon.com/images/I/317BTxvkJsL.jpg'],
     features: [
@@ -753,7 +753,7 @@ export default [
     price: '\u00a335.24 - \u00a354.52',
     brand: 'Visit the Geox Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n23.3 x 19.6 x 9.4 cm; 440 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGeox\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08PKTVSJ7\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ15CMA0BC14\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 23.3 x 19.6 x 9.4 cm; 440 Grams \n Date First Available : 3 Dec. 2020 \n Manufacturer : Geox \n ASIN : B08PKTVSJ7 \n Item model number : J15CMA0BC14 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Girls' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -781,7 +781,7 @@ export default [
     price: '\u00a325.01 - \u00a364.07',
     brand: 'Primigi',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n21.5 x 13.6 x 9 cm; 330 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Feb. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nIMAC S.P.A. - Divisione IGI\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08VWZB2XC\n\n\nItem model number\n\u200f\n:\n\u200e\n\nPWT 84295\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 21.5 x 13.6 x 9 cm; 330 Grams \n Date First Available : 4 Feb. 2021 \n Manufacturer : IMAC S.P.A. - Divisione IGI \n ASIN : B08VWZB2XC \n Item model number : PWT 84295 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Mary Janes",
     images_list: [
       'https://m.media-amazon.com/images/I/41wOh27Y32L.jpg',
@@ -808,7 +808,7 @@ export default [
     price: null,
     brand: 'FinnComfort',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n24 Feb. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nFinnComfort\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0851FNQ55\n\n\nItem model number\n\u200f\n:\n\u200e\n\n2364-902132\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 24 Feb. 2020 \n Manufacturer : FinnComfort \n ASIN : B0851FNQ55 \n Item model number : 2364-902132 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -838,7 +838,7 @@ export default [
     price: '\u00a335.59 - \u00a3133.00',
     brand: 'Visit the Reebok Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.51 x 30.3 x 11.2 cm; 499 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Oct. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nReebok\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07ZHXWQ75\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJAG72\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 30.51 x 30.3 x 11.2 cm; 499 Grams \n Date First Available : 23 Oct. 2019 \n Manufacturer : Reebok \n ASIN : B07ZHXWQ75 \n Item model number : JAG72 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -865,7 +865,7 @@ export default [
     price: '\u00a321.98 - \u00a337.12',
     brand: 'Lingmu',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.8 x 19.6 x 9.2 cm; 600 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 Jan. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0895HSVJB\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30.8 x 19.6 x 9.2 cm; 600 Grams \n Date First Available : 16 Jan. 2021 \n ASIN : B0895HSVJB \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes",
     images_list: [
@@ -907,7 +907,7 @@ export default [
     price: '\u00a350.00 - \u00a383.41',
     brand: 'Visit the TOMS Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.26 x 23.62 x 10.92 cm; 816 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Nov. 2020\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0815QBRB6\n\n\nItem model number\n\u200f\n:\n\u200e\n\n10015929\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.26 x 23.62 x 10.92 cm; 816 Grams \n Date First Available : 11 Nov. 2020 \n ASIN : B0815QBRB6 \n Item model number : 10015929 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/31TgFwmpYwL.jpg',
@@ -933,7 +933,7 @@ export default [
     price: '\u00a3121.55 - \u00a3169.95',
     brand: 'Mammut',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n27 Mar. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMAMMUT\n\n\nASIN\n\u200f\n:\n\u200e\n\nB082YD7CC2\n\n\nItem model number\n\u200f\n:\n\u200e\n\n3020-06280\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Date First Available : 27 Mar. 2020 \n Manufacturer : MAMMUT \n ASIN : B082YD7CC2 \n Item model number : 3020-06280 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Trekking & Hiking Footwear/Trekking & Hiking Boots",
     images_list: [
@@ -965,7 +965,7 @@ export default [
     price: '\u00a365.00 - \u00a369.00',
     brand: 'Visit the Clarks Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28.4 x 18.6 x 11 cm; 580 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08Q4DR8PW\n\n\nItem model number\n\u200f\n:\n\u200e\n\n261626254\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 28.4 x 18.6 x 11 cm; 580 Grams \n Date First Available : 16 Dec. 2020 \n Manufacturer : Clarks \n ASIN : B08Q4DR8PW \n Item model number : 261626254 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -995,7 +995,7 @@ export default [
     price: '\u00a322.99 - \u00a328.99',
     brand: 'Visit the JIASUQI Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.4 x 18.4 x 4.6 cm; 280 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Dec. 2019\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08316KHHD\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nJSQ-ZBL-8-Black-35\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.4 x 18.4 x 4.6 cm; 280 Grams \n Date First Available : 23 Dec. 2019 \n ASIN : B08316KHHD \n Manufacturer reference : JSQ-ZBL-8-Black-35 \n Department : Women's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Water Shoes",
     images_list: [
@@ -1040,7 +1040,7 @@ export default [
     price: '\u00a329.12 - \u00a356.85',
     brand: 'Marco Tozzi',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n31.39 x 21.89 x 10.19 cm; 910 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Nov. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMARCO TOZZI Shoes GmbH & Co. KG\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0824HBC9D\n\n\nItem model number\n\u200f\n:\n\u200e\n\n2-2-23754-35 611\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 31.39 x 21.89 x 10.19 cm; 910 Grams \n Date First Available : 29 Nov. 2019 \n Manufacturer : MARCO TOZZI Shoes GmbH & Co. KG \n ASIN : B0824HBC9D \n Item model number : 2-2-23754-35 611 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1067,7 +1067,7 @@ export default [
     price: '\u00a348.44 - \u00a3169.74',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.61 x 19.2 x 11.2 cm; 1.02 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n26 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB084116LCM\n\n\nItem model number\n\u200f\n:\n\u200e\n\n37452201\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 30.61 x 19.2 x 11.2 cm; 1.02 Kilograms \n Date First Available : 26 Jun. 2020 \n Manufacturer : PUMA \n ASIN : B084116LCM \n Item model number : 37452201 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1092,7 +1092,7 @@ export default [
     price: '\u00a377.00',
     brand: 'T.U.K. Shoes',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.23 x 19.05 x 11.43 cm; 1.16 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n22 Sept. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nT.U.K.\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01ENA48S2\n\n\nItem model number\n\u200f\n:\n\u200e\n\nA9155\n\n\nCountry of origin\n\u200f\n:\n\u200e\n\nChina\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 30.23 x 19.05 x 11.43 cm; 1.16 Kilograms \n Date First Available : 22 Sept. 2016 \n Manufacturer : T.U.K. \n ASIN : B01ENA48S2 \n Item model number : A9155 \n Country of origin : China \n Department : Boy's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1118,7 +1118,7 @@ export default [
     price: '\u00a348.08 - \u00a3142.79',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.99 x 21.59 x 12.19 cm; 1.02 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n6 May 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0885XTG44\n\n\nItem model number\n\u200f\n:\n\u200e\n\n155089\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 32.99 x 21.59 x 12.19 cm; 1.02 Kilograms \n Date First Available : 6 May 2020 \n Manufacturer : Skechers \n ASIN : B0885XTG44 \n Item model number : 155089 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1148,7 +1148,7 @@ export default [
     price: '\u00a325.22 - \u00a3166.28',
     brand: 'Visit the adidas Store',
     product_details:
-      'Product Dimensions\n\u200f\n:\n\u200e\n\n32.26 x 20.07 x 11.43 cm; 102.06 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 April 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB087RSZ744\n\n\nItem model number\n\u200f\n:\n\u200e\n\nLDR11\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Product Dimensions : 32.26 x 20.07 x 11.43 cm; 102.06 Grams \n Date First Available : 28 April 2020 \n Manufacturer : adidas \n ASIN : B087RSZ744 \n Item model number : LDR11 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -1175,7 +1175,7 @@ export default [
     price: '\u00a374.02 - \u00a3165.80',
     brand: 'NINE WEST',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n29.46 x 20.57 x 10.67 cm; 283.5 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n21 April 2015\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNine West\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00SBEOH9C\n\n\nItem model number\n\u200f\n:\n\u200e\n\nBachney Fabric\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 29.46 x 20.57 x 10.67 cm; 283.5 Grams \n Date First Available : 21 April 2015 \n Manufacturer : Nine West \n ASIN : B00SBEOH9C \n Item model number : Bachney Fabric \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1202,7 +1202,7 @@ export default [
     price: '\u00a345.57 - \u00a390.00',
     brand: 'Legero',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n31.4 x 19.4 x 10.8 cm; 660 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Jan. 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nLegero\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01LYGNALD\n\n\nItem model number\n\u200f\n:\n\u200e\n\n0800823\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 31.4 x 19.4 x 10.8 cm; 660 Grams \n Date First Available : 11 Jan. 2017 \n Manufacturer : Legero \n ASIN : B01LYGNALD \n Item model number : 0800823 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1234,7 +1234,7 @@ export default [
     price: '\u00a384.51 - \u00a3149.00',
     brand: 'Altra',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.29 x 22.2 x 11.71 cm; 739 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAltra Footwear\n\n\nASIN\n\u200f\n:\n\u200e\n\nB082Q3QY6P\n\n\nItem model number\n\u200f\n:\n\u200e\n\nAL0A4VQA\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 31.29 x 22.2 x 11.71 cm; 739 Grams \n Date First Available : 29 Jun. 2020 \n Manufacturer : Altra Footwear \n ASIN : B082Q3QY6P \n Item model number : AL0A4VQA \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -1261,7 +1261,7 @@ export default [
     price: '\u00a314.50 - \u00a330.48',
     brand: 'Visit the Regatta Store',
     product_details:
-      "Item Weight\n\u200f\n:\n\u200e\n\n698.53 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 Jan. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRegatta\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07DFVX8LW\n\n\nItem model number\n\u200f\n:\n\u200e\n\nRKF600\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Item Weight : 698.53 Grams \n Date First Available : 28 Jan. 2019 \n Manufacturer : Regatta \n ASIN : B07DFVX8LW \n Item model number : RKF600 \n Department : Boy's",
     breadcrumbs: "Shoes/Boys' Shoes/Sandals",
     images_list: [
       'https://m.media-amazon.com/images/I/41rag1pFhkL.jpg',
@@ -1284,7 +1284,7 @@ export default [
     price: '\u00a318.67 - \u00a353.29',
     brand: 'Visit the Kappa Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n33 x 18 x 11 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nKappa\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08H7SLBHL\n\n\nItem model number\n\u200f\n:\n\u200e\n\n242683\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 33 x 18 x 11 cm; 800 Grams \n Date First Available : 2 Sept. 2020 \n Manufacturer : Kappa \n ASIN : B08H7SLBHL \n Item model number : 242683 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1312,7 +1312,7 @@ export default [
     price: '\u00a346.94 - \u00a3181.97',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.81 x 20.8 x 12.19 cm; 379.88 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Jan. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB083KV7MP5\n\n\nItem model number\n\u200f\n:\n\u200e\n\nBTO55\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30.81 x 20.8 x 12.19 cm; 379.88 Grams \n Date First Available : 7 Jan. 2020 \n Manufacturer : adidas \n ASIN : B083KV7MP5 \n Item model number : BTO55 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1339,7 +1339,7 @@ export default [
     price: '\u00a399.91',
     brand: 'FRYE',
     product_details:
-      "Item Weight\n\u200f\n:\n\u200e\n\n283.5 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n14 Mar. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nFRYE\n\n\nASIN\n\u200f\n:\n\u200e\n\nB074YRV6KS\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Item Weight : 283.5 Grams \n Date First Available : 14 Mar. 2018 \n Manufacturer : FRYE \n ASIN : B074YRV6KS \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1367,7 +1367,7 @@ export default [
     price: '\u00a372.26',
     brand: 'Visit the Champion Store',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n22 Dec. 2014\n\n\nASIN\n\u200f\n:\n\u200e\n\nB076TBS619\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Date First Available : 22 Dec. 2014 \n ASIN : B076TBS619 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes",
     images_list: [
       'https://m.media-amazon.com/images/I/419l-f9lxUL.jpg',
@@ -1383,7 +1383,7 @@ export default [
     price: '\u00a355.79 - \u00a3175.99',
     brand: 'adidas Originals',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28.45 x 19.3 x 10.92 cm; 816 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n21 May 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas Originals\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07S6S34BD\n\n\nItem model number\n\u200f\n:\n\u200e\n\nEG9825\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 28.45 x 19.3 x 10.92 cm; 816 Grams \n Date First Available : 21 May 2019 \n Manufacturer : adidas Originals \n ASIN : B07S6S34BD \n Item model number : EG9825 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1409,7 +1409,7 @@ export default [
     price: '\u00a329.76 - \u00a3100.25',
     brand: 'Visit the Geox Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n25.65 x 18.8 x 9.4 cm; 498.95 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Aug. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGeox\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07TWMZBM6\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ94ABA022CL\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 25.65 x 18.8 x 9.4 cm; 498.95 Grams \n Date First Available : 10 Aug. 2019 \n Manufacturer : Geox \n ASIN : B07TWMZBM6 \n Item model number : J94ABA022CL \n Department : Boy's",
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1463,7 +1463,7 @@ export default [
     price: '\u00a319.10 - \u00a358.03',
     brand: 'VICTORIA',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVictoria\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07VMSYHZD\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1148108-80-36\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 1 x 1 x 1 cm; 1 Kilograms \n Date First Available : 27 July 2019 \n Manufacturer : Victoria \n ASIN : B07VMSYHZD \n Item model number : 1148108-80-36 \n Department : Women's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1490,7 +1490,7 @@ export default [
     price: '\u00a3111.68 - \u00a3167.59',
     brand: 'Saucony',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n32.77 x 20.32 x 11.68 cm; 277.83 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 April 2017\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01GIJS6GG\n\n\nItem model number\n\u200f\n:\n\u200e\n\nS20348-2\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 32.77 x 20.32 x 11.68 cm; 277.83 Grams \n Date First Available : 20 April 2017 \n ASIN : B01GIJS6GG \n Item model number : S20348-2 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -1529,7 +1529,7 @@ export default [
     price: '\u00a327.07',
     brand: 'Falcotto',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n20.32 x 15.49 x 9.65 cm; 440 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 April 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nFalcotto\n\n\nASIN\n\u200f\n:\n\u200e\n\nB086TFKFL5\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1250185411\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 20.32 x 15.49 x 9.65 cm; 440 Grams \n Date First Available : 11 April 2020 \n Manufacturer : Falcotto \n ASIN : B086TFKFL5 \n Item model number : 1250185411 \n Department : Unisex',
     breadcrumbs: "Shoes/Boys' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41z7iRyKrqL.jpg',
@@ -1555,7 +1555,7 @@ export default [
     price: '\u00a335.33 - \u00a3225.00',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n45 x 36 x 24 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Feb. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPuma\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08TM52BM4\n\n\nItem model number\n\u200f\n:\n\u200e\n\n37310824\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 45 x 36 x 24 cm; 800 Grams \n Date First Available : 1 Feb. 2021 \n Manufacturer : Puma \n ASIN : B08TM52BM4 \n Item model number : 37310824 \n Department : Boy's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1588,7 +1588,7 @@ export default [
     price: null,
     brand: 'Bisgaard',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n26.4 x 15.4 x 9.6 cm; 520 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Jun. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nBisgaard\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07DLGJ9NT\n\n\nItem model number\n\u200f\n:\n\u200e\n\n70261.119\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 26.4 x 15.4 x 9.6 cm; 520 Grams \n Date First Available : 11 Jun. 2018 \n Manufacturer : Bisgaard \n ASIN : B07DLGJ9NT \n Item model number : 70261.119 \n Department : Unisex Kids',
     breadcrumbs: "Shoes/Girls' Shoes/Sandals",
     images_list: [
       'https://m.media-amazon.com/images/I/41u62IWIaiL.jpg',
@@ -1615,7 +1615,7 @@ export default [
     price: '\u00a374.13 - \u00a3115.00',
     brand: 'Dublin',
     product_details:
-      'Date First Available\n\u200f\n:\n\u200e\n\n23 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDublin\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07VL66DPL',
+      'Date First Available : 23 July 2019 \n Manufacturer : Dublin \n ASIN : B07VL66DPL',
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Equestrian Boots/Jodhpur & Paddock Boots",
     images_list: [
@@ -1635,7 +1635,7 @@ export default [
     price: '\u00a322.21 - \u00a346.46',
     brand: 'Visit the Tamaris Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.4 x 23.6 x 11.2 cm; 720 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n13 July 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nTamaris\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07FK5ZT36\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1-1-23700-32\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.4 x 23.6 x 11.2 cm; 720 Grams \n Date First Available : 13 July 2018 \n Manufacturer : Tamaris \n ASIN : B07FK5ZT36 \n Item model number : 1-1-23700-32 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1701,7 +1701,7 @@ export default [
     price: '\u00a348.46 - \u00a3211.99',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.75 x 19.81 x 11.43 cm; 215.46 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 Dec. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNew Balance\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07BQYJGFV\n\n\nItem model number\n\u200f\n:\n\u200e\n\nMS009RC1\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 31.75 x 19.81 x 11.43 cm; 215.46 Grams \n Date First Available : 25 Dec. 2018 \n Manufacturer : New Balance \n ASIN : B07BQYJGFV \n Item model number : MS009RC1 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1749,7 +1749,7 @@ export default [
     price: '\u00a352.57 - \u00a353.06',
     brand: 'GIOSEPPO',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.3 x 21.9 x 11.2 cm; 870 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Mar. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGioseppo SLU\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08YYY9MTT\n\n\nItem model number\n\u200f\n:\n\u200e\n\n64426-P\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.3 x 21.9 x 11.2 cm; 870 Grams \n Date First Available : 15 Mar. 2021 \n Manufacturer : Gioseppo SLU \n ASIN : B08YYY9MTT \n Item model number : 64426-P \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1775,7 +1775,7 @@ export default [
     price: '\u00a318.13 - \u00a320.30',
     brand: "The Children's Place",
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n20.54 x 17.71 x 5.78 cm; 246.6 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n5 Jan. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nThe Children's Place\n\n\nASIN\n\u200f\n:\n\u200e\n\nB087CD66SR\n\n\nItem model number\n\u200f\n:\n\u200e\n\n3016270\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBaby Girls",
+      "Package Dimensions : 20.54 x 17.71 x 5.78 cm; 246.6 Grams \n Date First Available : 5 Jan. 2021 \n Manufacturer : The Children's Place \n ASIN : B087CD66SR \n Item model number : 3016270 \n Department : Baby Girls",
     breadcrumbs: "Shoes/Girls' Shoes/Ballet Flats",
     images_list: [
       'https://m.media-amazon.com/images/I/41YC+aTNoSL.jpg',
@@ -1800,7 +1800,7 @@ export default [
     price: '\u00a39.99 - \u00a316.25',
     brand: 'Silver_river',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n16.8 x 14.2 x 7.2 cm; 180 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 July 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07FLTT81Z\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 16.8 x 14.2 x 7.2 cm; 180 Grams \n Date First Available : 16 July 2018 \n ASIN : B07FLTT81Z \n Department : Girl's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41QPvgtuLQL.jpg',
@@ -1831,7 +1831,7 @@ export default [
     price: '\u00a39.49 - \u00a344.43',
     brand: 'chicco',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 19.05 x 8.89 cm; 340 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 Feb. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nChicco\n\n\nASIN\n\u200f\n:\n\u200e\n\nB084V8CY7Y\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1064489000000\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 25.4 x 19.05 x 8.89 cm; 340 Grams \n Date First Available : 16 Feb. 2020 \n Manufacturer : Chicco \n ASIN : B084V8CY7Y \n Item model number : 1064489000000 \n Department : Boy's",
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1858,7 +1858,7 @@ export default [
     price: '\u00a357.00 - \u00a3129.94',
     brand: 'Visit the Vibram FiveFingers Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 12.7 x 10.16 cm; 340.19 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 Feb. 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVibram FiveFingers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01H8PVJ18\n\n\nItem model number\n\u200f\n:\n\u200e\n\n17W6606\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 25.4 x 12.7 x 10.16 cm; 340.19 Grams \n Date First Available : 27 Feb. 2017 \n Manufacturer : Vibram FiveFingers \n ASIN : B01H8PVJ18 \n Item model number : 17W6606 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1887,7 +1887,7 @@ export default [
     price: '\u00a343.99 - \u00a3237.43',
     brand: 'Visit the ECCO Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n35 x 21.41 x 13 cm; 368.54 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 Nov. 2009\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nEcco\n\n\nASIN\n\u200f\n:\n\u200e\n\nB000NIF30G\n\n\nItem model number\n\u200f\n:\n\u200e\n\n06956450034\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 35 x 21.41 x 13 cm; 368.54 Grams \n Date First Available : 3 Nov. 2009 \n Manufacturer : Ecco \n ASIN : B000NIF30G \n Item model number : 06956450034 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Sports & Outdoor Sandals",
     images_list: [
@@ -1921,7 +1921,7 @@ export default [
     price: '\u00a3204.00',
     brand: 'Visit the Merrell Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 396.89 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Dec. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMerrell\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07B9N3FKX\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ77375W\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 25.4 x 38.1 x 15.24 cm; 396.89 Grams \n Date First Available : 29 Dec. 2018 \n Manufacturer : Merrell \n ASIN : B07B9N3FKX \n Item model number : J77375W \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/411CN8JkVML.jpg',
@@ -1947,7 +1947,7 @@ export default [
     price: '\u00a332.34 - \u00a3179.78',
     brand: 'Visit the Merrell Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 368.54 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 Nov. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMerrell\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07KMBDZL9\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ16695\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 25.4 x 38.1 x 15.24 cm; 368.54 Grams \n Date First Available : 16 Nov. 2018 \n Manufacturer : Merrell \n ASIN : B07KMBDZL9 \n Item model number : J16695 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -1976,7 +1976,7 @@ export default [
     price: '\u00a326.66 - \u00a386.57',
     brand: 'Pantofola d\u2019Oro',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n35 x 20 x 14 cm; 1.3 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n14 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPANTOFOLA D'ORO\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08HZBWJNB\n\n\nItem model number\n\u200f\n:\n\u200e\n\nALL1WD_150WG\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 35 x 20 x 14 cm; 1.3 Kilograms \n Date First Available : 14 Sept. 2020 \n Manufacturer : PANTOFOLA D'ORO \n ASIN : B08HZBWJNB \n Item model number : ALL1WD_150WG \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2004,7 +2004,7 @@ export default [
     price: '\u00a335.14',
     brand: 'Visit the adidas Store',
     product_details:
-      'Product Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 900 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08BWS9KLH\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFY0635\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Product Dimensions : 1 x 1 x 1 cm; 900 Grams \n Date First Available : 29 Dec. 2020 \n Manufacturer : adidas \n ASIN : B08BWS9KLH \n Item model number : FY0635 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Football Boots",
     images_list: [
@@ -2033,7 +2033,7 @@ export default [
     price: '\u00a316.99',
     brand: 'WQEQ',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n3 Aug. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nWQEQ\n\n\nASIN\n\u200f\n:\n\u200e\n\nB09BRDSFQT\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nWQEQ\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 3 Aug. 2021 \n Manufacturer : WQEQ \n ASIN : B09BRDSFQT \n Manufacturer reference : WQEQ \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2076,7 +2076,7 @@ export default [
     price: '\u00a3160.40',
     brand: 'Icebug',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n4 Jan. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08S1LRJD3\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Date First Available : 4 Jan. 2021 \n ASIN : B08S1LRJD3 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Nordic Walking Shoes",
     images_list: ['https://m.media-amazon.com/images/I/41KMteBuCiL.jpg'],
@@ -2095,7 +2095,7 @@ export default [
     price: '\u00a317.99 - \u00a3171.13',
     brand: 'Visit the TOMS Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n40.64 x 17.78 x 12.7 cm; 249 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 Jun. 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07F2N28J9\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Product Dimensions : 40.64 x 17.78 x 12.7 cm; 249 Grams \n Date First Available : 27 Jun. 2018 \n ASIN : B07F2N28J9 \n Department : Girl's",
     breadcrumbs: "Shoes/Women's Shoes/Flat Shoes/Espadrille Shoes",
     images_list: [
       'https://m.media-amazon.com/images/I/41r9-Hzlq4L.jpg',
@@ -2120,7 +2120,7 @@ export default [
     price: '\u00a320.03 - \u00a363.40',
     brand: 'Visit the Kappa Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n33.8 x 21.2 x 12.6 cm; 860 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nKappa\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08749NPCJ\n\n\nItem model number\n\u200f\n:\n\u200e\n\n304KUQ0\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 33.8 x 21.2 x 12.6 cm; 860 Grams \n Date First Available : 25 Jun. 2020 \n Manufacturer : Kappa \n ASIN : B08749NPCJ \n Item model number : 304KUQ0 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes",
     images_list: [
@@ -2208,7 +2208,7 @@ export default [
     price: '\u00a328.74 - \u00a330.95',
     brand: 'Conguitos',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n25 x 14 x 10 cm; 500 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 Oct. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nConguitos\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08KWBHG9M\n\n\nItem model number\n\u200f\n:\n\u200e\n\nLV130127_0207_25\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 25 x 14 x 10 cm; 500 Grams \n Date First Available : 8 Oct. 2020 \n Manufacturer : Conguitos \n ASIN : B08KWBHG9M \n Item model number : LV130127_0207_25 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Sandals",
     images_list: ['https://m.media-amazon.com/images/I/31DJNXzbawL.jpg'],
     features: [
@@ -2226,7 +2226,7 @@ export default [
     price: '\u00a318.97 - \u00a321.34',
     brand: 'Visit the s.Oliver Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n26.8 x 16.6 x 10.2 cm; 500 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nshoe.com GmbH & Co. KG\n\n\nASIN\n\u200f\n:\n\u200e\n\nB089NWG8XF\n\n\nItem model number\n\u200f\n:\n\u200e\n\n5-5-33206-36 100\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 26.8 x 16.6 x 10.2 cm; 500 Grams \n Date First Available : 4 Jun. 2020 \n Manufacturer : shoe.com GmbH & Co. KG \n ASIN : B089NWG8XF \n Item model number : 5-5-33206-36 100 \n Department : Women's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/31gL-eHLG4S.jpg',
@@ -2252,7 +2252,7 @@ export default [
     price: '\u00a3198.93 - \u00a3208.30',
     brand: 'Samuel Hubbard',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n35.56 x 12.7 x 17.78 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n22 Sept. 2015\n\n\nASIN\n\u200f\n:\n\u200e\n\nB015OPLZA4\n\n\nItem model number\n\u200f\n:\n\u200e\n\nM1100-007\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 35.56 x 12.7 x 17.78 cm; 907.18 Grams \n Date First Available : 22 Sept. 2015 \n ASIN : B015OPLZA4 \n Item model number : M1100-007 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/41LBEwPq1fL.jpg',
@@ -2275,7 +2275,7 @@ export default [
     price: '\u00a352.93 - \u00a360.50',
     brand: 'Rieker',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n12 x 22 x 34 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 Mar. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRieker\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07P5H186L\n\n\nItem model number\n\u200f\n:\n\u200e\n\n53715-90\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 12 x 22 x 34 cm; 800 Grams \n Date First Available : 16 Mar. 2019 \n Manufacturer : Rieker \n ASIN : B07P5H186L \n Item model number : 53715-90 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2302,7 +2302,7 @@ export default [
     price: '\u00a368.14 - \u00a3120.73',
     brand: 'D\u00e4umling',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n30.39 x 26.6 x 11.19 cm; 1.16 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Aug. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nD\u00e4umling\n\n\nASIN\n\u200f\n:\n\u200e\n\nB079TZVQ9H\n\n\nItem model number\n\u200f\n:\n\u200e\n\n080033M\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 30.39 x 26.6 x 11.19 cm; 1.16 Kilograms \n Date First Available : 23 Aug. 2018 \n Manufacturer : D\u00e4umling \n ASIN : B079TZVQ9H \n Item model number : 080033M \n Department : Unisex',
     breadcrumbs: "Shoes/Boys' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41-A8ilQYoL.jpg',
@@ -2329,7 +2329,7 @@ export default [
     price: '\u00a339.51 - \u00a3156.43',
     brand: 'Visit the Reebok Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n29.72 x 19.05 x 11.68 cm; 680 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Oct. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nReebok\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07ZHYQ1PD\n\n\nItem model number\n\u200f\n:\n\u200e\n\nKXS15\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 29.72 x 19.05 x 11.68 cm; 680 Grams \n Date First Available : 23 Oct. 2019 \n Manufacturer : Reebok \n ASIN : B07ZHYQ1PD \n Item model number : KXS15 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Cross Trainers",
     images_list: [
@@ -2356,7 +2356,7 @@ export default [
     price: '\u00a341.03',
     brand: 'Visit the Gola Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30 x 15 x 10 cm; 300 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Sept. 2011\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGola Classics\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0055GFJSW\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30 x 15 x 10 cm; 300 Grams \n Date First Available : 23 Sept. 2011 \n Manufacturer : Gola Classics \n ASIN : B0055GFJSW \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2384,7 +2384,7 @@ export default [
     price: '\u00a326.32 - \u00a364.30',
     brand: 'Visit the Scholl Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n33.02 x 14.99 x 12.19 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Nov. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nScholl\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00LVSW3LE\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\n8034113537858\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 33.02 x 14.99 x 12.19 cm; 800 Grams \n Date First Available : 12 Nov. 2016 \n Manufacturer : Scholl \n ASIN : B00LVSW3LE \n Manufacturer reference : 8034113537858 \n Department : Men's",
     breadcrumbs: "Shoes/Women's Shoes/Sandals & Slides/Fashion Sandals",
     images_list: ['https://m.media-amazon.com/images/I/31KcVEzMJpL.jpg'],
     features: [
@@ -2403,7 +2403,7 @@ export default [
     price: '\u00a337.85 - \u00a3172.52',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28.7 x 19.61 x 10.9 cm; 549 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n5 May 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07S8NLRWT\n\n\nItem model number\n\u200f\n:\n\u200e\n\nEF1916\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 28.7 x 19.61 x 10.9 cm; 549 Grams \n Date First Available : 5 May 2020 \n Manufacturer : adidas \n ASIN : B07S8NLRWT \n Item model number : EF1916 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Football Boots",
     images_list: [
@@ -2428,7 +2428,7 @@ export default [
     price: '\u00a366.00 - \u00a3104.02',
     brand: 'Visit the DOGO Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30 x 18 x 10 cm; 619 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDOGO\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08DJ9NC51\n\n\nItem model number\n\u200f\n:\n\u200e\n\ndgs020-sny003\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30 x 18 x 10 cm; 619 Grams \n Date First Available : 27 Sept. 2020 \n Manufacturer : DOGO \n ASIN : B08DJ9NC51 \n Item model number : dgs020-sny003 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2457,7 +2457,7 @@ export default [
     price: '\u00a36.80 - \u00a345.56',
     brand: 'VICTORIA',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n10 x 10 x 10 cm; 100 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Mar. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVictoria\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08556NJ23\n\n\nItem model number\n\u200f\n:\n\u200e\n\n105119-94-29\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Adults\u2019',
+      'Package Dimensions : 10 x 10 x 10 cm; 100 Grams \n Date First Available : 1 Mar. 2020 \n Manufacturer : Victoria \n ASIN : B08556NJ23 \n Item model number : 105119-94-29 \n Department : Unisex Adults\u2019',
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2482,7 +2482,7 @@ export default [
     price: '\u00a358.52 - \u00a371.52',
     brand: 'Visit the Steve Madden Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.99 x 20.57 x 11.18 cm; 1.22 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n6 Jan. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSTEVEN by Steve Madden\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08J8JX4MM\n\n\nItem model number\n\u200f\n:\n\u200e\n\nBELE02D1\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30.99 x 20.57 x 11.18 cm; 1.22 Kilograms \n Date First Available : 6 Jan. 2021 \n Manufacturer : STEVEN by Steve Madden \n ASIN : B08J8JX4MM \n Item model number : BELE02D1 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2509,7 +2509,7 @@ export default [
     price: '\u00a332.59 - \u00a394.74',
     brand: 'Visit the Hotter Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n30 x 20 x 10 cm; 610 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 Aug. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nHotter\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08F5K1JL6\n\n\nItem model number\n\u200f\n:\n\u200e\n\nALDRXE\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 30 x 20 x 10 cm; 610 Grams \n Date First Available : 3 Aug. 2020 \n Manufacturer : Hotter \n ASIN : B08F5K1JL6 \n Item model number : ALDRXE \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2538,7 +2538,7 @@ export default [
     price: '\u00a3105.99 - \u00a3256.99',
     brand: 'ASICS',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n12.7 x 12.7 x 12.7 cm; 340.19 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n31 Aug. 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nASICS\n\n\nASIN\n\u200f\n:\n\u200e\n\nB073HDL6XJ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nT7K4N\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 12.7 x 12.7 x 12.7 cm; 340.19 Grams \n Date First Available : 31 Aug. 2017 \n Manufacturer : ASICS \n ASIN : B073HDL6XJ \n Item model number : T7K4N \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: ['https://m.media-amazon.com/images/I/41P-SDmPGdL.jpg'],
@@ -2556,7 +2556,7 @@ export default [
     price: '\u00a377.30 - \u00a381.50',
     brand: 'TBS',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n33.6 x 17.4 x 11 cm; 600 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Jun. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nTBS\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01GEDM55E\n\n\nItem model number\n\u200f\n:\n\u200e\n\n40BRANDY--B7036\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 33.6 x 17.4 x 11 cm; 600 Grams \n Date First Available : 1 Jun. 2016 \n Manufacturer : TBS \n ASIN : B01GEDM55E \n Item model number : 40BRANDY--B7036 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Tennis Shoes",
     images_list: [
@@ -2627,7 +2627,7 @@ export default [
     price: '\u00a348.22 - \u00a3115.51',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.99 x 18.03 x 11.68 cm; 170.1 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Oct. 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0751DFG6F\n\n\nItem model number\n\u200f\n:\n\u200e\n\nKL005G1Y\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 30.99 x 18.03 x 11.68 cm; 170.1 Grams \n Date First Available : 20 Oct. 2018 \n ASIN : B0751DFG6F \n Item model number : KL005G1Y \n Department : Boy's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2652,7 +2652,7 @@ export default [
     price: '\u00a392.08 - \u00a3199.59',
     brand: 'Visit the VAUDE Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.4 x 22.6 x 11.6 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Feb. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVaude\n\n\nASIN\n\u200f\n:\n\u200e\n\nB076ZPVTGD\n\n\nItem model number\n\u200f\n:\n\u200e\n\n204678000000\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.4 x 22.6 x 11.6 cm; 800 Grams \n Date First Available : 20 Feb. 2018 \n Manufacturer : Vaude \n ASIN : B076ZPVTGD \n Item model number : 204678000000 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Cycling Shoes",
     images_list: [
@@ -2689,7 +2689,7 @@ export default [
     price: '\u00a360.62 - \u00a363.87',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.9 x 22.4 x 10.9 cm; 940 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 May 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB088RHCM87\n\n\nItem model number\n\u200f\n:\n\u200e\n\n373438\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30.9 x 22.4 x 10.9 cm; 940 Grams \n Date First Available : 18 May 2020 \n Manufacturer : PUMA \n ASIN : B088RHCM87 \n Item model number : 373438 \n Department : Women's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41QPuCaJEwL.jpg',
@@ -2716,7 +2716,7 @@ export default [
     price: '\u00a361.33 - \u00a3134.19',
     brand: 'Visit the New Balance Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n30.23 x 18.29 x 11.43 cm; 238.14 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n17 Mar. 2019\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07BQV789H\n\n\nItem model number\n\u200f\n:\n\u200e\n\nGS247KV\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 30.23 x 18.29 x 11.43 cm; 238.14 Grams \n Date First Available : 17 Mar. 2019 \n ASIN : B07BQV789H \n Item model number : GS247KV \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2737,7 +2737,7 @@ export default [
     price: '\u00a335.64 - \u00a370.07',
     brand: 'Visit the Vans Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n29.6 x 12.6 x 11 cm; 340.19 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n30 Sept. 2013\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVF Vans Division\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00E54HO8I\n\n\nItem model number\n\u200f\n:\n\u200e\n\nVVOECA1\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 29.6 x 12.6 x 11 cm; 340.19 Grams \n Date First Available : 30 Sept. 2013 \n Manufacturer : VF Vans Division \n ASIN : B00E54HO8I \n Item model number : VVOECA1 \n Department : Boy's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2766,7 +2766,7 @@ export default [
     price: '\u00a332.00 - \u00a362.50',
     brand: 'Deer Stags',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n31.75 x 20.32 x 12.07 cm; 300.5 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Sept. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDeer Stags\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07QC3F4WM\n\n\nItem model number\n\u200f\n:\n\u200e\n\nSPUNVEGA\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 31.75 x 20.32 x 12.07 cm; 300.5 Grams \n Date First Available : 10 Sept. 2019 \n Manufacturer : Deer Stags \n ASIN : B07QC3F4WM \n Item model number : SPUNVEGA \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/31rF0xoOhNL.jpg',
@@ -2802,7 +2802,7 @@ export default [
     price: '\u00a322.20 - \u00a343.09',
     brand: 'Primigi',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n20 x 15.6 x 8.6 cm; 420 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 Feb. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPrimigi\n\n\nASIN\n\u200f\n:\n\u200e\n\nB078DPCFJ7\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1433144.0\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 20 x 15.6 x 8.6 cm; 420 Grams \n Date First Available : 24 Feb. 2018 \n Manufacturer : Primigi \n ASIN : B078DPCFJ7 \n Item model number : 1433144.0 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Ballet Flats",
     images_list: [
       'https://m.media-amazon.com/images/I/41ecIprkeOL.jpg',
@@ -2829,7 +2829,7 @@ export default [
     price: '\u00a314.26 - \u00a322.84',
     brand: 'Visit the Lico Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n26.16 x 18.54 x 10.16 cm; 600 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n5 Dec. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nLico\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07HRY77D2\n\n\nItem model number\n\u200f\n:\n\u200e\n\n360652\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 26.16 x 18.54 x 10.16 cm; 600 Grams \n Date First Available : 5 Dec. 2018 \n Manufacturer : Lico \n ASIN : B07HRY77D2 \n Item model number : 360652 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2857,7 +2857,7 @@ export default [
     price: '\u00a319.46 - \u00a345.50',
     brand: 'Lumberjack',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.1 x 20.7 x 10.9 cm; 480 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Aug. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nLumberjack\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08DY5NKPB\n\n\nItem model number\n\u200f\n:\n\u200e\n\nSW62811-003C01CH013\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 30.1 x 20.7 x 10.9 cm; 480 Grams \n Date First Available : 4 Aug. 2020 \n Manufacturer : Lumberjack \n ASIN : B08DY5NKPB \n Item model number : SW62811-003C01CH013 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2884,7 +2884,7 @@ export default [
     price: '\u00a359.41 - \u00a3100.00',
     brand: 'Visit the Aldo Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n35 x 17 x 13 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n26 Nov. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nALDO\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08P5TM1TM\n\n\nItem model number\n\u200f\n:\n\u200e\n\n13199133\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 35 x 17 x 13 cm; 1 Kilograms \n Date First Available : 26 Nov. 2020 \n Manufacturer : ALDO \n ASIN : B08P5TM1TM \n Item model number : 13199133 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/31iZEAXxNmL.jpg',
@@ -2911,7 +2911,7 @@ export default [
     price: '\u00a375.88 - \u00a3138.70',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n27.99 x 22.61 x 11.2 cm; 175.77 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n30 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07N14BP5D\n\n\nItem model number\n\u200f\n:\n\u200e\n\n16049\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 27.99 x 22.61 x 11.2 cm; 175.77 Grams \n Date First Available : 30 July 2019 \n Manufacturer : Skechers \n ASIN : B07N14BP5D \n Item model number : 16049 \n Department : Women's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41DfXp77VEL.jpg',
@@ -2937,7 +2937,7 @@ export default [
     price: '\u00a314.00 - \u00a364.98',
     brand: 'Visit the Vans Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n26.6 x 13.4 x 10 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n13 Jan. 2014\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVans\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00BIJ0QUQ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nVN000KI5\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 26.6 x 13.4 x 10 cm; 907.18 Grams \n Date First Available : 13 Jan. 2014 \n Manufacturer : Vans \n ASIN : B00BIJ0QUQ \n Item model number : VN000KI5 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -2967,7 +2967,7 @@ export default [
     price: '\u00a381.12 - \u00a3485.69',
     brand: 'ASICS',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n38.1 x 15.24 x 10.16 cm; 453.59 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 April 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAsics\n\n\nASIN\n\u200f\n:\n\u200e\n\nB077MKSGB4\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1012A026\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 38.1 x 15.24 x 10.16 cm; 453.59 Grams \n Date First Available : 25 April 2018 \n Manufacturer : Asics \n ASIN : B077MKSGB4 \n Item model number : 1012A026 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: ['https://m.media-amazon.com/images/I/41SSgOb72jL.jpg'],
@@ -2987,7 +2987,7 @@ export default [
     price: '\u00a336.59 - \u00a3221.58',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n32.26 x 20.07 x 11.43 cm; 192.78 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 May 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNew Balance\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07RHS2TK8\n\n\nItem model number\n\u200f\n:\n\u200e\n\nWTARISS1\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 32.26 x 20.07 x 11.43 cm; 192.78 Grams \n Date First Available : 7 May 2019 \n Manufacturer : New Balance \n ASIN : B07RHS2TK8 \n Item model number : WTARISS1 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Trail Running Shoes",
     images_list: [
@@ -3015,7 +3015,7 @@ export default [
     price: '\u00a346.69',
     brand: 'Visit the Reebok Store',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n1 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nReebok\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08H6LGRNF\n\n\nItem model number\n\u200f\n:\n\u200e\n\nBS7011\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 1 Sept. 2020 \n Manufacturer : Reebok \n ASIN : B08H6LGRNF \n Item model number : BS7011 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3042,7 +3042,7 @@ export default [
     price: '\u00a316.41 - \u00a321.26',
     brand: "The Children's Place",
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n21.31 x 20.09 x 5.89 cm; 150 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 Feb. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nThe Children's Place\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08DG6GT61\n\n\nItem model number\n\u200f\n:\n\u200e\n\n3017546\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 21.31 x 20.09 x 5.89 cm; 150 Grams \n Date First Available : 24 Feb. 2021 \n Manufacturer : The Children's Place \n ASIN : B08DG6GT61 \n Item model number : 3017546 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Slippers",
     images_list: ['https://m.media-amazon.com/images/I/51tKQEsjyAL.jpg'],
     features: [{ Sole: 'Rubber' }, { Closure: 'Pull On' }],
@@ -3054,7 +3054,7 @@ export default [
     price: '\u00a3103.27 - \u00a3219.25',
     brand: 'MBT',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 816.47 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Dec. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMBT\n\n\nASIN\n\u200f\n:\n\u200e\n\nB083ZC6M95\n\n\nItem model number\n\u200f\n:\n\u200e\n\n702738-16Y-085\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 1 x 1 x 1 cm; 816.47 Grams \n Date First Available : 2 Dec. 2019 \n Manufacturer : MBT \n ASIN : B083ZC6M95 \n Item model number : 702738-16Y-085 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3087,7 +3087,7 @@ export default [
     price: '\u00a340.77 - \u00a369.07',
     brand: 'Vince Camuto',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.75 x 19.3 x 10.92 cm; 430.91 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n26 Nov. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVince Camuto\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08CN329MC\n\n\nItem model number\n\u200f\n:\n\u200e\n\nVC-ABBINNA\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.75 x 19.3 x 10.92 cm; 430.91 Grams \n Date First Available : 26 Nov. 2020 \n Manufacturer : Vince Camuto \n ASIN : B08CN329MC \n Item model number : VC-ABBINNA \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3113,7 +3113,7 @@ export default [
     price: '\u00a334.79 - \u00a334.99',
     brand: 'ASICS',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n29.6 x 19.2 x 8.8 cm; 619.99 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n19 Aug. 2015\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nASICS\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00ZU08QSS\n\n\nItem model number\n\u200f\n:\n\u200e\n\nHY574\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 29.6 x 19.2 x 8.8 cm; 619.99 Grams \n Date First Available : 19 Aug. 2015 \n Manufacturer : ASICS \n ASIN : B00ZU08QSS \n Item model number : HY574 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3142,7 +3142,7 @@ export default [
     price: '\u00a320.79 - \u00a326.68',
     brand: 'Beau Today',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n17.27 x 13.21 x 8.13 cm; 249 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Oct. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nBeautoday\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07ZBSXR6D\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 17.27 x 13.21 x 8.13 cm; 249 Grams \n Date First Available : 20 Oct. 2019 \n Manufacturer : Beautoday \n ASIN : B07ZBSXR6D \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/51D2eOdENjL.jpg',
@@ -3166,7 +3166,7 @@ export default [
     price: '\u00a332.27 - \u00a350.38',
     brand: 'Visit the PUMA Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n28.9 x 20.8 x 10.4 cm; 840 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n19 Nov. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB081QLY4NT\n\n\nItem model number\n\u200f\n:\n\u200e\n\n370486\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 28.9 x 20.8 x 10.4 cm; 840 Grams \n Date First Available : 19 Nov. 2019 \n Manufacturer : PUMA \n ASIN : B081QLY4NT \n Item model number : 370486 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3193,7 +3193,7 @@ export default [
     price: '\u00a3130.57',
     brand: 'MARC JOSEPH NEW YORK',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n12.7 x 12.7 x 1.78 cm; 430.91 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 April 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMarc Joseph New York\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07QQ8SRVQ\n\n\nItem model number\n\u200f\n:\n\u200e\n\n479019-GRYWN\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 12.7 x 12.7 x 1.78 cm; 430.91 Grams \n Date First Available : 11 April 2019 \n Manufacturer : Marc Joseph New York \n ASIN : B07QQ8SRVQ \n Item model number : 479019-GRYWN \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41QRjMgsYtL.jpg',
@@ -3293,7 +3293,7 @@ export default [
     price: '\u00a334.57',
     brand: 'Mustang',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33.27 x 19.05 x 12.7 cm; 200 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n30 Jan. 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB079GBJTQJ\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1099-302\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 33.27 x 19.05 x 12.7 cm; 200 Grams \n Date First Available : 30 Jan. 2018 \n ASIN : B079GBJTQJ \n Item model number : 1099-302 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3322,7 +3322,7 @@ export default [
     price: '\u00a3193.59 - \u00a3341.28',
     brand: 'Bont',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n31.75 x 19.69 x 11.43 cm; 725.75 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 Jun. 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nBONT\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00W5ZE8NI\n\n\nItem model number\n\u200f\n:\n\u200e\n\nBLW-39\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 31.75 x 19.69 x 11.43 cm; 725.75 Grams \n Date First Available : 25 Jun. 2017 \n Manufacturer : BONT \n ASIN : B00W5ZE8NI \n Item model number : BLW-39 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Cycling Shoes",
     images_list: [
@@ -3346,7 +3346,7 @@ export default [
     price: '\u00a345.45 - \u00a3114.95',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n30 x 38 x 15 cm; 750 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Nov. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08MQS544M\n\n\nItem model number\n\u200f\n:\n\u200e\n\n195697\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 30 x 38 x 15 cm; 750 Grams \n Date First Available : 4 Nov. 2020 \n Manufacturer : PUMA \n ASIN : B08MQS544M \n Item model number : 195697 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -3383,7 +3383,7 @@ export default [
     price: '\u00a3191.58',
     brand: 'Engelbert Strauss',
     product_details:
-      'Product details\n\n\n\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n20 x 10 x 10 cm; 250 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Oct. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nEngelbert Strauss\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07HWHYYDR\n\n\nItem model number\n\u200f\n:\n\u200e\n\n8P93.74.6.47',
+      'Product details \n Package Dimensions : 20 x 10 x 10 cm; 250 Grams \n Date First Available : 2 Oct. 2018 \n Manufacturer : Engelbert Strauss \n ASIN : B07HWHYYDR \n Item model number : 8P93.74.6.47',
     breadcrumbs: "Shoes/Men's Shoes/Work & Utility Footwear",
     images_list: ['https://m.media-amazon.com/images/I/41-V54aZP0L.jpg'],
     features: [
@@ -3400,7 +3400,7 @@ export default [
     price: '\u00a37.15 - \u00a338.16',
     brand: 'Superfit',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n20.7 x 13.4 x 7.9 cm; 190 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 Jun. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSuperfit\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07DJJLHQK\n\n\nItem model number\n\u200f\n:\n\u200e\n\n0292\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 20.7 x 13.4 x 7.9 cm; 190 Grams \n Date First Available : 8 Jun. 2018 \n Manufacturer : Superfit \n ASIN : B07DJJLHQK \n Item model number : 0292 \n Department : Boy's",
     breadcrumbs: "Shoes/Boys' Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/41ptOrXrBQL.jpg',
@@ -3431,7 +3431,7 @@ export default [
     price: '\u00a3158.71 - \u00a3202.00',
     brand: 'Visit the Nira Rubens Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30 x 20 x 19 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Aug. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNira Rubens\n\n\nASIN\n\u200f\n:\n\u200e\n\nB096VJ2LZK\n\n\nItem model number\n\u200f\n:\n\u200e\n\nCOST171_35\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30 x 20 x 19 cm; 1 Kilograms \n Date First Available : 23 Aug. 2021 \n Manufacturer : Nira Rubens \n ASIN : B096VJ2LZK \n Item model number : COST171_35 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3455,7 +3455,7 @@ export default [
     price: '\u00a330.48 - \u00a3255.91',
     brand: 'Visit the ECCO Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 725.75 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Nov. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nECCO\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07JN57HST\n\n\nItem model number\n\u200f\n:\n\u200e\n\n06956301007\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 25.4 x 38.1 x 15.24 cm; 725.75 Grams \n Date First Available : 20 Nov. 2018 \n Manufacturer : ECCO \n ASIN : B07JN57HST \n Item model number : 06956301007 \n Department : Women's",
     breadcrumbs: "Shoes/Women's Shoes/Sandals & Slides/Fashion Sandals",
     images_list: [
       'https://m.media-amazon.com/images/I/41HjYYSjalL.jpg',
@@ -3483,7 +3483,7 @@ export default [
     price: '\u00a316.64 - \u00a357.62',
     brand: 'Living Kitzb\u00fchel',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n21.4 x 15.6 x 8.6 cm; 290 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Jan. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nLiving Kitzb\u00fchel\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07N13WZZ5\n\n\nItem model number\n\u200f\n:\n\u200e\n\n3625\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 21.4 x 15.6 x 8.6 cm; 290 Grams \n Date First Available : 23 Jan. 2019 \n Manufacturer : Living Kitzb\u00fchel \n ASIN : B07N13WZZ5 \n Item model number : 3625 \n Department : Girl's",
     breadcrumbs: "Shoes/Women's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/41gW2D18SdL.jpg',
@@ -3509,7 +3509,7 @@ export default [
     price: '\u00a318.23 - \u00a320.06',
     brand: 'Visit the Kappa Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n27.6 x 19.3 x 10.5 cm; 360 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nKappa\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08HDJBGMP\n\n\nItem model number\n\u200f\n:\n\u200e\n\n260597K\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 27.6 x 19.3 x 10.5 cm; 360 Grams \n Date First Available : 8 Sept. 2020 \n Manufacturer : Kappa \n ASIN : B08HDJBGMP \n Item model number : 260597K \n Department : Boy's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41a9VT-88eL.jpg',
@@ -3531,7 +3531,7 @@ export default [
     price: '\u00a332.95 - \u00a360.00',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33.8 x 20.8 x 11.8 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 Dec. 2013\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPuma\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00GZGGONA\n\n\nItem model number\n\u200f\n:\n\u200e\n\n356557 02\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 33.8 x 20.8 x 11.8 cm; 1 Kilograms \n Date First Available : 27 Dec. 2013 \n Manufacturer : Puma \n ASIN : B00GZGGONA \n Item model number : 356557 02 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3559,7 +3559,7 @@ export default [
     price: '\u00a343.55 - \u00a396.75',
     brand: 'Fila',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n40 x 30 x 10 cm; 720 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n31 Jan. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nFila\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08498PVFX\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1010916-92F_41\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 40 x 30 x 10 cm; 720 Grams \n Date First Available : 31 Jan. 2020 \n Manufacturer : Fila \n ASIN : B08498PVFX \n Item model number : 1010916-92F_41 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3586,7 +3586,7 @@ export default [
     price: null,
     brand: 'XINGJU',
     product_details:
-      'Item Weight\n\u200f\n:\n\u200e\n\n3 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 Mar. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nrthrh\n\n\nASIN\n\u200f\n:\n\u200e\n\nB085NWBH6J\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\n14471',
+      'Item Weight : 3 Kilograms \n Date First Available : 9 Mar. 2020 \n Manufacturer : rthrh \n ASIN : B085NWBH6J \n Manufacturer reference : 14471',
     breadcrumbs: "Shoes/Men's Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/41SrdwuCSkL.jpg',
@@ -3606,7 +3606,7 @@ export default [
     price: '\u00a324.99 - \u00a379.88',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Dec. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07GY58KJ3\n\n\nItem model number\n\u200f\n:\n\u200e\n\nB28044\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 1 x 1 x 1 cm; 1 Kilograms \n Date First Available : 11 Dec. 2018 \n Manufacturer : adidas \n ASIN : B07GY58KJ3 \n Item model number : B28044 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3634,7 +3634,7 @@ export default [
     price: '\u00a325.16 - \u00a3115.68',
     brand: 'GIOSEPPO',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33 x 20.6 x 11.6 cm; 960 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n22 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGioseppo SLU\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08JQKKB79\n\n\nItem model number\n\u200f\n:\n\u200e\n\n62727-P\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 33 x 20.6 x 11.6 cm; 960 Grams \n Date First Available : 22 Sept. 2020 \n Manufacturer : Gioseppo SLU \n ASIN : B08JQKKB79 \n Item model number : 62727-P \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3662,7 +3662,7 @@ export default [
     price: '\u00a319.02 - \u00a334.37',
     brand: 'Cambridge Select',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n26.41 x 16.25 x 8.89 cm; 658 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n22 Oct. 2019\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07ZG3F5WW\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 26.41 x 16.25 x 8.89 cm; 658 Grams \n Date First Available : 22 Oct. 2019 \n ASIN : B07ZG3F5WW \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3697,7 +3697,7 @@ export default [
     price: '\u00a326.65 - \u00a375.17',
     brand: 'CAPRICE',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.8 x 18.8 x 11.6 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 July 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCaprice\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08C9VSH96\n\n\nItem model number\n\u200f\n:\n\u200e\n\n9-9-24762-26\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 30.8 x 18.8 x 11.6 cm; 1 Kilograms \n Date First Available : 7 July 2020 \n Manufacturer : Caprice \n ASIN : B08C9VSH96 \n Item model number : 9-9-24762-26 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3724,7 +3724,7 @@ export default [
     price: '\u00a312.44 - \u00a323.99',
     brand: 'Visit the Cressi Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n25.2 x 22 x 6.6 cm; 140 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 April 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCressi\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07Q6ZXRBF\n\n\nItem model number\n\u200f\n:\n\u200e\n\nVB951435\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 25.2 x 22 x 6.6 cm; 140 Grams \n Date First Available : 3 April 2019 \n Manufacturer : Cressi \n ASIN : B07Q6ZXRBF \n Item model number : VB951435 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Beach Flip Flops & Pool Slides",
     images_list: [
@@ -3747,7 +3747,7 @@ export default [
     price: '\u00a334.09 - \u00a358.95',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n10 x 2 x 2.7 cm; 1.5 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 May 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB088RHM785\n\n\nItem model number\n\u200f\n:\n\u200e\n\n37489604\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 10 x 2 x 2.7 cm; 1.5 Kilograms \n Date First Available : 18 May 2020 \n Manufacturer : PUMA \n ASIN : B088RHM785 \n Item model number : 37489604 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3778,7 +3778,7 @@ export default [
     price: '\u00a383.92 - \u00a3123.81',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n40 x 30 x 10 cm; 700 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 May 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNew Balance\n\n\nASIN\n\u200f\n:\n\u200e\n\nB089DKBZBZ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nMS997LOR_40,5\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 40 x 30 x 10 cm; 700 Grams \n Date First Available : 29 May 2020 \n Manufacturer : New Balance \n ASIN : B089DKBZBZ \n Item model number : MS997LOR_40,5 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Fashion & Athletic Trainers",
     images_list: [
       'https://m.media-amazon.com/images/I/41qqLVCge+L.jpg',
@@ -3804,7 +3804,7 @@ export default [
     price: '\u00a3109.99 - \u00a3139.99',
     brand: 'Visit the Under Armour Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.4 x 21.6 x 12.4 cm; 290 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Aug. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08R6BC17C\n\n\nItem model number\n\u200f\n:\n\u200e\n\n3023539\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.4 x 21.6 x 12.4 cm; 290 Grams \n Date First Available : 2 Aug. 2021 \n ASIN : B08R6BC17C \n Item model number : 3023539 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -3833,7 +3833,7 @@ export default [
     price: '\u00a363.19 - \u00a3142.91',
     brand: 'Visit the adidas Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n27.18 x 16.76 x 10.16 cm; 476 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Oct. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07ZGW9TP4\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJQ210\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 27.18 x 16.76 x 10.16 cm; 476 Grams \n Date First Available : 23 Oct. 2019 \n Manufacturer : adidas \n ASIN : B07ZGW9TP4 \n Item model number : JQ210 \n Department : Unisex Kids',
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41o+KJxHvYL.jpg',
@@ -3850,7 +3850,7 @@ export default [
     price: '\u00a349.99 - \u00a3180.98',
     brand: 'Saucony',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n30.48 x 20.32 x 10.16 cm; 277.83 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 Dec. 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSaucony\n\n\nASIN\n\u200f\n:\n\u200e\n\nB072QFFMJJ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nS10420-4\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 30.48 x 20.32 x 10.16 cm; 277.83 Grams \n Date First Available : 28 Dec. 2017 \n Manufacturer : Saucony \n ASIN : B072QFFMJJ \n Item model number : S10420-4 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -3879,7 +3879,7 @@ export default [
     price: '\u00a353.55 - \u00a3166.35',
     brand: 'Visit the PUMA Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n29.97 x 18.03 x 10.41 cm; 192.78 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Jan. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07DTNDD7K\n\n\nItem model number\n\u200f\n:\n\u200e\n\n19225702\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 29.97 x 18.03 x 10.41 cm; 192.78 Grams \n Date First Available : 4 Jan. 2019 \n Manufacturer : PUMA \n ASIN : B07DTNDD7K \n Item model number : 19225702 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -3907,7 +3907,7 @@ export default [
     price: '\u00a314.50 - \u00a319.99',
     brand: 'Visit the Dunlop Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n33 x 18 x 13 cm; 680 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Mar. 2012\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDunlop\n\n\nASIN\n\u200f\n:\n\u200e\n\n9958045451\n\n\nItem model number\n\u200f\n:\n\u200e\n\nDMH7789\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 33 x 18 x 13 cm; 680 Grams \n Date First Available : 20 Mar. 2012 \n Manufacturer : Dunlop \n ASIN : 9958045451 \n Item model number : DMH7789 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/41R3Z2FUMmL.jpg',
@@ -3933,7 +3933,7 @@ export default [
     price: '\u00a335.89 - \u00a339.56',
     brand: 'Visit the Vans Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.2 x 20.4 x 11.8 cm; 1.1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Sept. 2009\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVans\n\n\nASIN\n\u200f\n:\n\u200e\n\nB002HEW3T8\n\n\nItem model number\n\u200f\n:\n\u200e\n\nVIOK46X\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.2 x 20.4 x 11.8 cm; 1.1 Kilograms \n Date First Available : 7 Sept. 2009 \n Manufacturer : Vans \n ASIN : B002HEW3T8 \n Item model number : VIOK46X \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Technical Skateboarding Shoes",
     images_list: [
@@ -3962,7 +3962,7 @@ export default [
     price: '\u00a3188.03 - \u00a3188.38',
     brand: 'Visit the Diesel Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.48 x 20.32 x 10.16 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 July 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDiesel\n\n\nASIN\n\u200f\n:\n\u200e\n\nB004WYWRMY\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJa-ckt\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 30.48 x 20.32 x 10.16 cm; 907.18 Grams \n Date First Available : 24 July 2021 \n Manufacturer : Diesel \n ASIN : B004WYWRMY \n Item model number : Ja-ckt \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41QBrNU-ZtL.jpg',
@@ -3987,7 +3987,7 @@ export default [
     price: '\u00a3114.00 - \u00a3141.00',
     brand: 'Columbia',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n37.2 x 24.8 x 13.6 cm; 938.94 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n6 Aug. 2012\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nColumbia\n\n\nASIN\n\u200f\n:\n\u200e\n\nB006JSW816\n\n\nItem model number\n\u200f\n:\n\u200e\n\nChildrens Heather Canyon - K\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 37.2 x 24.8 x 13.6 cm; 938.94 Grams \n Date First Available : 6 Aug. 2012 \n Manufacturer : Columbia \n ASIN : B006JSW816 \n Item model number : Childrens Heather Canyon - K \n Department : Unisex Kids',
     breadcrumbs: "Shoes/Girls' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41A8XI+tR6L.jpg',
@@ -4015,7 +4015,7 @@ export default [
     price: '\u00a333.46 - \u00a3145.46',
     brand: 'Fila',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 1.13 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Aug. 2013\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nFila\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00B8IUDDC\n\n\nItem model number\n\u200f\n:\n\u200e\n\nMEMORY WORKSHIFT-M\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 25.4 x 38.1 x 15.24 cm; 1.13 Kilograms \n Date First Available : 2 Aug. 2013 \n Manufacturer : Fila \n ASIN : B00B8IUDDC \n Item model number : MEMORY WORKSHIFT-M \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Track & Field Shoes",
     images_list: [
@@ -4044,7 +4044,7 @@ export default [
     price: '\u00a354.68 - \u00a3215.44',
     brand: 'Columbia',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 458.13 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Aug. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nColumbia\n\n\nASIN\n\u200f\n:\n\u200e\n\nB078T7QJR5\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1790081\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Product Dimensions : 25.4 x 38.1 x 15.24 cm; 458.13 Grams \n Date First Available : 20 Aug. 2018 \n Manufacturer : Columbia \n ASIN : B078T7QJR5 \n Item model number : 1790081 \n Department : Girl's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/415XQOKswOL.jpg',
@@ -4064,7 +4064,7 @@ export default [
     price: '\u00a365.28 - \u00a3334.93',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n37.16 x 27.31 x 15.24 cm; 1.11 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n22 Aug. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB084RY9Z8T\n\n\nItem model number\n\u200f\n:\n\u200e\n\nCEB99\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 37.16 x 27.31 x 15.24 cm; 1.11 Kilograms \n Date First Available : 22 Aug. 2018 \n Manufacturer : adidas \n ASIN : B084RY9Z8T \n Item model number : CEB99 \n Department : Men's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4087,7 +4087,7 @@ export default [
     price: '\u00a364.60 - \u00a3466.99',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.51 x 18.54 x 12.45 cm; 232.47 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Oct. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNew Balance\n\n\nASIN\n\u200f\n:\n\u200e\n\nB06XSC23NN\n\n\nItem model number\n\u200f\n:\n\u200e\n\nWW847GS3\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 32.51 x 18.54 x 12.45 cm; 232.47 Grams \n Date First Available : 1 Oct. 2018 \n Manufacturer : New Balance \n ASIN : B06XSC23NN \n Item model number : WW847GS3 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Nordic Walking Shoes",
     images_list: [
@@ -4114,7 +4114,7 @@ export default [
     price: '\u00a313.90 - \u00a321.42',
     brand: 'Flyflot',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.89 x 18.39 x 11.48 cm; 520 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n26 April 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nFly Flot\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07YCWH9XL\n\n\nItem model number\n\u200f\n:\n\u200e\n\n882146\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.89 x 18.39 x 11.48 cm; 520 Grams \n Date First Available : 26 April 2020 \n Manufacturer : Fly Flot \n ASIN : B07YCWH9XL \n Item model number : 882146 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/31h9iBORnHL.jpg',
@@ -4141,7 +4141,7 @@ export default [
     price: '\u00a328.74',
     brand: 'Richter Kinderschuhe',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n8 Mar. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRichter\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08YB3LPVW\n\n\nItem model number\n\u200f\n:\n\u200e\n\n8800-2191\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 8 Mar. 2021 \n Manufacturer : Richter \n ASIN : B08YB3LPVW \n Item model number : 8800-2191 \n Department : Women's",
     breadcrumbs: "Shoes/Girls' Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/417cI3MW0hS.jpg',
@@ -4187,7 +4187,7 @@ export default [
     price: '\u00a337.25 - \u00a3146.18',
     brand: 'Visit the Sperry Top-Sider Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 April 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSperry\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07QXRMLGQ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nSTS84829\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 25.4 x 38.1 x 15.24 cm; 907.18 Grams \n Date First Available : 23 April 2019 \n Manufacturer : Sperry \n ASIN : B07QXRMLGQ \n Item model number : STS84829 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4214,7 +4214,7 @@ export default [
     price: '\u00a3133.00 - \u00a3141.70',
     brand: 'Vasque',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n33.02 x 25.4 x 12.7 cm; 481 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVasque\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08PMWM3MX\n\n\nItem model number\n\u200f\n:\n\u200e\n\n7497\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 33.02 x 25.4 x 12.7 cm; 481 Grams \n Date First Available : 3 Dec. 2020 \n Manufacturer : Vasque \n ASIN : B08PMWM3MX \n Item model number : 7497 \n Department : Women's",
     breadcrumbs: "Shoes/Women's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41xmFuL+ivS.jpg',
@@ -4242,7 +4242,7 @@ export default [
     price: '\u00a361.67',
     brand: 'MARC JOSEPH NEW YORK',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n33.91 x 30.86 x 10.79 cm; 283.5 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMarc Joseph New York\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07RRYXHSD\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1099072-NBRG\n\n\nCountry of origin\n\u200f\n:\n\u200e\n\nBrazil\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 33.91 x 30.86 x 10.79 cm; 283.5 Grams \n Date First Available : 1 Dec. 2020 \n Manufacturer : Marc Joseph New York \n ASIN : B07RRYXHSD \n Item model number : 1099072-NBRG \n Country of origin : Brazil \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4263,7 +4263,7 @@ export default [
     price: '\u00a383.28 - \u00a3120.52',
     brand: 'Visit the ECCO Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nEcco\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07V9PJSSW\n\n\nItem model number\n\u200f\n:\n\u200e\n\n292023\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 1 x 1 x 1 cm; 1 Kilograms \n Date First Available : 18 July 2019 \n Manufacturer : Ecco \n ASIN : B07V9PJSSW \n Item model number : 292023 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4290,7 +4290,7 @@ export default [
     price: '\u00a317.13 - \u00a352.80',
     brand: 'Sebago',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n18.5 x 11 x 1 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSebago\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08K3H9GPS\n\n\nItem model number\n\u200f\n:\n\u200e\n\n7001GY0\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 18.5 x 11 x 1 cm; 1 Kilograms \n Date First Available : 25 Sept. 2020 \n Manufacturer : Sebago \n ASIN : B08K3H9GPS \n Item model number : 7001GY0 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/31rE0TFb-HL.jpg',
@@ -4317,7 +4317,7 @@ export default [
     price: '\u00a3142.34 - \u00a3288.66',
     brand: 'Visit the Under Armour Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n38.35 x 23.88 x 13.21 cm; 453.59 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n6 Dec. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nUnder Armour\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01ETYSYWI\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\n1270205\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 38.35 x 23.88 x 13.21 cm; 453.59 Grams \n Date First Available : 6 Dec. 2016 \n Manufacturer : Under Armour \n ASIN : B01ETYSYWI \n Manufacturer reference : 1270205 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Golf Shoes",
     images_list: [
@@ -4340,7 +4340,7 @@ export default [
     price: '\u00a3103.77',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n31 x 19 x 12 cm; 540 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Jun. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNew Balance\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07TGMBH61\n\n\nItem model number\n\u200f\n:\n\u200e\n\nMRISELB2\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 31 x 19 x 12 cm; 540 Grams \n Date First Available : 20 Jun. 2019 \n Manufacturer : New Balance \n ASIN : B07TGMBH61 \n Item model number : MRISELB2 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -4366,7 +4366,7 @@ export default [
     price: '\u00a324.19 - \u00a327.98',
     brand: 'JOSMO',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n27.18 x 18.8 x 7.75 cm; 268 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Nov. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nJosmo\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08FMW3FS2\n\n\nItem model number\n\u200f\n:\n\u200e\n\n8193\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 27.18 x 18.8 x 7.75 cm; 268 Grams \n Date First Available : 11 Nov. 2020 \n Manufacturer : Josmo \n ASIN : B08FMW3FS2 \n Item model number : 8193 \n Department : Girl's",
     breadcrumbs: 'Shoes/Baby Shoes/Baby Boys/First Walking Shoes',
     images_list: [
       'https://m.media-amazon.com/images/I/41j2hfVv19L.jpg',
@@ -4390,7 +4390,7 @@ export default [
     price: '\u00a342.66 - \u00a3164.29',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n32.8 x 24.4 x 12.4 cm; 200 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Dec. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers USA Ltd\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07YG3F58T\n\n\nItem model number\n\u200f\n:\n\u200e\n\n232045\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 32.8 x 24.4 x 12.4 cm; 200 Grams \n Date First Available : 11 Dec. 2019 \n Manufacturer : Skechers USA Ltd \n ASIN : B07YG3F58T \n Item model number : 232045 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4419,7 +4419,7 @@ export default [
     price: '\u00a325.59 - \u00a328.57',
     brand: 'Richter Kinderschuhe',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n24.8 x 15 x 9.2 cm; 340 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Aug. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRichter Kinderschuhe\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08DRK6VMG\n\n\nItem model number\n\u200f\n:\n\u200e\n\n8800-1173\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 24.8 x 15 x 9.2 cm; 340 Grams \n Date First Available : 4 Aug. 2020 \n Manufacturer : Richter Kinderschuhe \n ASIN : B08DRK6VMG \n Item model number : 8800-1173 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Sandals",
     images_list: [
       'https://m.media-amazon.com/images/I/31w9DAuY7LL.jpg',
@@ -4445,7 +4445,7 @@ export default [
     price: '\u00a318.99 - \u00a323.99',
     brand: 'HIPPOSEUS',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n55.88 x 18.54 x 10 cm; 380 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 July 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07F9JM1S6\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1213\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 55.88 x 18.54 x 10 cm; 380 Grams \n Date First Available : 8 July 2018 \n ASIN : B07F9JM1S6 \n Item model number : 1213 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Dance Shoes",
     images_list: [
@@ -4474,7 +4474,7 @@ export default [
     price: '\u00a313.54 - \u00a315.88',
     brand: 'de fonseca',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28.96 x 23.88 x 7.11 cm; 100 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n14 Mar. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDe Fonseca\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07PRKWZNF\n\n\nItem model number\n\u200f\n:\n\u200e\n\n8EU9\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 28.96 x 23.88 x 7.11 cm; 100 Grams \n Date First Available : 14 Mar. 2019 \n Manufacturer : De Fonseca \n ASIN : B07PRKWZNF \n Item model number : 8EU9 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/31955bYjZyL.jpg',
@@ -4500,7 +4500,7 @@ export default [
     price: '\u00a3169.99',
     brand: 'The Boot Store',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n30 Aug. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB09DZ2237V\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Date First Available : 30 Aug. 2021 \n ASIN : B09DZ2237V \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/31oLHtANWjL.jpg',
@@ -4520,7 +4520,7 @@ export default [
     price: '\u00a321.79 - \u00a357.55',
     brand: 'Visit the adidas Store',
     product_details:
-      'Product Dimensions\n\u200f\n:\n\u200e\n\n33.5 x 21 x 13.5 cm; 700 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAdidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08M96ZDYT\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFY7260\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Product Dimensions : 33.5 x 21 x 13.5 cm; 700 Grams \n Date First Available : 7 Dec. 2020 \n Manufacturer : Adidas \n ASIN : B08M96ZDYT \n Item model number : FY7260 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -4548,7 +4548,7 @@ export default [
     price: '\u00a3122.92 - \u00a3162.50',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n37.59 x 24.64 x 13.72 cm; 1.29 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Oct. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08HCZXVMV\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nEF9802\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 37.59 x 24.64 x 13.72 cm; 1.29 Kilograms \n Date First Available : 29 Oct. 2020 \n Manufacturer : adidas \n ASIN : B08HCZXVMV \n Manufacturer reference : EF9802 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Basketball Shoes",
     images_list: ['https://m.media-amazon.com/images/I/41UqJwWBctL.jpg'],
@@ -4565,7 +4565,7 @@ export default [
     price: '\u00a339.79 - \u00a370.51',
     brand: 'Tommy Jeans',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.5 x 21 x 12.3 cm; 1.04 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Oct. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPVH\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08L8CKVGB\n\n\nItem model number\n\u200f\n:\n\u200e\n\nEM0EM00800\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.5 x 21 x 12.3 cm; 1.04 Kilograms \n Date First Available : 15 Oct. 2020 \n Manufacturer : PVH \n ASIN : B08L8CKVGB \n Item model number : EM0EM00800 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4614,7 +4614,7 @@ export default [
     price: '\u00a3114.98',
     brand: 'Dansko',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28.6 x 18.69 x 10.9 cm; 453.59 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 May 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDansko\n\n\nASIN\n\u200f\n:\n\u200e\n\nB083YWS3MS\n\n\nItem model number\n\u200f\n:\n\u200e\n\nReba\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 28.6 x 18.69 x 10.9 cm; 453.59 Grams \n Date First Available : 18 May 2020 \n Manufacturer : Dansko \n ASIN : B083YWS3MS \n Item model number : Reba \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4641,7 +4641,7 @@ export default [
     price: '\u00a359.53 - \u00a3124.79',
     brand: 'NIKE',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.3 x 22.3 x 10.4 cm; 510 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNike\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08QB4F9RB\n\n\nItem model number\n\u200f\n:\n\u200e\n\n917803-607\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 30.3 x 22.3 x 10.4 cm; 510 Grams \n Date First Available : 10 Dec. 2020 \n Manufacturer : Nike \n ASIN : B08QB4F9RB \n Item model number : 917803-607 \n Department : Boy's",
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Football Boots",
     images_list: [
@@ -4669,7 +4669,7 @@ export default [
     price: '\u00a356.65 - \u00a3209.00',
     brand: 'Visit the Clarks Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.76 x 21.33 x 12.19 cm; 1.13 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 Aug. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07V4NDYF4\n\n\nItem model number\n\u200f\n:\n\u200e\n\n26149750\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.76 x 21.33 x 12.19 cm; 1.13 Kilograms \n Date First Available : 18 Aug. 2019 \n Manufacturer : Clarks \n ASIN : B07V4NDYF4 \n Item model number : 26149750 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/31TnRvK47QL.jpg',
@@ -4698,7 +4698,7 @@ export default [
     price: '\u00a351.06 - \u00a3103.33',
     brand: 'Desigual',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n34.4 x 19.2 x 11.4 cm; 790 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 July 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDesigual\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08CN1W6RC\n\n\nItem model number\n\u200f\n:\n\u200e\n\n21SSKP29\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 34.4 x 19.2 x 11.4 cm; 790 Grams \n Date First Available : 9 July 2020 \n Manufacturer : Desigual \n ASIN : B08CN1W6RC \n Item model number : 21SSKP29 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4727,7 +4727,7 @@ export default [
     price: '\u00a334.99 - \u00a3163.14',
     brand: 'Visit the adidas Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n28.6 x 19.2 x 10.59 cm; 255.15 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Mar. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07D78B2DQ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nF34010\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 28.6 x 19.2 x 10.59 cm; 255.15 Grams \n Date First Available : 29 Mar. 2019 \n Manufacturer : adidas \n ASIN : B07D78B2DQ \n Item model number : F34010 \n Department : Unisex Kids',
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41vS2hZmXQL.jpg',
@@ -4753,7 +4753,7 @@ export default [
     price: '\u00a329.53 - \u00a335.89',
     brand: "Visit the O'Neill Store",
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n25.6 x 23 x 4.79 cm; 260 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n21 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nO'Neill\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07VDSLTF4\n\n\nItem model number\n\u200f\n:\n\u200e\n\n0A4504-9010-39\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 25.6 x 23 x 4.79 cm; 260 Grams \n Date First Available : 21 July 2019 \n Manufacturer : O'Neill \n ASIN : B07VDSLTF4 \n Item model number : 0A4504-9010-39 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Flip Flops & Thongs",
     images_list: [
       'https://m.media-amazon.com/images/I/31tcNg-0jdL.jpg',
@@ -4779,7 +4779,7 @@ export default [
     price: '\u00a318.50 - \u00a324.00',
     brand: 'Katz Dancewear',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 Sept. 2013\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nKatz Dancewear\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00FFBQACG\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Date First Available : 25 Sept. 2013 \n Manufacturer : Katz Dancewear \n ASIN : B00FFBQACG \n Department : Girl's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41V4VlDvadL.jpg',
@@ -4803,7 +4803,7 @@ export default [
     price: '\u00a357.70 - \u00a3162.50',
     brand: 'Visit the ECCO Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.6 x 19.2 x 11.6 cm; 285.76 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 May 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nEcco Footwear Womens\n\n\nASIN\n\u200f\n:\n\u200e\n\nB015XPDQQQ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFara Slip-On\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.6 x 19.2 x 11.6 cm; 285.76 Grams \n Date First Available : 2 May 2016 \n Manufacturer : Ecco Footwear Womens \n ASIN : B015XPDQQQ \n Item model number : Fara Slip-On \n Department : Women's",
     breadcrumbs: "Shoes/Women's Shoes/Flat Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/41Hj0LJMWfL.jpg',
@@ -4829,7 +4829,7 @@ export default [
     price: '\u00a327.06',
     brand: 'Visit the adidas Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n10 x 10 x 10 cm; 100 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Feb. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08VTQT78C\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFY9280\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 10 x 10 x 10 cm; 100 Grams \n Date First Available : 12 Feb. 2021 \n Manufacturer : adidas \n ASIN : B08VTQT78C \n Item model number : FY9280 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Indoor Court Shoes",
     images_list: [
@@ -4857,7 +4857,7 @@ export default [
     price: '\u00a344.00 - \u00a354.85',
     brand: 'Visit the PUMA Store',
     product_details:
-      'Product Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 920 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Sept. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPuma\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07XCDNHYY\n\n\nItem model number\n\u200f\n:\n\u200e\n\n37053903\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Product Dimensions : 1 x 1 x 1 cm; 920 Grams \n Date First Available : 2 Sept. 2019 \n Manufacturer : Puma \n ASIN : B07XCDNHYY \n Item model number : 37053903 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -4892,7 +4892,7 @@ export default [
     price: '\u00a324.39 - \u00a326.89',
     brand: 'ELAPHURUS',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n22.7 x 21.6 x 7.2 cm; 230 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n16 Jun. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB097BVB64W\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 22.7 x 21.6 x 7.2 cm; 230 Grams \n Date First Available : 16 Jun. 2021 \n ASIN : B097BVB64W \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -4921,7 +4921,7 @@ export default [
     price: '\u00a351.43 - \u00a3435.31',
     brand: 'NIKE',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n33 x 23 x 11 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Jun. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNike\n\n\nASIN\n\u200f\n:\n\u200e\n\nB095TPDPTB\n\n\nItem model number\n\u200f\n:\n\u200e\n\nCW4554-001\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Product Dimensions : 33 x 23 x 11 cm; 800 Grams \n Date First Available : 1 Jun. 2021 \n Manufacturer : Nike \n ASIN : B095TPDPTB \n Item model number : CW4554-001 \n Department : Boy's",
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -4948,7 +4948,7 @@ export default [
     price: '\u00a322.99 - \u00a327.99',
     brand: 'Visit the HROYL Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n22 x 8 x 13.5 cm; 349.27 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 Aug. 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07YTJB7B6\n\n\nItem model number\n\u200f\n:\n\u200e\n\nSS-801GCW-Black-34\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Product Dimensions : 22 x 8 x 13.5 cm; 349.27 Grams \n Date First Available : 9 Aug. 2018 \n ASIN : B07YTJB7B6 \n Item model number : SS-801GCW-Black-34 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Dance Shoes",
     images_list: [
@@ -4977,7 +4977,7 @@ export default [
     price: '\u00a315.07',
     brand: 'Cozozn',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n19.5 x 18.5 x 4.7 cm; 150 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Sept. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB09BM9LCY5\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 19.5 x 18.5 x 4.7 cm; 150 Grams \n Date First Available : 12 Sept. 2021 \n ASIN : B09BM9LCY5 \n Department : Unisex Kids',
     breadcrumbs: "Shoes/Girls' Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/41jBIFRTPKL.jpg',
@@ -5004,7 +5004,7 @@ export default [
     price: '\u00a347.58 - \u00a3247.80',
     brand: 'Visit the Clarks Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 255.15 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n14 Jan. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07F4M63XF\n\n\nItem model number\n\u200f\n:\n\u200e\n\n26141580\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 25.4 x 38.1 x 15.24 cm; 255.15 Grams \n Date First Available : 14 Jan. 2019 \n Manufacturer : Clarks \n ASIN : B07F4M63XF \n Item model number : 26141580 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/31GsHv-6M0L.jpg',
@@ -5031,7 +5031,7 @@ export default [
     price: '\u00a326.14 - \u00a399.92',
     brand: 'Visit the PUMA Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n27.79 x 11.99 x 11.2 cm; 147.42 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 Jun. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07TN1LH33\n\n\nItem model number\n\u200f\n:\n\u200e\n\n37228002\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 27.79 x 11.99 x 11.2 cm; 147.42 Grams \n Date First Available : 28 Jun. 2019 \n Manufacturer : PUMA \n ASIN : B07TN1LH33 \n Item model number : 37228002 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Sports & Outdoor Sandals",
     images_list: [
@@ -5057,7 +5057,7 @@ export default [
     price: '\u00a340.20 - \u00a3157.69',
     brand: 'Visit the Reebok Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.75 x 23.37 x 12.19 cm; 396.89 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Oct. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nReebok\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07ZHYHDF3\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJQ739\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.75 x 23.37 x 12.19 cm; 396.89 Grams \n Date First Available : 23 Oct. 2019 \n Manufacturer : Reebok \n ASIN : B07ZHYHDF3 \n Item model number : JQ739 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Cross Trainers",
     images_list: [
@@ -5082,7 +5082,7 @@ export default [
     price: '\u00a348.17 - \u00a362.12',
     brand: 'Visit the Etnies Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.4 x 18.5 x 11.7 cm; 2.72 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Feb. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nEtnies\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08WJ445JR\n\n\nItem model number\n\u200f\n:\n\u200e\n\n4101000419\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.4 x 18.5 x 11.7 cm; 2.72 Kilograms \n Date First Available : 12 Feb. 2021 \n Manufacturer : Etnies \n ASIN : B08WJ445JR \n Item model number : 4101000419 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Technical Skateboarding Shoes",
     images_list: [
@@ -5110,7 +5110,7 @@ export default [
     price: '\u00a312.99 - \u00a318.12',
     brand: 'Visit the JOINFREE Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n23.8 x 10.6 x 3.4 cm; 120 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Mar. 2020\n\n\nASIN\n\u200f\n:\n\u200e\n\nB085M9XCQC\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nJF-01-CT01BlackDot34-35\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 23.8 x 10.6 x 3.4 cm; 120 Grams \n Date First Available : 7 Mar. 2020 \n ASIN : B085M9XCQC \n Manufacturer reference : JF-01-CT01BlackDot34-35 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Water Shoes",
     images_list: [
@@ -5151,7 +5151,7 @@ export default [
     price: '\u00a3156.74 - \u00a3201.42',
     brand: 'Mezlan',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.48 x 20.32 x 10.16 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Jan. 2007\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMezlan\n\n\nASIN\n\u200f\n:\n\u200e\n\nB000JCSLKA\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 30.48 x 20.32 x 10.16 cm; 907.18 Grams \n Date First Available : 15 Jan. 2007 \n Manufacturer : Mezlan \n ASIN : B000JCSLKA \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/41yJvlOp1ML.jpg',
@@ -5175,7 +5175,7 @@ export default [
     price: '\u00a372.31 - \u00a3130.00',
     brand: 'Visit the Cole Haan Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n25.4 x 38.1 x 15.24 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 July 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCole Haan\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08P1D3N9M\n\n\nItem model number\n\u200f\n:\n\u200e\n\nC34244\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 25.4 x 38.1 x 15.24 cm; 907.18 Grams \n Date First Available : 24 July 2021 \n Manufacturer : Cole Haan \n ASIN : B08P1D3N9M \n Item model number : C34244 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5201,7 +5201,7 @@ export default [
     price: '\u00a3139.24 - \u00a3245.07',
     brand: 'Visit the Callaway Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n34.04 x 22.86 x 12.95 cm; 1.36 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n19 Aug. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCallaway\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07W3QSFKF\n\n\nItem model number\n\u200f\n:\n\u200e\n\nCG304BK-8 D\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 34.04 x 22.86 x 12.95 cm; 1.36 Kilograms \n Date First Available : 19 Aug. 2019 \n Manufacturer : Callaway \n ASIN : B07W3QSFKF \n Item model number : CG304BK-8 D \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Golf Shoes",
     images_list: ['https://m.media-amazon.com/images/I/319lS7qi0XL.jpg'],
@@ -5219,7 +5219,7 @@ export default [
     price: '\u00a381.33 - \u00a3249.95',
     brand: 'Converse',
     product_details:
-      'Date First Available\n\u200f\n:\n\u200e\n\n14 Mar. 2019\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07PRN7L73\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Date First Available : 14 Mar. 2019 \n ASIN : B07PRN7L73 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5240,7 +5240,7 @@ export default [
     price: '\u00a318.87 - \u00a357.70',
     brand: 'Visit the find. Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n39 x 24.6 x 13 cm; 1.27 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 Jan. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nFIND\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07TGKFX7T\n\n\nItem model number\n\u200f\n:\n\u200e\n\nArbor\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 39 x 24.6 x 13 cm; 1.27 Kilograms \n Date First Available : 27 Jan. 2020 \n Manufacturer : FIND \n ASIN : B07TGKFX7T \n Item model number : Arbor \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41420jNjeKL.jpg',
@@ -5265,7 +5265,7 @@ export default [
     price: '\u00a345.99 - \u00a3103.12',
     brand: 'Visit the JITAI Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n34.04 x 15.49 x 10.92 cm; 907 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 May 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nJITAI\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07RTKSCBM\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 34.04 x 15.49 x 10.92 cm; 907 Grams \n Date First Available : 11 May 2019 \n Manufacturer : JITAI \n ASIN : B07RTKSCBM \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/41oChi6yqaL.jpg',
@@ -5292,7 +5292,7 @@ export default [
     price: '\u00a346.13 - \u00a3349.93',
     brand: 'Fila',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Nov. 2017\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07HJRM8Y9\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Date First Available : 1 Nov. 2017 \n ASIN : B07HJRM8Y9 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5317,7 +5317,7 @@ export default [
     price: '\u00a328.49 - \u00a380.51',
     brand: 'CAPRICE',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.4 x 21.4 x 11.6 cm; 920 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Dec. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCaprice\n\n\nASIN\n\u200f\n:\n\u200e\n\nB082JG4MLD\n\n\nItem model number\n\u200f\n:\n\u200e\n\n9-9-23705-25 017\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 32.4 x 21.4 x 11.6 cm; 920 Grams \n Date First Available : 11 Dec. 2019 \n Manufacturer : Caprice \n ASIN : B082JG4MLD \n Item model number : 9-9-23705-25 017 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5346,7 +5346,7 @@ export default [
     price: '\u00a350.95 - \u00a3237.71',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 480 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Jan. 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01IIZH2EU\n\n\nItem model number\n\u200f\n:\n\u200e\n\n14170\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 1 x 1 x 1 cm; 480 Grams \n Date First Available : 20 Jan. 2017 \n Manufacturer : Skechers \n ASIN : B01IIZH2EU \n Item model number : 14170 \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5375,7 +5375,7 @@ export default [
     price: '\u00a334.09 - \u00a342.56',
     brand: 'Yoki',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.19 x 21.31 x 12.29 cm; 1.21 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nYoki\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08H3T63T4\n\n\nItem model number\n\u200f\n:\n\u200e\n\nNICOLA\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.19 x 21.31 x 12.29 cm; 1.21 Kilograms \n Date First Available : 29 Sept. 2020 \n Manufacturer : Yoki \n ASIN : B08H3T63T4 \n Item model number : NICOLA \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5404,7 +5404,7 @@ export default [
     price: '\u00a3215.65',
     brand: 'ROCKY',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n28 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRocky\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08RJD5RF4\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 28 Dec. 2020 \n Manufacturer : Rocky \n ASIN : B08RJD5RF4 \n Department : Women's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41RDARYZJFL.jpg',
@@ -5430,7 +5430,7 @@ export default [
     price: '\u00a3105.38 - \u00a3133.12',
     brand: 'La Sportiva',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 400 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 Jun. 2015\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nLa Sportiva\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0109Z5ZPK\n\n\nItem model number\n\u200f\n:\n\u200e\n\n865BL\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 1 x 1 x 1 cm; 400 Grams \n Date First Available : 24 Jun. 2015 \n Manufacturer : La Sportiva \n ASIN : B0109Z5ZPK \n Item model number : 865BL \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Climbing Shoes",
     images_list: [
@@ -5458,7 +5458,7 @@ export default [
     price: '\u00a334.15 - \u00a3157.62',
     brand: 'Saucony',
     product_details:
-      'Product Dimensions\n\u200f\n:\n\u200e\n\n20.32 x 15.24 x 7.62 cm; 113.4 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n14 Sept. 2015\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSaucony\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00I8ONI4A\n\n\nItem model number\n\u200f\n:\n\u200e\n\nST58822\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Product Dimensions : 20.32 x 15.24 x 7.62 cm; 113.4 Grams \n Date First Available : 14 Sept. 2015 \n Manufacturer : Saucony \n ASIN : B00I8ONI4A \n Item model number : ST58822 \n Department : Unisex Kids',
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41YxAlwMQ0L.jpg',
@@ -5488,7 +5488,7 @@ export default [
     price: '\u00a332.27',
     brand: 'WXYPP',
     product_details:
-      'Item Weight\n\u200f\n:\n\u200e\n\n800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nwuruitao\n\n\nASIN\n\u200f\n:\n\u200e\n\nB089NNBFV6\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nwuruitao-0408',
+      'Item Weight : 800 Grams \n Date First Available : 4 Jun. 2020 \n Manufacturer : wuruitao \n ASIN : B089NNBFV6 \n Manufacturer reference : wuruitao-0408',
     breadcrumbs: "Shoes/Girls' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41XPLrJsXsL.jpg',
@@ -5526,7 +5526,7 @@ export default [
     price: '\u00a3141.43 - \u00a3160.15',
     brand: 'ROCKY',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n20.32 x 10.16 x 30.48 cm; 4.08 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 Dec. 2015\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRocky\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01935C2NU\n\n\nItem model number\n\u200f\n:\n\u200e\n\nRKW0140 9.5 W\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 20.32 x 10.16 x 30.48 cm; 4.08 Kilograms \n Date First Available : 8 Dec. 2015 \n Manufacturer : Rocky \n ASIN : B01935C2NU \n Item model number : RKW0140 9.5 W \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes",
     images_list: [
       'https://m.media-amazon.com/images/I/516Ik518WhL.jpg',
@@ -5554,7 +5554,7 @@ export default [
     price: '\u00a3129.34 - \u00a3230.63',
     brand: 'Visit the Mizuno Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n26.42 x 10.16 x 10.41 cm; 362.87 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 May 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMizuno\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07HDD7LJM\n\n\nItem model number\n\u200f\n:\n\u200e\n\n430262.9073.07.0700\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 26.42 x 10.16 x 10.41 cm; 362.87 Grams \n Date First Available : 9 May 2019 \n Manufacturer : Mizuno \n ASIN : B07HDD7LJM \n Item model number : 430262.9073.07.0700 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Indoor Court Shoes",
     images_list: [
@@ -5592,7 +5592,7 @@ export default [
     price: '\u00a367.04 - \u00a3162.50',
     brand: 'Visit the Reebok Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.24 x 21.08 x 12.45 cm; 255.15 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Jan. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nReebok\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07DH3PFSY\n\n\nItem model number\n\u200f\n:\n\u200e\n\nDV6920\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 31.24 x 21.08 x 12.45 cm; 255.15 Grams \n Date First Available : 23 Jan. 2019 \n Manufacturer : Reebok \n ASIN : B07DH3PFSY \n Item model number : DV6920 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Fashion & Athletic Trainers",
     images_list: [
       'https://m.media-amazon.com/images/I/41jqkrUJIML.jpg',
@@ -5621,7 +5621,7 @@ export default [
     price: '\u00a314.19 - \u00a322.46',
     brand: 'CIOR',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n19.1 x 14.7 x 9.1 cm; 200 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n21 July 2020\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08DCCBPYQ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nU120BZ2002-Blue-31\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 19.1 x 14.7 x 9.1 cm; 200 Grams \n Date First Available : 21 July 2020 \n ASIN : B08DCCBPYQ \n Item model number : U120BZ2002-Blue-31 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Girls' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Water Shoes",
     images_list: [
@@ -5646,7 +5646,7 @@ export default [
     price: '\u00a3138.30',
     brand: 'adidas Originals',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n2 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas Originals\n\n\nASIN\n\u200f\n:\n\u200e\n\nB089L3SQ8S\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFU7332\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Date First Available : 2 Jun. 2020 \n Manufacturer : adidas Originals \n ASIN : B089L3SQ8S \n Item model number : FU7332 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -5672,7 +5672,7 @@ export default [
     price: '\u00a324.85 - \u00a377.51',
     brand: 'Visit the Gola Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n30.8 x 18.6 x 10.8 cm; 880 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n19 Mar. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGola Classics\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0864J9JY3\n\n\nItem model number\n\u200f\n:\n\u200e\n\nCLB094\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 30.8 x 18.6 x 10.8 cm; 880 Grams \n Date First Available : 19 Mar. 2020 \n Manufacturer : Gola Classics \n ASIN : B0864J9JY3 \n Item model number : CLB094 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5699,7 +5699,7 @@ export default [
     price: '\u00a372.58',
     brand: 'Semler',
     product_details:
-      'Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n1 x 1 x 1 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 Aug. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSemler\n\n\nASIN\n\u200f\n:\n\u200e\n\nB073Q37RPZ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nB6025-511\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen\u2019s',
+      'Is Discontinued By Manufacturer : No \n Package Dimensions : 1 x 1 x 1 cm; 1 Kilograms \n Date First Available : 8 Aug. 2018 \n Manufacturer : Semler \n ASIN : B073Q37RPZ \n Item model number : B6025-511 \n Department : Women\u2019s',
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5728,7 +5728,7 @@ export default [
     price: '\u00a331.49 - \u00a395.82',
     brand: 'Visit the Keds Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n28.19 x 15.49 x 10.41 cm; 221.13 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Jun. 2010\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nKeds\n\n\nASIN\n\u200f\n:\n\u200e\n\nB000ER5QTO\n\n\nItem model number\n\u200f\n:\n\u200e\n\nWH45780\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 28.19 x 15.49 x 10.41 cm; 221.13 Grams \n Date First Available : 4 Jun. 2010 \n Manufacturer : Keds \n ASIN : B000ER5QTO \n Item model number : WH45780 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -5757,7 +5757,7 @@ export default [
     price: '\u00a3101.40 - \u00a3137.53',
     brand: 'Visit the El Naturalista Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32 x 27 x 13 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Feb. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nEL NATURALISTA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08VN7TL1B\n\n\nItem model number\n\u200f\n:\n\u200e\n\n5076\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32 x 27 x 13 cm; 800 Grams \n Date First Available : 2 Feb. 2021 \n Manufacturer : EL NATURALISTA \n ASIN : B08VN7TL1B \n Item model number : 5076 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/31qntHguU1S.jpg',
@@ -5783,7 +5783,7 @@ export default [
     price: '\u00a3117.19 - \u00a3143.41',
     brand: 'Laredo',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n43.41 x 36.78 x 11.71 cm; 1.9 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 Mar. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nLaredo\n\n\nASIN\n\u200f\n:\n\u200e\n\nB001R3S97A\n\n\nItem model number\n\u200f\n:\n\u200e\n\n68444\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 43.41 x 36.78 x 11.71 cm; 1.9 Kilograms \n Date First Available : 24 Mar. 2021 \n Manufacturer : Laredo \n ASIN : B001R3S97A \n Item model number : 68444 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41FZOi-ipSS.jpg',
@@ -5810,7 +5810,7 @@ export default [
     price: '\u00a342.06 - \u00a3178.91',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n34 x 22 x 12 cm; 600 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n5 Dec. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07JHLNYQL\n\n\nItem model number\n\u200f\n:\n\u200e\n\n65877\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 34 x 22 x 12 cm; 600 Grams \n Date First Available : 5 Dec. 2018 \n Manufacturer : Skechers \n ASIN : B07JHLNYQL \n Item model number : 65877 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/41oeCR8IPLL.jpg',
@@ -5837,7 +5837,7 @@ export default [
     price: '\u00a322.34 - \u00a376.88',
     brand: 'bugatti',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n36 x 21.8 x 13.2 cm; 900 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Aug. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nbugatti\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08FMFCP92\n\n\nItem model number\n\u200f\n:\n\u200e\n\n311647101400\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 36 x 21.8 x 13.2 cm; 900 Grams \n Date First Available : 11 Aug. 2020 \n Manufacturer : bugatti \n ASIN : B08FMFCP92 \n Item model number : 311647101400 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/31F3gcq1BdL.jpg',
@@ -5868,7 +5868,7 @@ export default [
     price: '\u00a376.72 - \u00a3131.62',
     brand: 'Visit the Cole Haan Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n34.54 x 19.3 x 12.19 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Nov. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCole Haan\n\n\nASIN\n\u200f\n:\n\u200e\n\nB089RRVQXG\n\n\nItem model number\n\u200f\n:\n\u200e\n\nC31872\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 34.54 x 19.3 x 12.19 cm; 907.18 Grams \n Date First Available : 11 Nov. 2020 \n Manufacturer : Cole Haan \n ASIN : B089RRVQXG \n Item model number : C31872 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/41nyE4hJTQL.jpg',
@@ -5920,7 +5920,7 @@ export default [
     price: '\u00a333.90 - \u00a336.90',
     brand: 'TSIODFO',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n38.79 x 22.8 x 12.7 cm; 580 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Mar. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08XVXNG2P\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 38.79 x 22.8 x 12.7 cm; 580 Grams \n Date First Available : 2 Mar. 2021 \n ASIN : B08XVXNG2P \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -5950,7 +5950,7 @@ export default [
     price: '\u00a373.00 - \u00a399.00',
     brand: 'Visit the adidas Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n29.2 x 19.2 x 10.8 cm; 500 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 April 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07BM9ZKQM\n\n\nItem model number\n\u200f\n:\n\u200e\n\nCP9154\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 29.2 x 19.2 x 10.8 cm; 500 Grams \n Date First Available : 8 April 2018 \n Manufacturer : adidas \n ASIN : B07BM9ZKQM \n Item model number : CP9154 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Football Boots",
     images_list: [
@@ -5977,7 +5977,7 @@ export default [
     price: null,
     brand: 'Pablosky',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n22 x 14.7 x 8.2 cm; 220 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPablosky\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08HJL6PGP\n\n\nItem model number\n\u200f\n:\n\u200e\n\n343823\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 22 x 14.7 x 8.2 cm; 220 Grams \n Date First Available : 9 Sept. 2020 \n Manufacturer : Pablosky \n ASIN : B08HJL6PGP \n Item model number : 343823 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Ballet Flats",
     images_list: [
       'https://m.media-amazon.com/images/I/41EtBpglu6L.jpg',
@@ -6002,7 +6002,7 @@ export default [
     price: '\u00a392.51',
     brand: 'SHIMANO',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n4 Sept. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nShimano\n\n\nASIN\n\u200f\n:\n\u200e\n\nB09FGYG8CR\n\n\nItem model number\n\u200f\n:\n\u200e\n\nESHRC300MGL01S\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Date First Available : 4 Sept. 2021 \n Manufacturer : Shimano \n ASIN : B09FGYG8CR \n Item model number : ESHRC300MGL01S \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Cycling Shoes",
     images_list: [
@@ -6027,7 +6027,7 @@ export default [
     price: '\u00a352.50 - \u00a369.95',
     brand: 'Dr. Martens',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 July 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDr. Martens\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01AVC4L4C\n\n\nItem model number\n\u200f\n:\n\u200e\n\n21776001\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Is Discontinued By Manufacturer : No \n Date First Available : 27 July 2016 \n Manufacturer : Dr. Martens \n ASIN : B01AVC4L4C \n Item model number : 21776001 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Mary Janes",
     images_list: [
       'https://m.media-amazon.com/images/I/31JM6+8wz6L.jpg',
@@ -6056,7 +6056,7 @@ export default [
     price: '\u00a365.04 - \u00a3280.63',
     brand: 'Visit the ECCO Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.8 x 16.61 x 11.4 cm; 725.75 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n21 Oct. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nECCO\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07ZDKH7H4\n\n\nItem model number\n\u200f\n:\n\u200e\n\n43024351459\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 31.8 x 16.61 x 11.4 cm; 725.75 Grams \n Date First Available : 21 Oct. 2019 \n Manufacturer : ECCO \n ASIN : B07ZDKH7H4 \n Item model number : 43024351459 \n Department : Women's",
     breadcrumbs: "Shoes/Women's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41vVRjPH-pL.jpg',
@@ -6083,7 +6083,7 @@ export default [
     price: '\u00a327.20 - \u00a338.43',
     brand: 'Zilosconcy',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n6 July 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nZilosconcy\n\n\nASIN\n\u200f\n:\n\u200e\n\nB098QN599V\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 6 July 2021 \n Manufacturer : Zilosconcy \n ASIN : B098QN599V \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6121,7 +6121,7 @@ export default [
     price: '\u00a380.61 - \u00a3170.66',
     brand: 'Durango',
     product_details:
-      'Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n20.32 x 10.16 x 30.48 cm; 1.36 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Jun. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDurango\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01DJZXT5K\n\n\nItem model number\n\u200f\n:\n\u200e\n\n718562350593\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Is Discontinued By Manufacturer : No \n Product Dimensions : 20.32 x 10.16 x 30.48 cm; 1.36 Kilograms \n Date First Available : 15 Jun. 2016 \n Manufacturer : Durango \n ASIN : B01DJZXT5K \n Item model number : 718562350593 \n Department : Unisex Kids',
     breadcrumbs: "Shoes/Boys' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41OLM8SG1wL.jpg',
@@ -6144,7 +6144,7 @@ export default [
     price: '\u00a3107.28 - \u00a3142.34',
     brand: 'MARC JOSEPH NEW YORK',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n12.7 x 12.7 x 1.78 cm; 430.91 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 April 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMarc Joseph New York\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07QQ8V652\n\n\nItem model number\n\u200f\n:\n\u200e\n\n479019-NG\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 12.7 x 12.7 x 1.78 cm; 430.91 Grams \n Date First Available : 11 April 2019 \n Manufacturer : Marc Joseph New York \n ASIN : B07QQ8V652 \n Item model number : 479019-NG \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41MRS-imCyL.jpg',
@@ -6168,7 +6168,7 @@ export default [
     price: '\u00a351.51 - \u00a384.04',
     brand: 'D\u00e4umling',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n25 x 16 x 9 cm; 600 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Mar. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nD\u00e4umling\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08YK8V8K7\n\n\nItem model number\n\u200f\n:\n\u200e\n\n090771S47\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 25 x 16 x 9 cm; 600 Grams \n Date First Available : 10 Mar. 2021 \n Manufacturer : D\u00e4umling \n ASIN : B08YK8V8K7 \n Item model number : 090771S47 \n Department : Boy's",
     breadcrumbs: "Shoes/Boys' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41gD8dHPV5L.jpg',
@@ -6196,7 +6196,7 @@ export default [
     price: '\u00a326.59 - \u00a347.59',
     brand: 'RUYBOZRY',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n20.5 x 6 x 9 cm; 200 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 May 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRUYBOZRY\n\n\nASIN\n\u200f\n:\n\u200e\n\nB091MRG8PY\n\n\nItem model number\n\u200f\n:\n\u200e\n\nS-EU-TJ-JAZZ-MJD\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Product Dimensions : 20.5 x 6 x 9 cm; 200 Grams \n Date First Available : 7 May 2021 \n Manufacturer : RUYBOZRY \n ASIN : B091MRG8PY \n Item model number : S-EU-TJ-JAZZ-MJD \n Department : Girl's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Dance Shoes",
     images_list: [
@@ -6242,7 +6242,7 @@ export default [
     price: '\u00a3120.10 - \u00a3133.70',
     brand: 'Sebago',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n34.04 x 17.53 x 11.68 cm; 1.13 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSebago\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08QN4S994\n\n\nItem model number\n\u200f\n:\n\u200e\n\n7002TL0\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 34.04 x 17.53 x 11.68 cm; 1.13 Kilograms \n Date First Available : 15 Dec. 2020 \n Manufacturer : Sebago \n ASIN : B08QN4S994 \n Item model number : 7002TL0 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes",
     images_list: [
       'https://m.media-amazon.com/images/I/41EnG5E3XTS.jpg',
@@ -6293,7 +6293,7 @@ export default [
     price: '\u00a315.38 - \u00a316.69',
     brand: 'Visit the Kappa Store',
     product_details:
-      'Date First Available\n\u200f\n:\n\u200e\n\n28 May 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB092XN72Z1\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Date First Available : 28 May 2021 \n ASIN : B092XN72Z1 \n Department : Unisex',
     breadcrumbs: "Shoes/Men's Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/31UdtYUzfGS.jpg',
@@ -6312,7 +6312,7 @@ export default [
     price: '\u00a335.98 - \u00a360.00',
     brand: 'Visit the Geox Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n25.65 x 19.56 x 9.14 cm; 180 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Dec. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGeox\n\n\nASIN\n\u200f\n:\n\u200e\n\nB082G28YH5\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ841VB043BC\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 25.65 x 19.56 x 9.14 cm; 180 Grams \n Date First Available : 7 Dec. 2019 \n Manufacturer : Geox \n ASIN : B082G28YH5 \n Item model number : J841VB043BC \n Department : Boy's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/31LDxCcJoEL.jpg',
@@ -6341,7 +6341,7 @@ export default [
     price: '\u00a338.43 - \u00a368.70',
     brand: 'Visit the Superga Store',
     product_details:
-      'Date First Available\n\u200f\n:\n\u200e\n\n2 April 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSuperga\n\n\nASIN\n\u200f\n:\n\u200e\n\nB091KPQ3JQ\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\ns3111mw\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Date First Available : 2 April 2021 \n Manufacturer : Superga \n ASIN : B091KPQ3JQ \n Manufacturer reference : s3111mw \n Department : Unisex',
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/31emntTA4nL.jpg',
@@ -6374,7 +6374,7 @@ export default [
     price: '\u00a324.84',
     brand: 'VICTORIA',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n24.2 x 12.1 x 9.2 cm; 410 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 May 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVictoria\n\n\nASIN\n\u200f\n:\n\u200e\n\nB095HVX834\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1366146-52-26\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 24.2 x 12.1 x 9.2 cm; 410 Grams \n Date First Available : 25 May 2021 \n Manufacturer : Victoria \n ASIN : B095HVX834 \n Item model number : 1366146-52-26 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6426,7 +6426,7 @@ export default [
     price: '\u00a320.26 - \u00a364.52',
     brand: 'Visit the Timberland Store',
     product_details:
-      'Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n33.6 x 19.6 x 12.4 cm; 980 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n19 Oct. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nTimberland\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01M7RUZR4\n\n\nItem model number\n\u200f\n:\n\u200e\n\nTB0A17TU0011\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Is Discontinued By Manufacturer : No \n Package Dimensions : 33.6 x 19.6 x 12.4 cm; 980 Grams \n Date First Available : 19 Oct. 2016 \n Manufacturer : Timberland \n ASIN : B01M7RUZR4 \n Item model number : TB0A17TU0011 \n Department : Unisex Kids',
     breadcrumbs: "Shoes/Boys' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/31ZF9cb48BL.jpg',
@@ -6455,7 +6455,7 @@ export default [
     price: '\u00a368.38 - \u00a3229.99',
     brand: 'Visit the PUMA Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.51 x 23.37 x 11.43 cm; 1.36 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n26 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPuma\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07MTJX7XT\n\n\nItem model number\n\u200f\n:\n\u200e\n\n192862-07\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.51 x 23.37 x 11.43 cm; 1.36 Kilograms \n Date First Available : 26 July 2019 \n Manufacturer : Puma \n ASIN : B07MTJX7XT \n Item model number : 192862-07 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6479,7 +6479,7 @@ export default [
     price: '\u00a317.21 - \u00a317.99',
     brand: 'Holly',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n34.4 x 26 x 11.2 cm; 540 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Jun. 2015\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nHolly\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00YUOU6GA\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 34.4 x 26 x 11.2 cm; 540 Grams \n Date First Available : 4 Jun. 2015 \n Manufacturer : Holly \n ASIN : B00YUOU6GA \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/4121zG7tppL.jpg',
@@ -6504,7 +6504,7 @@ export default [
     price: '\u00a36.87 - \u00a330.49',
     brand: 'Dr. Brinkmann',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n24 x 14.5 x 9.5 cm; 380 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 Nov. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDr. Brinkmann\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08236J8XY\n\n\nItem model number\n\u200f\n:\n\u200e\n\n500297\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Package Dimensions : 24 x 14.5 x 9.5 cm; 380 Grams \n Date First Available : 28 Nov. 2019 \n Manufacturer : Dr. Brinkmann \n ASIN : B08236J8XY \n Item model number : 500297 \n Department : Boy's",
     breadcrumbs: "Shoes/Boys' Shoes/Slippers",
     images_list: [
       'https://m.media-amazon.com/images/I/31f+woAxqRL.jpg',
@@ -6531,7 +6531,7 @@ export default [
     price: '\u00a386.99 - \u00a3114.83',
     brand: 'Visit the Black Diamond Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n24 x 12 x 12 cm; 300 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n11 Nov. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nBlack Diamond Equipment\n\n\nASIN\n\u200f\n:\n\u200e\n\nB081B9F24C\n\n\nItem model number\n\u200f\n:\n\u200e\n\nM Session Climbing Shoes\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 24 x 12 x 12 cm; 300 Grams \n Date First Available : 11 Nov. 2019 \n Manufacturer : Black Diamond Equipment \n ASIN : B081B9F24C \n Item model number : M Session Climbing Shoes \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Trekking & Hiking Footwear",
     images_list: [
@@ -6555,7 +6555,7 @@ export default [
     price: '\u00a341.16 - \u00a3164.11',
     brand: 'Visit the ECCO Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n33.78 x 28.7 x 13.21 cm; 612 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nEcco\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07RRJH6RQ\n\n\nItem model number\n\u200f\n:\n\u200e\n\n84183351052\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 33.78 x 28.7 x 13.21 cm; 612 Grams \n Date First Available : 18 July 2019 \n Manufacturer : Ecco \n ASIN : B07RRJH6RQ \n Item model number : 84183351052 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6584,7 +6584,7 @@ export default [
     price: '\u00a321.00 - \u00a364.92',
     brand: 'Visit the adidas Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n24.3 x 17.1 x 10.4 cm; 370 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAdidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08PW24VJ2\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFY9498\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 24.3 x 17.1 x 10.4 cm; 370 Grams \n Date First Available : 7 Dec. 2020 \n Manufacturer : Adidas \n ASIN : B08PW24VJ2 \n Item model number : FY9498 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -6612,7 +6612,7 @@ export default [
     price: '\u00a332.42 - \u00a346.09',
     brand: 'KangaROOS',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n41.1 x 27 x 18.5 cm; 540 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 July 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nKangaROOS\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08C5H8ZR2\n\n\nItem model number\n\u200f\n:\n\u200e\n\n18711\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 41.1 x 27 x 18.5 cm; 540 Grams \n Date First Available : 2 July 2020 \n Manufacturer : KangaROOS \n ASIN : B08C5H8ZR2 \n Item model number : 18711 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6640,7 +6640,7 @@ export default [
     price: '\u00a329.58 - \u00a335.51',
     brand: 'Visit the PAMRAY Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28 x 17.3 x 10 cm; 320 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n5 Jun. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB093DLSGD8\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 28 x 17.3 x 10 cm; 320 Grams \n Date First Available : 5 Jun. 2021 \n ASIN : B093DLSGD8 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -6687,7 +6687,7 @@ export default [
     price: '\u00a314.00',
     brand: 'Visit the Animal Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n31.2 x 26 x 4.6 cm; 222.26 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Jan. 2012\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAnimal\n\n\nASIN\n\u200f\n:\n\u200e\n\nB006XK630W\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFM2SA022-002-12A\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 31.2 x 26 x 4.6 cm; 222.26 Grams \n Date First Available : 15 Jan. 2012 \n Manufacturer : Animal \n ASIN : B006XK630W \n Item model number : FM2SA022-002-12A \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Sports & Outdoor Sandals",
     images_list: [
@@ -6714,7 +6714,7 @@ export default [
     price: '\u00a371.16 - \u00a3162.50',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32 x 20.07 x 11.43 cm; 658 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n25 Oct. 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07JPZCGKG\n\n\nItem model number\n\u200f\n:\n\u200e\n\nB37465\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 32 x 20.07 x 11.43 cm; 658 Grams \n Date First Available : 25 Oct. 2018 \n ASIN : B07JPZCGKG \n Item model number : B37465 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6739,7 +6739,7 @@ export default [
     price: '\u00a341.12 - \u00a3112.52',
     brand: 'Visit the UGG Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.79 x 22.3 x 11.71 cm; 921 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n4 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nDeckers Europe Ltd trading as UGG\n\n\nASIN\n\u200f\n:\n\u200e\n\nB089NY4CJV\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1118511\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 32.79 x 22.3 x 11.71 cm; 921 Grams \n Date First Available : 4 Jun. 2020 \n Manufacturer : Deckers Europe Ltd trading as UGG \n ASIN : B089NY4CJV \n Item model number : 1118511 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6768,7 +6768,7 @@ export default [
     price: '\u00a338.09',
     brand: 'Onitsuka Tiger',
     product_details:
-      'Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nItem Weight\n\u200f\n:\n\u200e\n\n720 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n5 May 2017\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nOnitsuka Tiger\n\n\nASIN\n\u200f\n:\n\u200e\n\nB06ZXZ4HP5\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nD747N-4949/38\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Is Discontinued By Manufacturer : No \n Item Weight : 720 Grams \n Date First Available : 5 May 2017 \n Manufacturer : Onitsuka Tiger \n ASIN : B06ZXZ4HP5 \n Manufacturer reference : D747N-4949/38 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6798,7 +6798,7 @@ export default [
     price: '\u00a339.43 - \u00a3158.89',
     brand: 'Visit the New Balance Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n24.89 x 18.54 x 9.9 cm; 358 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Feb. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNew Balance\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07PFK8DLG\n\n\nItem model number\n\u200f\n:\n\u200e\n\nYP880LS9\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 24.89 x 18.54 x 9.9 cm; 358 Grams \n Date First Available : 12 Feb. 2020 \n Manufacturer : New Balance \n ASIN : B07PFK8DLG \n Item model number : YP880LS9 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Girls' Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -6824,7 +6824,7 @@ export default [
     price: '\u00a362.15 - \u00a3195.80',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n31.75 x 24.38 x 12.95 cm; 347 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n27 Jun. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00D8816UY\n\n\nItem model number\n\u200f\n:\n\u200e\n\n50125\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 31.75 x 24.38 x 12.95 cm; 347 Grams \n Date First Available : 27 Jun. 2016 \n Manufacturer : Skechers \n ASIN : B00D8816UY \n Item model number : 50125 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -6852,7 +6852,7 @@ export default [
     price: '\u00a329.99 - \u00a337.03',
     brand: 'Eagsouni',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n29 x 20 x 10 cm; 940 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n24 Aug. 2020\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08GKM4HBT\n\n\nItem model number\n\u200f\n:\n\u200e\n\nYDX2307RD39\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Package Dimensions : 29 x 20 x 10 cm; 940 Grams \n Date First Available : 24 Aug. 2020 \n ASIN : B08GKM4HBT \n Item model number : YDX2307RD39 \n Department : Unisex',
     breadcrumbs: "Shoes/Men's Shoes/Work & Utility Footwear",
     images_list: [
       'https://m.media-amazon.com/images/I/41fGkmRjEFL.jpg',
@@ -6886,7 +6886,7 @@ export default [
     price: '\u00a3147.93 - \u00a3154.85',
     brand: 'Allonsi',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n39.5 x 27.61 x 13.79 cm; 1.46 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Jun. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nTreespoon Limited\n\n\nASIN\n\u200f\n:\n\u200e\n\nB089Y3T7PH\n\n\nItem model number\n\u200f\n:\n\u200e\n\nALG1005\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 39.5 x 27.61 x 13.79 cm; 1.46 Kilograms \n Date First Available : 10 Jun. 2020 \n Manufacturer : Treespoon Limited \n ASIN : B089Y3T7PH \n Item model number : ALG1005 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Loafers & Moccasins",
     images_list: [
       'https://m.media-amazon.com/images/I/31EQNKKU5vL.jpg',
@@ -6941,7 +6941,7 @@ export default [
     price: null,
     brand: 'HUIYUAN',
     product_details:
-      "Item Weight\n\u200f\n:\n\u200e\n\n500 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 April 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nHDEUV\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07QYD17C8\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\n485781\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Item Weight : 500 Grams \n Date First Available : 20 April 2019 \n Manufacturer : HDEUV \n ASIN : B07QYD17C8 \n Manufacturer reference : 485781 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Dance Shoes",
     images_list: [
@@ -6970,7 +6970,7 @@ export default [
     price: '\u00a342.00 - \u00a383.85',
     brand: 'Visit the PUMA Store',
     product_details:
-      'Product Dimensions\n\u200f\n:\n\u200e\n\n32.51 x 21.84 x 12.19 cm; 952.54 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n28 April 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB093PRC64M\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\n37361818\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Product Dimensions : 32.51 x 21.84 x 12.19 cm; 952.54 Grams \n Date First Available : 28 April 2021 \n ASIN : B093PRC64M \n Manufacturer reference : 37361818 \n Department : Unisex Kids',
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/41SMXKuthSL.jpg',
@@ -6991,7 +6991,7 @@ export default [
     price: '\u00a35.48 - \u00a310.68',
     brand: 'ZHIZIHUA',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n7 July 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nZHIZIHUA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB098T8YBPF\n\n\nItem model number\n\u200f\n:\n\u200e\n\nbreathable ladies trainers\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Date First Available : 7 July 2021 \n Manufacturer : ZHIZIHUA \n ASIN : B098T8YBPF \n Item model number : breathable ladies trainers \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7045,7 +7045,7 @@ export default [
     price: '\u00a373.21 - \u00a397.93',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33.8 x 20.8 x 13 cm; 100 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n13 Oct. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNEW BALANCE\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08GCWZ6D9\n\n\nItem model number\n\u200f\n:\n\u200e\n\nWL574CAS\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 33.8 x 20.8 x 13 cm; 100 Grams \n Date First Available : 13 Oct. 2020 \n Manufacturer : NEW BALANCE \n ASIN : B08GCWZ6D9 \n Item model number : WL574CAS \n Department : Women's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/31o-ChXY4vL.jpg',
@@ -7065,7 +7065,7 @@ export default [
     price: '\u00a355.49',
     brand: 'RYKA',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n30.23 x 18.29 x 10.41 cm; 662 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n8 April 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRyka\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08PD7X2YJ\n\n\nItem model number\n\u200f\n:\n\u200e\n\nH4958M1\n\n\nCountry of origin\n\u200f\n:\n\u200e\n\nVietnam\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 30.23 x 18.29 x 10.41 cm; 662 Grams \n Date First Available : 8 April 2021 \n Manufacturer : Ryka \n ASIN : B08PD7X2YJ \n Item model number : H4958M1 \n Country of origin : Vietnam \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Nordic Walking Shoes",
     images_list: [
@@ -7092,7 +7092,7 @@ export default [
     price: '\u00a329.80 - \u00a3141.64',
     brand: 'Visit the PUMA Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n27.43 x 17.02 x 10.16 cm; 164.43 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 May 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPUMA\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07QL3WFG1\n\n\nItem model number\n\u200f\n:\n\u200e\n\n19144705\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 27.43 x 17.02 x 10.16 cm; 164.43 Grams \n Date First Available : 15 May 2019 \n Manufacturer : PUMA \n ASIN : B07QL3WFG1 \n Item model number : 19144705 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7119,7 +7119,7 @@ export default [
     price: '\u00a378.98 - \u00a3182.00',
     brand: 'Visit the Merrell Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n93.98 x 43.18 x 43.18 cm; 1.9 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n20 Jan. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nMerrell\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07VFW77T2\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ000095\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 93.98 x 43.18 x 43.18 cm; 1.9 Kilograms \n Date First Available : 20 Jan. 2020 \n Manufacturer : Merrell \n ASIN : B07VFW77T2 \n Item model number : J000095 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Trekking & Hiking Footwear",
     images_list: [
@@ -7147,7 +7147,7 @@ export default [
     price: '\u00a3170.00 - \u00a3223.97',
     brand: 'ASICS',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n35.56 x 22.86 x 15.24 cm; 1.13 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Sept. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nASICS America Corporation\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01BZB70K0\n\n\nItem model number\n\u200f\n:\n\u200e\n\nHN6D0.8873\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 35.56 x 22.86 x 15.24 cm; 1.13 Kilograms \n Date First Available : 12 Sept. 2016 \n Manufacturer : ASICS America Corporation \n ASIN : B01BZB70K0 \n Item model number : HN6D0.8873 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7181,7 +7181,7 @@ export default [
     price: '\u00a3111.44 - \u00a3223.10',
     brand: 'Visit the Under Armour Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n12.7 x 12.7 x 1.78 cm; 294.84 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Mar. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nUnder Armour\n\n\nASIN\n\u200f\n:\n\u200e\n\nB074ZCSR4M\n\n\nItem model number\n\u200f\n:\n\u200e\n\n3000368\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Product Dimensions : 12.7 x 12.7 x 1.78 cm; 294.84 Grams \n Date First Available : 7 Mar. 2019 \n Manufacturer : Under Armour \n ASIN : B074ZCSR4M \n Item model number : 3000368 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7206,7 +7206,7 @@ export default [
     price: '\u00a312.69 - \u00a332.99',
     brand: 'Geox',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n23.7 x 18.7 x 9.4 cm; 400 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Jun. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGeox\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07SWSV57K\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ026ED0DSBC\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 23.7 x 18.7 x 9.4 cm; 400 Grams \n Date First Available : 12 Jun. 2019 \n Manufacturer : Geox \n ASIN : B07SWSV57K \n Item model number : J026ED0DSBC \n Department : Girl's",
     breadcrumbs: '',
     images_list: [
       'https://m.media-amazon.com/images/I/31bh6Pc07pL.jpg',
@@ -7236,7 +7236,7 @@ export default [
     price: '\u00a360.00',
     brand: 'Visit the UGG Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n29.21 x 24.13 x 11.43 cm; 2 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n1 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nUGG\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08PDVBYY4\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1123351T\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Package Dimensions : 29.21 x 24.13 x 11.43 cm; 2 Kilograms \n Date First Available : 1 Dec. 2020 \n Manufacturer : UGG \n ASIN : B08PDVBYY4 \n Item model number : 1123351T \n Department : Unisex Kids',
     breadcrumbs: "Shoes/Boys' Shoes/Boots",
     images_list: ['https://m.media-amazon.com/images/I/41BeK0eHp0L.jpg'],
     features: [
@@ -7255,7 +7255,7 @@ export default [
     price: '\u00a3138.16 - \u00a3227.99',
     brand: 'PANTOFOLA D\u2019ORO 1886',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n36.3 x 20.5 x 13.49 cm; 1.19 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n23 Mar. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPANTOFOLA D\u2019ORO 1886\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0864MQ69T\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFIL15WU_0201\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 36.3 x 20.5 x 13.49 cm; 1.19 Kilograms \n Date First Available : 23 Mar. 2020 \n Manufacturer : PANTOFOLA D\u2019ORO 1886 \n ASIN : B0864MQ69T \n Item model number : FIL15WU_0201 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/217+rFzVlOL.jpg',
@@ -7282,7 +7282,7 @@ export default [
     price: '\u00a331.57 - \u00a334.52',
     brand: 'VWMYQ',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n26.59 x 24.79 x 9.5 cm; 500 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 Nov. 2020\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08MKZQNYY\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 26.59 x 24.79 x 9.5 cm; 500 Grams \n Date First Available : 3 Nov. 2020 \n ASIN : B08MKZQNYY \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -7326,7 +7326,7 @@ export default [
     price: '\u00a317.24 - \u00a323.47',
     brand: 'P&L',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n30 x 15 x 10 cm; 540 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Jan. 2021\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08SLGYLRJ\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 30 x 15 x 10 cm; 540 Grams \n Date First Available : 15 Jan. 2021 \n ASIN : B08SLGYLRJ \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7359,7 +7359,7 @@ export default [
     price: '\u00a3100.54 - \u00a3142.99',
     brand: 'Think!',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n37.2 x 24 x 12.8 cm; 1.2 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n30 Nov. 2015\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nThink\n\n\nASIN\n\u200f\n:\n\u200e\n\nB015IQDKQ6\n\n\nItem model number\n\u200f\n:\n\u200e\n\n88865400\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 37.2 x 24 x 12.8 cm; 1.2 Kilograms \n Date First Available : 30 Nov. 2015 \n Manufacturer : Think \n ASIN : B015IQDKQ6 \n Item model number : 88865400 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/31kzWwowyvL.jpg',
@@ -7388,7 +7388,7 @@ export default [
     price: '\u00a352.58',
     brand: 'Creative Recreation',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n29.72 x 16.26 x 11.94 cm; 1.04 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Jun. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nCreative Recreation\n\n\nASIN\n\u200f\n:\n\u200e\n\nB002ZNKBM2\n\n\nItem model number\n\u200f\n:\n\u200e\n\nCesario Lo XVI\n\n\nCountry of origin\n\u200f\n:\n\u200e\n\nChina\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 29.72 x 16.26 x 11.94 cm; 1.04 Kilograms \n Date First Available : 10 Jun. 2021 \n Manufacturer : Creative Recreation \n ASIN : B002ZNKBM2 \n Item model number : Cesario Lo XVI \n Country of origin : China \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7413,7 +7413,7 @@ export default [
     price: '\u00a375.08 - \u00a3164.32',
     brand: 'Visit the adidas Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n45 x 36 x 24 cm; 400 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n6 July 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nadidas\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08CBMJK5R\n\n\nItem model number\n\u200f\n:\n\u200e\n\nFV2487\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 45 x 36 x 24 cm; 400 Grams \n Date First Available : 6 July 2020 \n Manufacturer : adidas \n ASIN : B08CBMJK5R \n Item model number : FV2487 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Cross Trainers",
     images_list: [
@@ -7442,7 +7442,7 @@ export default [
     price: '\u00a324.90 - \u00a331.61',
     brand: 'Pablosky',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n22.6 x 15.2 x 8.4 cm; 230 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nPablosky\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08HJH8BH9\n\n\nItem model number\n\u200f\n:\n\u200e\n\n343808\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Package Dimensions : 22.6 x 15.2 x 8.4 cm; 230 Grams \n Date First Available : 9 Sept. 2020 \n Manufacturer : Pablosky \n ASIN : B08HJH8BH9 \n Item model number : 343808 \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Ballet Flats",
     images_list: [
       'https://m.media-amazon.com/images/I/41vNFRmKfkL.jpg',
@@ -7468,7 +7468,7 @@ export default [
     price: '\u00a39.98 - \u00a313.99',
     brand: 'Mercury MXC',
     product_details:
-      'Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n26 x 9 x 16.5 cm; 480 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n29 Aug. 2018\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07GXQFMR8\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Kids',
+      'Is Discontinued By Manufacturer : No \n Product Dimensions : 26 x 9 x 16.5 cm; 480 Grams \n Date First Available : 29 Aug. 2018 \n ASIN : B07GXQFMR8 \n Department : Unisex Kids',
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7492,7 +7492,7 @@ export default [
     price: '\u00a344.30 - \u00a3197.90',
     brand: 'Visit the Skechers Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n33.39 x 23.6 x 13.19 cm; 720 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Feb. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSkechers\n\n\nASIN\n\u200f\n:\n\u200e\n\nB076T84SB9\n\n\nItem model number\n\u200f\n:\n\u200e\n\n65474\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 33.39 x 23.6 x 13.19 cm; 720 Grams \n Date First Available : 15 Feb. 2018 \n Manufacturer : Skechers \n ASIN : B076T84SB9 \n Item model number : 65474 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7521,7 +7521,7 @@ export default [
     price: '\u00a320.14 - \u00a354.71',
     brand: 'Visit the Geox Store',
     product_details:
-      'Package Dimensions\n\u200f\n:\n\u200e\n\n20.6 x 15.8 x 8.4 cm; 380 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n13 Jun. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGeox\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07SQFY1V6\n\n\nItem model number\n\u200f\n:\n\u200e\n\nB840LA0MAAS\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBaby Girls',
+      'Package Dimensions : 20.6 x 15.8 x 8.4 cm; 380 Grams \n Date First Available : 13 Jun. 2019 \n Manufacturer : Geox \n ASIN : B07SQFY1V6 \n Item model number : B840LA0MAAS \n Department : Baby Girls',
     breadcrumbs:
       "Shoes/Girls' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7552,7 +7552,7 @@ export default [
     price: '\u00a311.92',
     brand: 'Sfiziosa',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n23 May 2020\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0893CQTLK\n\n\nDepartment\n\u200f\n:\n\u200e\n\nGirl's",
+      "Date First Available : 23 May 2020 \n ASIN : B0893CQTLK \n Department : Girl's",
     breadcrumbs: "Shoes/Girls' Shoes/Flip Flops & Thongs",
     images_list: ['https://m.media-amazon.com/images/I/517lBbtf9TL.jpg'],
     features: [
@@ -7568,7 +7568,7 @@ export default [
     price: '\u00a322.36 - \u00a3145.15',
     brand: 'Berkemann',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n31.8 x 18.8 x 12.2 cm; 800 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n10 Sept. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nBerkemann\n\n\nASIN\n\u200f\n:\n\u200e\n\nB084BGMMN3\n\n\nItem model number\n\u200f\n:\n\u200e\n\n05001-989\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 31.8 x 18.8 x 12.2 cm; 800 Grams \n Date First Available : 10 Sept. 2020 \n Manufacturer : Berkemann \n ASIN : B084BGMMN3 \n Item model number : 05001-989 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7596,7 +7596,7 @@ export default [
     price: '\u00a360.34 - \u00a3132.61',
     brand: 'Visit the Vans Store',
     product_details:
-      'Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n31 x 19 x 11 cm; 907.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n3 Feb. 2018\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nVans\n\n\nASIN\n\u200f\n:\n\u200e\n\nB074H94P9R\n\n\nItem model number\n\u200f\n:\n\u200e\n\nVN0A38FSQ6Z1-070\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex',
+      'Is Discontinued By Manufacturer : No \n Product Dimensions : 31 x 19 x 11 cm; 907.18 Grams \n Date First Available : 3 Feb. 2018 \n Manufacturer : Vans \n ASIN : B074H94P9R \n Item model number : VN0A38FSQ6Z1-070 \n Department : Unisex',
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7624,7 +7624,7 @@ export default [
     price: '\u00a319.99 - \u00a3162.50',
     brand: 'Visit the Clarks Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28.8 x 19.81 x 10.38 cm; 249.48 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n15 Feb. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07F6CBHXY\n\n\nItem model number\n\u200f\n:\n\u200e\n\n26140029\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 28.8 x 19.81 x 10.38 cm; 249.48 Grams \n Date First Available : 15 Feb. 2019 \n Manufacturer : Clarks \n ASIN : B07F6CBHXY \n Item model number : 26140029 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7652,7 +7652,7 @@ export default [
     price: '\u00a332.27 - \u00a335.27',
     brand: 'rismart',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n30 x 10 x 20 cm; 453.59 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n21 May 2017\n\n\nASIN\n\u200f\n:\n\u200e\n\nB0719NNJVB\n\n\nItem model number\n\u200f\n:\n\u200e\n\nSN2528\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Is Discontinued By Manufacturer : No \n Product Dimensions : 30 x 10 x 20 cm; 453.59 Grams \n Date First Available : 21 May 2017 \n ASIN : B0719NNJVB \n Item model number : SN2528 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7682,7 +7682,7 @@ export default [
     price: '\u00a312.99 - \u00a313.99',
     brand: 'Visit the Slydes Store',
     product_details:
-      "Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n28 x 24.2 x 8 cm; 600 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n7 Oct. 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSlydes\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07YSSKRWS\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nLucid SS20\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Is Discontinued By Manufacturer : No \n Package Dimensions : 28 x 24.2 x 8 cm; 600 Grams \n Date First Available : 7 Oct. 2019 \n Manufacturer : Slydes \n ASIN : B07YSSKRWS \n Manufacturer reference : Lucid SS20 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Sandals",
     images_list: [
       'https://m.media-amazon.com/images/I/41ATjwmD5FL.jpg',
@@ -7710,7 +7710,7 @@ export default [
     price: '\u00a332.99',
     brand: 'Visit the Clarks Store',
     product_details:
-      'Date First Available\n\u200f\n:\n\u200e\n\n15 Feb. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB09317LDZ1\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Baby',
+      'Date First Available : 15 Feb. 2021 \n Manufacturer : Clarks \n ASIN : B09317LDZ1 \n Department : Unisex Baby',
     breadcrumbs: "Shoes/Girls' Shoes",
     images_list: ['https://m.media-amazon.com/images/I/41PyM4HdYcS.jpg'],
     features: [
@@ -7768,7 +7768,7 @@ export default [
     price: '\u00a350.00',
     brand: 'Visit the Geox Store',
     product_details:
-      "Date First Available\n\u200f\n:\n\u200e\n\n25 May 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nGEOX\n\n\nASIN\n\u200f\n:\n\u200e\n\nB095TDP3W2\n\n\nItem model number\n\u200f\n:\n\u200e\n\nJ949VD054FU\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Date First Available : 25 May 2021 \n Manufacturer : GEOX \n ASIN : B095TDP3W2 \n Item model number : J949VD054FU \n Department : Men's",
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7796,7 +7796,7 @@ export default [
     price: '\u00a334.90 - \u00a344.55',
     brand: 'Supra',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n29.21 x 25.15 x 11.18 cm; 340.19 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n22 Oct. 2016\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSupra\n\n\nASIN\n\u200f\n:\n\u200e\n\nB01EIIN7FO\n\n\nItem model number\n\u200f\n:\n\u200e\n\n98230-650-M-5\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Product Dimensions : 29.21 x 25.15 x 11.18 cm; 340.19 Grams \n Date First Available : 22 Oct. 2016 \n Manufacturer : Supra \n ASIN : B01EIIN7FO \n Item model number : 98230-650-M-5 \n Department : Boy's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7821,7 +7821,7 @@ export default [
     price: '\u00a325.01 - \u00a350.09',
     brand: 'LUCKY-STEP',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n29.72 x 18.8 x 11.3 cm; 685 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n12 Dec. 2019\n\n\nASIN\n\u200f\n:\n\u200e\n\nB082PN8ZV4\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 29.72 x 18.8 x 11.3 cm; 685 Grams \n Date First Available : 12 Dec. 2019 \n ASIN : B082PN8ZV4 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7853,7 +7853,7 @@ export default [
     price: '\u00a327.10 - \u00a375.52',
     brand: 'Visit the Clarks Store',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n28.6 x 21 x 10.2 cm; 420 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 July 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08C5GJWK5\n\n\nItem model number\n\u200f\n:\n\u200e\n\n261577254\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 28.6 x 21 x 10.2 cm; 420 Grams \n Date First Available : 2 July 2020 \n Manufacturer : Clarks \n ASIN : B08C5GJWK5 \n Item model number : 261577254 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7880,7 +7880,7 @@ export default [
     price: '\u00a336.43 - \u00a3117.38',
     brand: 'Visit the Clarks Store',
     product_details:
-      "Batteries\n\u200f\n:\n\u200e\n\n1 Product Specific batteries required.\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n32 x 18.19 x 11.4 cm; 850 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n6 July 2019\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nClarks\n\n\nASIN\n\u200f\n:\n\u200e\n\nB07TPYWFYL\n\n\nItem model number\n\u200f\n:\n\u200e\n\n261482057\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Batteries : 1 Product Specific batteries required. \n Package Dimensions : 32 x 18.19 x 11.4 cm; 850 Grams \n Date First Available : 6 July 2019 \n Manufacturer : Clarks \n ASIN : B07TPYWFYL \n Item model number : 261482057 \n Department : Men's",
     breadcrumbs: "Shoes/Men's Shoes/Lace-ups",
     images_list: [
       'https://m.media-amazon.com/images/I/313ox67SStL.jpg',
@@ -7909,7 +7909,7 @@ export default [
     price: '\u00a333.94 - \u00a348.40',
     brand: 'Visit the New Balance Store',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n30 x 20 x 10 cm; 210 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n6 Nov. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nNEW BALANCE\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08MWNV5PW\n\n\nItem model number\n\u200f\n:\n\u200e\n\nIV574HY1\n\n\nDepartment\n\u200f\n:\n\u200e\n\nBoy's",
+      "Product Dimensions : 30 x 20 x 10 cm; 210 Grams \n Date First Available : 6 Nov. 2020 \n Manufacturer : NEW BALANCE \n ASIN : B08MWNV5PW \n Item model number : IV574HY1 \n Department : Boy's",
     breadcrumbs:
       "Shoes/Boys' Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -7937,7 +7937,7 @@ export default [
     price: '\u00a362.66 - \u00a3104.82',
     brand: 'Visit the Sorel Store',
     product_details:
-      'Is Discontinued By Manufacturer\n\u200f\n:\n\u200e\n\nNo\n\n\nProduct Dimensions\n\u200f\n:\n\u200e\n\n33.02 x 30.48 x 15.24 cm; 816.47 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n18 July 2013\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nSorel\n\n\nASIN\n\u200f\n:\n\u200e\n\nB001ATM67K\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1123511281\n\n\nDepartment\n\u200f\n:\n\u200e\n\nUnisex Baby',
+      'Is Discontinued By Manufacturer : No \n Product Dimensions : 33.02 x 30.48 x 15.24 cm; 816.47 Grams \n Date First Available : 18 July 2013 \n Manufacturer : Sorel \n ASIN : B001ATM67K \n Item model number : 1123511281 \n Department : Unisex Baby',
     breadcrumbs: "Shoes/Boys' Shoes/Boots",
     images_list: [
       'https://m.media-amazon.com/images/I/41rflmiPd7L.jpg',
@@ -7968,7 +7968,7 @@ export default [
     price: '\u00a336.83 - \u00a370.87',
     brand: 'British Knights',
     product_details:
-      "Batteries\n\u200f\n:\n\u200e\n\n1 AAA batteries required.\n\n\nPackage Dimensions\n\u200f\n:\n\u200e\n\n33 x 22 x 11.5 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Dec. 2020\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nBritish Knights\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08PPSX1G5\n\n\nItem model number\n\u200f\n:\n\u200e\n\nB47-3607\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Batteries : 1 AAA batteries required. \n Package Dimensions : 33 x 22 x 11.5 cm; 1 Kilograms \n Date First Available : 2 Dec. 2020 \n Manufacturer : British Knights \n ASIN : B08PPSX1G5 \n Item model number : B47-3607 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Fashion Trainers",
     images_list: [
@@ -8000,7 +8000,7 @@ export default [
     price: '\u00a323.75 - \u00a336.94',
     brand: 'Roxy',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n32.51 x 17.53 x 11.18 cm; 86.18 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n5 July 2012\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nRoxy\n\n\nASIN\n\u200f\n:\n\u200e\n\nB00ZUYKHCM\n\n\nItem model number\n\u200f\n:\n\u200e\n\nARJL100251\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Package Dimensions : 32.51 x 17.53 x 11.18 cm; 86.18 Grams \n Date First Available : 5 July 2012 \n Manufacturer : Roxy \n ASIN : B00ZUYKHCM \n Item model number : ARJL100251 \n Department : Women's",
     breadcrumbs:
       "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Beach Flip Flops & Pool Slides",
     images_list: [
@@ -8027,7 +8027,7 @@ export default [
     price: '\u00a3155.00',
     brand: 'ASICS',
     product_details:
-      "Package Dimensions\n\u200f\n:\n\u200e\n\n34.8 x 19 x 12 cm; 1 Kilograms\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n9 Jun. 2021\n\n\nManufacturer\n\u200f\n:\n\u200e\n\nAsics\n\n\nASIN\n\u200f\n:\n\u200e\n\nB096MWVZX8\n\n\nItem model number\n\u200f\n:\n\u200e\n\n1041A082 005\n\n\nDepartment\n\u200f\n:\n\u200e\n\nMen's",
+      "Package Dimensions : 34.8 x 19 x 12 cm; 1 Kilograms \n Date First Available : 9 Jun. 2021 \n Manufacturer : Asics \n ASIN : B096MWVZX8 \n Item model number : 1041A082 005 \n Department : Men's",
     breadcrumbs:
       "Shoes/Men's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Running Shoes/Road Running Shoes",
     images_list: [
@@ -8056,7 +8056,7 @@ export default [
     price: '\u00a324.64 - \u00a342.02',
     brand: 'Zuwoigo',
     product_details:
-      "Product Dimensions\n\u200f\n:\n\u200e\n\n28 x 10 x 8 cm; 272 Grams\n\n\nDate First Available\n\u200f\n:\n\u200e\n\n2 Nov. 2020\n\n\nASIN\n\u200f\n:\n\u200e\n\nB08MF6221R\n\n\nManufacturer reference\n\u200f\n:\n\u200e\n\nzu2123-Light Gray35\n\n\nDepartment\n\u200f\n:\n\u200e\n\nWomen's",
+      "Product Dimensions : 28 x 10 x 8 cm; 272 Grams \n Date First Available : 2 Nov. 2020 \n ASIN : B08MF6221R \n Manufacturer reference : zu2123-Light Gray35 \n Department : Women's",
     breadcrumbs: "Shoes/Women's Shoes/Fashion & Athletic Trainers",
     images_list: [
       'https://m.media-amazon.com/images/I/41mINmgauNL.jpg',
