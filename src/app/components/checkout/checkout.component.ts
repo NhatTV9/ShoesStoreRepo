@@ -79,6 +79,7 @@ export class CheckoutComponent implements OnInit {
   checkout() {
     //save payment method
     this.user.paymentMethod = this.paymentMethod.value;
+    console.log;
     this.cartService.removeCart();
     Swal.fire({
       icon: 'success',
