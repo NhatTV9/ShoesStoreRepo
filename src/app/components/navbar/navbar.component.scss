@@ -47,13 +47,14 @@ li a {
   height: 30px;
   border-radius: 15px;
   padding: 5px;
+  position: relative;
 }
 .searchBox:hover {
   background: linear-gradient(270deg, #ffba00 0%, #ff6c00 100%);
   padding: 5px 10px;
 }
 .searchBox:hover > .searchInput {
-  width: 140px;
+  width: 200px;
   padding: 3px 10px;
 }
 
@@ -119,11 +120,21 @@ li a {
   }
 }
 //search
-.deal-img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-.deal * {
-  font-size: 12px;
-}
+// .deal-img {
+//   max-width: 100%;
+//   max-height: 100%;
+//   object-fit: contain;
+// }
+// .deal * {
+//   font-size: 12px;
+// }
+// .dropdown-menu {
+//   display: none;
+// }
+// .searchBox:hover > .dropdown-menu {
+//   display: block;
+//   width: 100%;
+//   position: absolute;
+//   right: 0px;
+//   margin-top: 10px;
+// }

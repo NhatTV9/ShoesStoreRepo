@@ -53,7 +53,6 @@ export class NavbarComponent implements OnInit {
         if (this.productSearch) {
           this.showDropdown = true;
         }
-        console.log(this.productSearch);
       });
   }
   onLogout() {
