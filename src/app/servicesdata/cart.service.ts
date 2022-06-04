@@ -20,8 +20,8 @@ export class CartService {
   getCart() {
     return this.cart;
   }
-  setCart(cart) {
-    this.cart = cart;
+  removeCart() {
+    this.cart = [];
   }
   addItem(item) {
     let index = this.cart.findIndex((c) => {

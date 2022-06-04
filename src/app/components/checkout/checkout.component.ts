@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormGroup } from '@angular/forms';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 import {
   ActivatedRoute,
   NavigationEnd,
@@ -27,7 +27,10 @@ export class CheckoutComponent implements OnInit {
   public checkoutForm = new FormGroup({
     coupon: new FormControl(''),
   });
-
+  paymentForm = new FormGroup({
+    acceptConditions: new FormControl(false, Validators.required),
+    paymentMethod: new FormControl('paypal', Validators.required),
+  });
   constructor(
     public authService: AuthService,
     private router: Router,
@@ -55,11 +58,16 @@ export class CheckoutComponent implements OnInit {
   get coupon() {
     return this.checkoutForm.get('coupon');
   }
-  onBlur(x) {
-    console.log(x);
+  get acceptConditions() {
+    return this.paymentForm.get('acceptConditions');
+  }
+  get paymentMethod() {
+    return this.paymentForm.get('paymentMethod');
+  }
+  log() {
+    console.log(this.paymentForm);
   }
   applyCoupon() {
-    console.log(this.coupon.value);
     for (let c of this.coupons) {
       if (this.coupon.value == c.name) {
         this.checkCoupon = true;
@@ -68,12 +76,13 @@ export class CheckoutComponent implements OnInit {
       }
     }
   }
-  pay() {
-    let cart = [];
-    this.cartService.setCart(cart);
+  checkout() {
+    //save payment method
+    this.user.paymentMethod = this.paymentMethod.value;
+    this.cartService.removeCart();
     Swal.fire({
       icon: 'success',
-      title: 'Sigup succesful',
-    });
+      title: 'Payment successfull',
+    }).then(() => this.router.navigateByUrl('/confirmation'));
   }
 }
