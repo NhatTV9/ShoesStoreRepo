@@ -56,7 +56,7 @@
               </div>
             </ng-template>
           </li>
-
+          <!-- cart -->
           <li class="nav-item">
             <span
               class="nav-link cart"
@@ -66,7 +66,7 @@
             ></span>
           </li>
           <li class="nav-item my-auto">
-            <div class="searchBox d-flex align-items-center">
+            <div class="searchBox d-flex justify-content-end">
               <input
                 class="searchInput"
                 type="text"
@@ -74,12 +74,20 @@
                 [formControl]="search"
                 placeholder="Search"
               />
+
+              <button class="searchButton">
+                <i class="fas fa-search"></i>
+              </button>
               <div
-                class="dropdown-menu w-100"
+                class="dropdown-menu px-3"
+                id="dropdown-menu"
                 *ngIf="showDropdown"
                 [class.show]="showDropdown"
               >
-                <div class="col-4 row" *ngFor="let item of productSearch">
+                <div
+                  class="row"
+                  *ngFor="let item of productSearch; let i = index"
+                >
                   <div class="col-4">
                     <img class="deal-img" [src]="item.images_list[0]" alt="" />
                   </div>
@@ -87,14 +95,11 @@
                     <p class="text-uppercase mt-3" id="title1">
                       {{ item.title | textcustom: 15 }}
                     </p>
-                    <p>{{ item.price }}</p>
+                    <p>{{ item.price | currency: "USD" }}</p>
                     <p *ngIf="!item.price">£161.63 - £202.04</p>
                   </div>
                 </div>
               </div>
-              <button class="searchButton">
-                <i class="fas fa-search"></i>
-              </button>
             </div>
           </li>
         </ul>

@@ -6,3 +6,7 @@ h2 {
   padding-left: 30px;
   margin-bottom: 0px;
 }
+button[disabled] {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
+}

@@ -40,7 +40,11 @@ export class LoginComponent implements OnInit {
     };
     this.authService.login(user, this.stayLogIn.value).subscribe(
       (res) => {
-        this.router.navigateByUrl('/');
+        if (this.authService.navigationUrl == 'checkout') {
+          this.router.navigateByUrl('/checkout');
+        } else {
+          this.router.navigateByUrl('/');
+        }
       },
       (err) => {
         Swal.fire({
