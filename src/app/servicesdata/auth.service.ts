@@ -28,11 +28,11 @@ export class AuthService {
   private baseUrl = 'https://jobify-prod.herokuapp.com/api/v1';
   public user = null;
   private savedToken = 'token';
+  public navigationUrl = '';
   constructor(private http: HttpClient) {
     let token = localStorage.getItem(this.savedToken);
     if (token) {
       console.log(token);
-
       this.user = JSON.parse(token);
     }
   }

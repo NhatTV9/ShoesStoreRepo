@@ -28,28 +28,28 @@
             <td>
               <div style="width: 120px">
                 <div
-              class="border rounded"
-              style="font-size: 15px"
-              id="add-product"
-            >
-              <button
-                (click)="cartService.remove(item.item)"
-                class="btn border-right px-2"
-              >
-                -
-              </button>
-              <input
-                type="text"
-                [value]="cartService.getQuantityItem(item.item.id)"
-                class="input border-0"
-              />
-              <button
-                (click)="cartService.addItem(item.item)"
-                class="btn border-left px-2"
-              >
-                +
-              </button>
-            </div>
+                  class="border rounded"
+                  style="font-size: 15px"
+                  id="add-product"
+                >
+                  <button
+                    (click)="cartService.remove(item.item)"
+                    class="btn border-right px-2"
+                  >
+                    -
+                  </button>
+                  <input
+                    type="text"
+                    [value]="cartService.getQuantityItem(item.item.id)"
+                    class="input border-0"
+                  />
+                  <button
+                    (click)="cartService.addItem(item.item)"
+                    class="btn border-left px-2"
+                  >
+                    +
+                  </button>
+                </div>
               </div>
             </td>
             <td>
@@ -83,17 +83,24 @@
         <tbody>
           <tr>
             <td>{{ cartService.getTotalItems() }} items</td>
-            <td class="text-right">{{ getTotalPrice() | currency: "USD" }}</td>
+            <td class="text-right">
+              {{ cartService.getTotalPrice() | currency: "USD" }}
+            </td>
           </tr>
           <tr>
             <td>Delivery fee</td>
-            <td class="text-right">{{ deliveryfee | currency: "USD" }}</td>
+            <td class="text-right">
+              {{ cartService.deliveryfee | currency: "USD" }}
+            </td>
           </tr>
           <tr>
             <td scope="col"><h5 class="font-weight-bold">Total Cost</h5></td>
             <td scope="col" class="text-right">
               <h5 class="font-weight-bold text-black">
-                {{ getTotalPrice() + deliveryfee | currency: "USD" }}
+                {{
+                  cartService.getTotalPrice() + cartService.deliveryfee
+                    | currency: "USD"
+                }}
               </h5>
             </td>
           </tr>

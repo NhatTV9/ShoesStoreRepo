@@ -10,6 +10,7 @@ export interface CartItem {
 })
 export class CartService {
   private cart: CartItem[] = [];
+  public deliveryfee = 50;
   constructor() {
     let token = localStorage.getItem('shoesCart');
     if (token) {
@@ -18,6 +19,9 @@ export class CartService {
   }
   getCart() {
     return this.cart;
+  }
+  setCart(cart) {
+    this.cart = cart;
   }
   addItem(item) {
     let index = this.cart.findIndex((c) => {
@@ -67,5 +71,12 @@ export class CartService {
       this.cart.splice(index, 1);
     }
     localStorage.setItem('shoesCart', JSON.stringify(this.cart));
+  }
+  getTotalPrice() {
+    let total = 0;
+    for (let i of this.getCart()) {
+      total += i.quantity * Number.parseFloat(i.item.price);
+    }
+    return total;
   }
 }
