@@ -18,4 +18,8 @@ export class ShoppingCartComponent implements OnInit {
     }
     return total;
   }
+  onKeyup(event, item) {
+    const inputValue = event.target.value;
+    this.cartService.addByQuantity(item, inputValue);
+  }
 }

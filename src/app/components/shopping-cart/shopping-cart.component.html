@@ -28,28 +28,29 @@
             <td>
               <div style="width: 120px">
                 <div
-              class="border rounded"
-              style="font-size: 15px"
-              id="add-product"
-            >
-              <button
-                (click)="cartService.remove(item.item)"
-                class="btn border-right px-2"
-              >
-                -
-              </button>
-              <input
-                type="text"
-                [value]="cartService.getQuantityItem(item.item.id)"
-                class="input border-0"
-              />
-              <button
-                (click)="cartService.addItem(item.item)"
-                class="btn border-left px-2"
-              >
-                +
-              </button>
-            </div>
+                  class="border rounded"
+                  style="font-size: 15px"
+                  id="add-product"
+                >
+                  <button
+                    (click)="cartService.remove(item.item)"
+                    class="btn border-right px-2"
+                  >
+                    -
+                  </button>
+                  <input
+                    type="number"
+                    [value]="cartService.getQuantityItem(item.item.id)"
+                    class="input border-0"
+                    (keyup)="onKeyup($event, item.item)"
+                  />
+                  <button
+                    (click)="cartService.addItem(item.item)"
+                    class="btn border-left px-2"
+                  >
+                    +
+                  </button>
+                </div>
               </div>
             </td>
             <td>
