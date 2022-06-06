@@ -59,7 +59,7 @@ const routes: Routes = [
     canDeactivate: [CheckEditModeGuard],
   },
   {
-    path: 'confirmation',
+    path: 'confirmation/:id',
     component: ConfirmationComponent,
     canActivate: [AuthGuard],
   },

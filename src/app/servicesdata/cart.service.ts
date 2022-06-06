@@ -22,6 +22,7 @@ export class CartService {
   }
   removeCart() {
     this.cart = [];
+    localStorage.removeItem('shoesCart');
   }
   addItem(item) {
     let index = this.cart.findIndex((c) => {

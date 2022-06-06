@@ -1,3 +1,4 @@
+import { OrderService } from './../../servicesdata/order.service';
 import { Component, OnInit, Pipe } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import {
@@ -58,7 +59,8 @@ export class CheckoutComponent implements OnInit {
     public authService: AuthService,
     private router: Router,
     private activatedRouter: ActivatedRoute,
-    public cartService: CartService
+    public cartService: CartService,
+    private orderService: OrderService
   ) {}
   ngOnInit(): void {
     this.activatedRouter.url.subscribe((p) => {
@@ -107,8 +109,12 @@ export class CheckoutComponent implements OnInit {
   get postcode() {
     return this.contactForm.get('postcode');
   }
-  log() {
-    console.log(this.paymentForm);
+  getTotal() {
+    return (
+      this.cartService.deliveryfee +
+      this.cartService.getTotalPrice() -
+      this.valueCoupon
+    );
   }
   applyCoupon() {
     for (let c of this.coupons) {
@@ -133,11 +139,16 @@ export class CheckoutComponent implements OnInit {
       lastName: this.lastName.value,
       firstName: this.firstName.value,
     };
+    let orderId = this.orderService.setOrder(
+      this.cartService.getCart(),
+      this.getTotal().toFixed(2),
+      this.paymentMethod.value
+    );
     this.cartService.removeCart();
     Swal.fire({
       icon: 'success',
       title: 'Payment successfull',
-    }).then(() => this.router.navigateByUrl('/confirmation'));
+    }).then(() => this.router.navigateByUrl('/confirmation/' + orderId));
     this.continueCheckout = true;
   }
 }

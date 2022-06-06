@@ -373,24 +373,6 @@
           ></textarea>
         </div>
       </form>
-      <!-- <h5 class="border-bottom w-100 p-2">Billing Details</h5>
-        <div class="mt-4 px-5">
-          <p>
-            <span>{{ user.lastName }}</span>
-            <span class="">{{ user.name }}</span>
-          </p>
-          <p>Shipping Address: {{ user.location }}</p>
-          <p>Phone: {{ user.phone }}</p>
-          <a class="text-link">Change shipping address</a>
-        </div>
-        <h5 class="border-bottom w-100 p-2 mt-4">Shipping Details</h5>
-        <div class="form-group mt-4">
-          <textarea
-            class="form-control"
-            rows="5"
-            placeholder="Order Notes"
-          ></textarea>
-        </div> -->
     </div>
     <div class="col bg-light p-4 ml-4">
       <h5 class="border-bottom w-100 p-4">Shipping Details</h5>
@@ -433,11 +415,7 @@
             <th scope="col">TOTAL</th>
             <th scope="col"></th>
             <th scope="col">
-              {{
-                cartService.deliveryfee +
-                  cartService.getTotalPrice() -
-                  valueCoupon | currency: "USD"
-              }}
+              {{ getTotal() | currency: "USD" }}
             </th>
           </tr>
         </thead>
@@ -502,7 +480,6 @@
             type="checkbox"
             class="form-check-input"
             formControlName="acceptConditions"
-            (blur)="log()"
           />
           <label class="form-check-label"
             ><p class="text-muted p-0 m-0">I’ve read and accept the</p>

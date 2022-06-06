@@ -13,10 +13,10 @@
           <li>Payment method</li>
         </ul>
         <ul class="col">
-          <li>: 60235</li>
-          <li>: Los Angeles</li>
-          <li>: USD 2210</li>
-          <li>: Check payments</li>
+          <li>: {{ order.id }}</li>
+          <li>: {{ order.date | date: "dd/MM/yyyy" }}</li>
+          <li>: USD {{ order.totalPrice }}</li>
+          <li>: {{ order.paymentMethod | titlecase }}</li>
         </ul>
       </div>
     </div>
@@ -24,16 +24,16 @@
       <h5>Billing Address</h5>
       <div class="row border-top">
         <ul class="col text-muted">
-          <li>Street</li>
+          <li>Address</li>
           <li>City</li>
           <li>Country</li>
           <li>Postcode</li>
         </ul>
         <ul class="col">
-          <li>: 56/8</li>
-          <li>: Los Angeles</li>
-          <li>: United States</li>
-          <li>: 36952</li>
+          <li>: {{ order.contact.address }}</li>
+          <li>: {{ order.contact.city }}</li>
+          <li>: {{ order.contact.country }}</li>
+          <li>: {{ order.contact.postcode }}</li>
         </ul>
       </div>
     </div>
@@ -47,10 +47,10 @@
           <li>Postcode</li>
         </ul>
         <ul class="col">
-          <li>: 56/8</li>
-          <li>: Los Angeles</li>
-          <li>: United States</li>
-          <li>: 36952</li>
+          <li>: {{ order.contact.address }}</li>
+          <li>: {{ order.contact.city }}</li>
+          <li>: {{ order.contact.country }}</li>
+          <li>: {{ order.contact.postcode }}</li>
         </ul>
       </div>
     </div>
@@ -58,7 +58,7 @@
   <div class="my-5 bg-light p-4">
     <h5 class="font-weight-bold mb-4">Order Details</h5>
     <div class="table-responsive">
-      <table class="table">
+      <table class="table table-borderless">
         <thead>
           <tr>
             <th scope="col">Product</th>
@@ -67,61 +67,14 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr *ngFor="let item of order.items">
             <td>
-              <p>Pixelstore fresh Blackberry</p>
+              <p>{{ item.item.brand }}</p>
             </td>
-            <td>
-              <h6>x 02</h6>
-            </td>
-            <td>
-              <p>$720.00</p>
-            </td>
+            <td>x 0{{ item.quantity }}</td>
+            <td>{{ item.item.price + item.quantity | currency: "USD" }}</td>
           </tr>
-          <tr>
-            <td>
-              <p>Pixelstore fresh Blackberry</p>
-            </td>
-            <td>
-              <h6>x 02</h6>
-            </td>
-            <td>
-              <p>$720.00</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <p>Pixelstore fresh Blackberry</p>
-            </td>
-            <td>
-              <h6>x 02</h6>
-            </td>
-            <td>
-              <p>$720.00</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h6 class="font-weight-bold">Subtotal</h6>
-            </td>
-            <td>
-              <h6></h6>
-            </td>
-            <td>
-              <p>$2160.00</p>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <h6 class="font-weight-bold">Shipping</h6>
-            </td>
-            <td>
-              <h6></h6>
-            </td>
-            <td>
-              <p>Flat rate: $50.00</p>
-            </td>
-          </tr>
+
           <tr>
             <td>
               <h6 class="font-weight-bold">Total</h6>

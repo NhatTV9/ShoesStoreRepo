@@ -5,19 +5,30 @@
     confirmation email you should have received.
   </p>
   <div class="w-50">
-    <form>
+    <form [formGroup]="trackingForm" (ngSubmit)="submit()">
       <div class="form-group">
-        <input type="text" class="form-control py-4" placeholder="Order ID" />
+        <input
+          type="text"
+          class="form-control py-4"
+          placeholder="Order ID"
+          formControlName="idOrder"
+        />
       </div>
-      <div class="form-group">
+      <div class="text-danger" *ngIf="idOrder.errors && idOrder.touched">
+        <small class="font-italic" *ngIf="idOrder.errors.required">
+          This field is required
+        </small>
+      </div>
+      <!-- <div class="form-group">
         <input
           type="email"
           class="form-control py-4"
           placeholder="Billing Email Address"
         />
-      </div>
+      </div> -->
       <button
         class="bg-primary gradient px-5 py-3 border-0 text-white font-weight-bold mt-2"
+        [disabled]="trackingForm.invalid"
       >
         Send Message
       </button>
