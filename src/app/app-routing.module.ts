@@ -14,6 +14,8 @@ import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.
 import { CheckoutComponent } from './components/checkout/checkout.component';
 import { ConfirmationComponent } from './components/confirmation/confirmation.component';
 import { SigupComponent } from './components/sigup/sigup.component';
+import { AuthGuard } from './guards/auth.guard';
+import { CheckEditModeGuard } from './guards/check-edit-mode.guard';
 
 const routes: Routes = [
   {
@@ -44,6 +46,7 @@ const routes: Routes = [
   {
     path: 'tracking',
     component: TrackingComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'shopping-cart',
@@ -52,10 +55,13 @@ const routes: Routes = [
   {
     path: 'checkout',
     component: CheckoutComponent,
+    canActivate: [AuthGuard],
+    canDeactivate: [CheckEditModeGuard],
   },
   {
     path: 'confirmation',
     component: ConfirmationComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: 'sigup',

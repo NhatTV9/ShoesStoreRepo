@@ -16,6 +16,7 @@ import { AuthService } from '../../servicesdata/auth.service';
   styleUrls: ['./checkout.component.scss'],
 })
 export class CheckoutComponent implements OnInit {
+  continueCheckout = false;
   public coupons = [
     { name: 'nhattv9', value: 50 },
     { name: 'dongnt11', value: 70 },
@@ -41,9 +42,6 @@ export class CheckoutComponent implements OnInit {
     this.activatedRouter.url.subscribe((p) => {
       this.authService.navigationUrl = p[0].path;
     });
-    if (!this.authService.isLogin()) {
-      this.router.navigateByUrl('/login');
-    }
     if (this.authService.user) {
       this.user.phone = '0328683017';
       if (this.user.name == 'nga') {
@@ -79,11 +77,11 @@ export class CheckoutComponent implements OnInit {
   checkout() {
     //save payment method
     this.user.paymentMethod = this.paymentMethod.value;
-    console.log;
     this.cartService.removeCart();
     Swal.fire({
       icon: 'success',
       title: 'Payment successfull',
     }).then(() => this.router.navigateByUrl('/confirmation'));
+    this.continueCheckout = true;
   }
 }
