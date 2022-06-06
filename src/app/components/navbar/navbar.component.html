@@ -1,12 +1,24 @@
 <div class="bg-white">
   <div class="container-xl">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" routerLink="/home">
         <img src="../../../assets/img/brand.webp" />
       </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        (click)="iconNavClick()"
+        [ngClass]="{ collapsed: checkNav }"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-      <div class="collapse navbar-collapse" id="nav-bar">
-        <ul class="navbar-nav ml-auto align-items-center">
+      <div
+        class="collapse navbar-collapse"
+        id="nav-bar"
+        [ngClass]="{ show: checkNav }"
+      >
+        <ul class="navbar-nav ml-auto align-items-lg-center align-items-end">
           <li class="nav-item">
             <a class="nav-link" routerLink="/home" routerLinkActive="active"
               >Home</a
@@ -62,6 +74,9 @@
               class="nav-link cart"
               routerLink="shopping-cart"
               [attr.data-totalitems]="cartService.getTotalItems()"
+              ><i class="fas fa-shopping-cart" style="font-size: 16px"></i
+            ></span>
+            <span class="nav-link cart1" routerLink="shopping-cart"
               ><i class="fas fa-shopping-cart" style="font-size: 16px"></i
             ></span>
           </li>

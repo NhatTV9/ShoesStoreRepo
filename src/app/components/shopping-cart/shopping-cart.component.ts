@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { CartService } from '../../servicesdata/cart.service';
+import { NgxSpinnerService } from 'ngx-spinner';
+import {
+  Product,
+  ProductsService,
+} from 'src/app/servicesdata/products.service';
 
 @Component({
   selector: 'app-shopping-cart',
@@ -7,7 +12,17 @@ import { CartService } from '../../servicesdata/cart.service';
   styleUrls: ['./shopping-cart.component.scss'],
 })
 export class ShoppingCartComponent implements OnInit {
-  constructor(public cartService: CartService) {}
+  public cartProduct;
+  constructor(
+    public cartService: CartService,
+    private spinner: NgxSpinnerService,
+    private productService: ProductsService
+  ) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.productService.getFake().subscribe((p) => {
+      this.cartProduct = this.cartService.getCart();
+      this.spinner.hide();
+    });
+  }
 }
