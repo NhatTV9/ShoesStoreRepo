@@ -1,6 +1,6 @@
 <div class="container-xl" *ngIf="detailProduct">
   <div class="detail-product row">
-    <div class="col-6 p-5">
+    <div class="col-lg-6 col-12 p-5">
       <div class="content-left">
         <div class="picsum-img-wrapper p-3">
           <img [src]="imgcontainer" class="mx-auto" id="img-product-detail" />
@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    <div class="col-6 p-5">
+    <div class="col-lg-6 col-12 p-5">
       <h3>{{ detailProduct.brand }}</h3>
       <h2 class="text-warning">
         {{ detailProduct.price | currency: "USD" }}

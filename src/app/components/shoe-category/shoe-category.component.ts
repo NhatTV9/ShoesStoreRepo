@@ -12,6 +12,7 @@ export class ShoeCategoryComponent implements OnInit {
   public show = 12;
   public pages = [];
   public page = 1;
+  public showSileBar = true;
 
   constructor(public productService: ProductsService) {}
   ngOnInit(): void {

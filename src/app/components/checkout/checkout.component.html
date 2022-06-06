@@ -1,8 +1,8 @@
 <div class="container">
   <div *ngIf="authService.isLogin()">
     <div class="row mt-4">
-      <div class="col-8 p-0">
-        <div class="row bg-light align-items-center">
+      <div class="col-lg-8 p-lg-0 p-5">
+        <div class="row bg-light align-items-center mr-4">
           <h2 class="w-100">
             Have a coupon?
             <a class="text-danger" style="text-decoration: underline"
@@ -10,7 +10,7 @@
             >
           </h2>
         </div>
-        <div class="row">
+        <div class="row mr-4">
           <div class="col-6 mt-4">
             <form [formGroup]="checkoutForm">
               <input
@@ -30,18 +30,18 @@
             </button>
           </div>
         </div>
-        <h5 class="border-bottom w-100 p-2">Billing Details</h5>
-        <div class="mt-4 px-5">
+        <h5 class="border-bottom w-100 p-2 mr-4">Billing Details</h5>
+        <div class="mt-4 px-md-5 mr-md-4 px-1 mr-0">
           <p>
             <span>{{ user.lastName }}</span>
-            <span class="">{{ user.name }}</span>
+            <span>{{ user.name }}</span>
           </p>
           <p>Shipping Address: {{ user.location }}</p>
           <p>Phone: {{ user.phone }}</p>
           <a class="text-link">Change shipping address</a>
         </div>
-        <h5 class="border-bottom w-100 p-2 mt-4">Shipping Details</h5>
-        <div class="form-group mt-4">
+        <h5 class="border-bottom w-100 p-2 mt-4 mr-4">Shipping Details</h5>
+        <div class="form-group mt-4 mr-4">
           <textarea
             class="form-control"
             rows="5"
@@ -49,7 +49,8 @@
           ></textarea>
         </div>
       </div>
-      <div class="col bg-light p-4 ml-4">
+
+      <div class="col-lg-4 bg-light p-4">
         <h5 class="border-bottom w-100 p-4">Shipping Details</h5>
         <table class="table table-borderless text-muted">
           <thead>

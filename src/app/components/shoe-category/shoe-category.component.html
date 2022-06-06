@@ -1,5 +1,8 @@
 <div class="row container-xl mx-auto mt-5">
-  <div class="col-3 shadow">
+  <div
+    class="col-lg-3 col-12 shadow d-xl-block d-none"
+    style="height: fit-content"
+  >
     <div class="row p-4 align-items-center bg-primary" id="nav-category">
       <h5 class="text-white m-0 p-0">Product Fillters</h5>
     </div>
@@ -18,31 +21,35 @@
       </div>
     </div>
   </div>
-  <div class="col-9 pl-5">
+  <div class="col-xl-9 col-12 pl-5">
     <!-- nav-catagory -->
     <div class="row p-2 align-items-center" id="nav-category">
-      <select
-        class="form-select w-10"
-        aria-label="Default select example"
-        (change)="sort($event.target.value)"
-      >
-        <option selected>12</option>
-        <option *ngFor="let i of shows">{{ i }}</option>
-      </select>
-      <ngb-pagination
-        class="ml-auto align-self-center"
-        [directionLinks]="true"
-        [collectionSize]="productService.productList.length"
-        [(page)]="page"
-        [maxSize]="3"
-        [rotate]="true"
-        [pageSize]="show"
-        (pageChange)="next($event)"
-      ></ngb-pagination>
+      <div class="col-12 col-md-4">
+        <select
+          class="form-select w-md-50 w-25"
+          aria-label="Default select example"
+          (change)="sort($event.target.value)"
+        >
+          <option selected>12</option>
+          <option *ngFor="let i of shows">{{ i }}</option>
+        </select>
+      </div>
+      <div class="col-12 col-md-8">
+        <ngb-pagination
+          class="ml-auto align-self-center float-md-right float-left mt-3"
+          [directionLinks]="true"
+          [collectionSize]="productService.productList.length"
+          [(page)]="page"
+          [maxSize]="3"
+          [rotate]="true"
+          [pageSize]="show"
+          (pageChange)="next($event)"
+        ></ngb-pagination>
+      </div>
     </div>
     <!-- show product -->
-    <div class="row shadow">
-      <div class="col-4" *ngFor="let item of products">
+    <div class="row">
+      <div class="col-lg-4 col-6" *ngFor="let item of products">
         <app-shoe-preview
           [numberCharater]="40"
           [product]="item"

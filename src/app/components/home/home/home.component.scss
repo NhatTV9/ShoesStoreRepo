@@ -1,7 +1,6 @@
 #img-slide {
   width: 100%;
-  height: 100vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .add-icon {
@@ -82,4 +81,18 @@ p i {
   width: 100%;
   height: 200px;
   object-fit: contain;
+}
+@media only screen and (max-width: 1400px) {
+  #img-slide {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #img-slide {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
 }

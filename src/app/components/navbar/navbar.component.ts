@@ -59,4 +59,9 @@ export class NavbarComponent implements OnInit {
     this.authService.logout();
     this.router.navigateByUrl('/login');
   }
+  public checkNav = false;
+  iconNavClick() {
+    console.log('click');
+    this.checkNav = !this.checkNav;
+  }
 }

@@ -50,7 +50,7 @@ export class SigupComponent implements OnInit {
     return this.createAccount;
   }
   onBlur() {
-    console.log(this.password);
+    console.log(this.email);
   }
   submit() {
     if (this.f.value.password != this.f.value.passwordConfirm) {
