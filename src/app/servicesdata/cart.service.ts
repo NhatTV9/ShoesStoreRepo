@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 
 import { Product } from './products.service';
-export interface CartItem {
+export interface Order {
   item: Product;
   quantity: number;
 }
@@ -9,7 +9,7 @@ export interface CartItem {
   providedIn: 'root',
 })
 export class CartService {
-  private cart: CartItem[] = [];
+  private cart: Order[] = [];
   public deliveryfee = 50;
   constructor() {
     let token = localStorage.getItem('shoesCart');
@@ -22,6 +22,7 @@ export class CartService {
   }
   removeCart() {
     this.cart = [];
+    localStorage.removeItem('shoesCart');
   }
   addItem(item) {
     let index = this.cart.findIndex((c) => {
