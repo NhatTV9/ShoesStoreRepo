@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Pipe } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import {
   ActivatedRoute,
@@ -32,6 +32,28 @@ export class CheckoutComponent implements OnInit {
     acceptConditions: new FormControl(false, Validators.required),
     paymentMethod: new FormControl('paypal', Validators.required),
   });
+  contactForm = new FormGroup({
+    firstName: new FormControl('', [
+      Validators.required,
+      Validators.minLength(1),
+    ]),
+    lastName: new FormControl('', [
+      Validators.required,
+      Validators.minLength(1),
+    ]),
+    phoneNumber: new FormControl('', [
+      Validators.required,
+      Validators.pattern('^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-s./0-9]*$'),
+    ]),
+    email: new FormControl(this.authService.user.email, [
+      Validators.required,
+      Validators.pattern('^\\w+([\\.-]?\\w+)*@\\w+([\\.-]?w+)*(\\.\\w{2,3})+$'),
+    ]),
+    country: new FormControl('VietNam', [Validators.required]),
+    city: new FormControl('', [Validators.required]),
+    address: new FormControl('', [Validators.required]),
+    postcode: new FormControl('', [Validators.required]),
+  });
   constructor(
     public authService: AuthService,
     private router: Router,
@@ -42,15 +64,14 @@ export class CheckoutComponent implements OnInit {
     this.activatedRouter.url.subscribe((p) => {
       this.authService.navigationUrl = p[0].path;
     });
-    if (this.authService.user) {
-      this.user.phone = '0328683017';
-      if (this.user.name == 'nga') {
-        this.user.lastName = 'Hoang Thanh ';
-      }
-      if (this.user.name == 'nhat') {
-        this.user.lastName = 'Tran Van ';
-      }
-      this.user.location = 'Quynh Hong - Quynh Phu - Thai Binh';
+    if (this.authService.user.contact) {
+      this.phoneNumber.setValue(this.authService.user.contact.phoneNumber);
+      this.address.setValue(this.authService.user.contact.address);
+      this.city.setValue(this.authService.user.contact.city);
+      this.country.setValue(this.authService.user.contact.country);
+      this.postcode.setValue(this.authService.user.contact.postcode);
+      this.firstName.setValue(this.authService.user.contact.firstName);
+      this.lastName.setValue(this.authService.user.contact.lastName);
     }
   }
   get coupon() {
@@ -61,6 +82,30 @@ export class CheckoutComponent implements OnInit {
   }
   get paymentMethod() {
     return this.paymentForm.get('paymentMethod');
+  }
+  get firstName() {
+    return this.contactForm.get('firstName');
+  }
+  get lastName() {
+    return this.contactForm.get('lastName');
+  }
+  get phoneNumber() {
+    return this.contactForm.get('phoneNumber');
+  }
+  get country() {
+    return this.contactForm.get('country');
+  }
+  get email() {
+    return this.contactForm.get('email');
+  }
+  get city() {
+    return this.contactForm.get('city');
+  }
+  get address() {
+    return this.contactForm.get('address');
+  }
+  get postcode() {
+    return this.contactForm.get('postcode');
   }
   log() {
     console.log(this.paymentForm);
@@ -76,7 +121,18 @@ export class CheckoutComponent implements OnInit {
   }
   checkout() {
     //save payment method
-    this.user.paymentMethod = this.paymentMethod.value;
+    // this.user.paymentMethod = this.paymentMethod.value;
+    this.authService.user.name = this.firstName.value;
+    this.authService.user.lastName = this.lastName.value;
+    this.authService.contact = {
+      address: this.address.value,
+      city: this.city.value,
+      country: this.country.value,
+      phoneNumber: this.phoneNumber.value,
+      postcode: this.postcode.value,
+      lastName: this.lastName.value,
+      firstName: this.firstName.value,
+    };
     this.cartService.removeCart();
     Swal.fire({
       icon: 'success',

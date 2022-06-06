@@ -7,9 +7,19 @@ export interface User {
   email: string;
   lastName: string;
   location: string;
+  paymentMethod?: string;
+  contact?: Contact;
   __v: number;
 }
-
+export interface Contact {
+  address: string;
+  city: string;
+  country: string;
+  phoneNumber: string;
+  postcode: string;
+  firstName: string;
+  lastName: string;
+}
 export interface UserRespone {
   user: User;
   token: string;
@@ -26,7 +36,7 @@ export interface UserRespone {
 })
 export class AuthService {
   private baseUrl = 'https://jobify-prod.herokuapp.com/api/v1';
-  public user = null;
+  public user: User = null;
   private savedToken = 'token';
   public navigationUrl = '';
   constructor(private http: HttpClient) {
@@ -35,6 +45,10 @@ export class AuthService {
       console.log(token);
       this.user = JSON.parse(token);
     }
+  }
+  set contact(contact) {
+    this.user.contact = contact;
+    localStorage.setItem(this.savedToken, JSON.stringify(this.user));
   }
   login(user, stayLogIn) {
     return this.http.post(`${this.baseUrl}/auth/login`, user).pipe(
