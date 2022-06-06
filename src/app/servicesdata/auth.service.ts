@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { tap } from 'rxjs/operators';
+import { NgxSpinnerService } from 'ngx-spinner';
 export interface User {
   _id: string;
   name: string;
@@ -39,7 +40,7 @@ export class AuthService {
   public user: User = null;
   private savedToken = 'token';
   public navigationUrl = '';
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private spinner: NgxSpinnerService) {
     let token = localStorage.getItem(this.savedToken);
     if (token) {
       console.log(token);
@@ -51,6 +52,7 @@ export class AuthService {
     localStorage.setItem(this.savedToken, JSON.stringify(this.user));
   }
   login(user, stayLogIn) {
+    this.spinner.show();
     return this.http.post(`${this.baseUrl}/auth/login`, user).pipe(
       tap((res: UserRespone) => {
         this.user = res.user;
@@ -61,6 +63,7 @@ export class AuthService {
     );
   }
   sigup(user) {
+    this.spinner.show();
     return this.http.post(`${this.baseUrl}/auth/register`, user);
   }
   isLogin() {

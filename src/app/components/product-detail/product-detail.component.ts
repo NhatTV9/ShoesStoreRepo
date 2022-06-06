@@ -5,7 +5,7 @@ import {
   Product,
   ProductsService,
 } from 'src/app/servicesdata/products.service';
-
+import { NgxSpinnerService } from 'ngx-spinner';
 @Component({
   selector: 'app-product-detail',
   templateUrl: './product-detail.component.html',
@@ -18,15 +18,18 @@ export class ProductDetailComponent implements OnInit {
   constructor(
     public productService: ProductsService,
     public activedRouter: ActivatedRoute,
-    public cartService: CartService
+    public cartService: CartService,
+    private spinner: NgxSpinnerService
   ) {}
 
   ngOnInit(): void {
-    let id = this.activedRouter.params.subscribe((p) => {
-      this.detailProduct = this.productService.getDetailProduct(p.id);
-      console.log(this.detailProduct);
+    this.activedRouter.params.subscribe((p) => {
+      this.productService.getFake().subscribe((res) => {
+        this.spinner.hide();
+        this.detailProduct = this.productService.getDetailProduct(p.id);
+        this.imgcontainer = this.detailProduct.images_list[0];
+      });
     });
-    this.imgcontainer = this.detailProduct.images_list[0];
   }
   addItem(product) {
     this.cartService.addItem(product);

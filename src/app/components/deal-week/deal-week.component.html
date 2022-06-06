@@ -8,21 +8,28 @@
   </div>
 
   <div class="row deal">
-    <div class="col-9 row">
-      <div class="col-4 row" *ngFor="let item of productDeal">
-        <div class="col-4">
-          <img class="deal-img" [src]="item.images_list[0]" alt="" />
-        </div>
-        <div class="col-8">
-          <p class="text-uppercase mt-3" id="title1">
-            {{ item.title | textcustom: 15 }}
-          </p>
-          <p>{{ item.price }}</p>
-          <p *ngIf="!item.price">£161.63 - £202.04</p>
+    <div class="col-12 col-lg-9">
+      <div class="row">
+        <div class="col-4 my-3" *ngFor="let item of productDeal">
+          <div
+            class="row d-flex justify-content-center"
+            routerLink="/productDetail/{{ item['id'] }}"
+          >
+            <div class="col-lg-4 col-md-6">
+              <img class="deal-img" [src]="item.images_list[0]" alt="" />
+            </div>
+            <div class="col-8">
+              <p class="text-uppercase mt-3" id="title1">
+                {{ item.title | textcustom: 15 }}
+              </p>
+              <p class="text-center">{{ item.price | currency: "USD" }}</p>
+              <p *ngIf="!item.price">£161.63 - £202.04</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="col-3">
+    <div class="col-0 d-none col-lg-3 d-lg-block">
       <img
         class="deal-img"
         src="../../../../assets/img/layout-3-img-5.webp"

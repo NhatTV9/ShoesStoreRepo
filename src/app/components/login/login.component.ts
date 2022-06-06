@@ -3,6 +3,7 @@ import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { AuthService } from '../../servicesdata/auth.service';
 import { Router } from '@angular/router';
 import Swal from 'sweetalert2';
+import { NgxSpinnerService } from 'ngx-spinner';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
@@ -21,7 +22,11 @@ export class LoginComponent implements OnInit {
     ]),
     stayLogIn: new FormControl(false, []),
   });
-  constructor(private authService: AuthService, private router: Router) {}
+  constructor(
+    private authService: AuthService,
+    private router: Router,
+    private spinner: NgxSpinnerService
+  ) {}
 
   ngOnInit(): void {}
   get email() {
@@ -40,6 +45,7 @@ export class LoginComponent implements OnInit {
     };
     this.authService.login(user, this.stayLogIn.value).subscribe(
       (res) => {
+        this.spinner.hide();
         if (this.authService.navigationUrl == 'checkout') {
           this.router.navigateByUrl('/checkout');
         } else {
@@ -47,6 +53,7 @@ export class LoginComponent implements OnInit {
         }
       },
       (err) => {
+        this.spinner.hide();
         Swal.fire({
           icon: 'error',
           title: 'LogIn failure',

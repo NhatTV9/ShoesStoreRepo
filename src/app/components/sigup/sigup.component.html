@@ -32,11 +32,17 @@
           placeholder="Your Email"
           formControlName="email"
           [ngClass]="{ 'is-invalid': email.errors && email.touched }"
-          (blur)="onBlur()"
         />
-        <div class="invalid-feedback text-left pt-2">
-          <p *ngIf="email.errors.required">Please provide email</p>
-          <p *ngIf="email.errors.pattern">Email is not valid</p>
+        <div
+          class="invalid-feedback text-left pt-2"
+          *ngIf="email.errors && email.touched"
+        >
+          <ng-container *ngIf="email.errors.required"
+            >Please provide email</ng-container
+          >
+          <ng-container *ngIf="email.errors.pattern"
+            >Email is not valid</ng-container
+          >
         </div>
       </div>
     </div>
@@ -53,9 +59,16 @@
           formControlName="password"
           [ngClass]="{ 'is-invalid': password.errors && password.touched }"
         />
-        <div class="invalid-feedback text-left pt-2">
-          <p *ngIf="password.errors.required">Please provide password</p>
-          <p *ngIf="password.errors.pattern">Password is not password</p>
+        <div
+          class="invalid-feedback text-left pt-2"
+          *ngIf="password.errors && password.touched"
+        >
+          <ng-container *ngIf="password.errors.required"
+            >Please provide password</ng-container
+          >
+          <ng-container *ngIf="password.errors.pattern"
+            >Password is not password</ng-container
+          >
         </div>
       </div>
     </div>
@@ -75,13 +88,16 @@
             'is-invalid': passwordConfirm.errors && passwordConfirm.touched
           }"
         />
-        <div class="invalid-feedback text-left pt-2">
-          <p *ngIf="passwordConfirm.errors.required">
+        <div
+          class="invalid-feedback text-left pt-2"
+          *ngIf="password.errors && password.touched"
+        >
+          <ng-container *ngIf="passwordConfirm.errors.required">
             Please provide password confirm
-          </p>
-          <p *ngIf="passwordConfirm.errors.pattern">
+          </ng-container>
+          <ng-container *ngIf="passwordConfirm.errors.pattern">
             Password is not password confirm
-          </p>
+          </ng-container>
         </div>
       </div>
     </div>
