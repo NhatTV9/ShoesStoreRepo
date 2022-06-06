@@ -1,5 +1,8 @@
+import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { tap } from 'rxjs/operators';
 import data from '../../assets/mockData';
+import { NgxSpinnerService } from 'ngx-spinner';
 export interface Feature {
   'Outer Material': string;
   ' Inner Material': string;
@@ -39,19 +42,34 @@ export class ProductsService {
   public productList: Product[] = this.totalProducts;
   public categories = this.getCategories();
 
-  constructor() {}
+  constructor(private http: HttpClient, private spinner: NgxSpinnerService) {}
+  getFake() {
+    this.spinner.show();
+    return this.http.get('https://fakestoreapi.com/products').pipe();
+  }
   getProduct(numberStart, numberEnd) {
     let arr = [];
-    if (numberEnd >= this.productList.length) {
-      for (let i = numberStart; i < this.productList.length; i++) {
-        arr.push(this.productList[i]);
-      }
-      return arr;
-    } else {
-      for (let i = numberStart; i < numberEnd; i++) {
-        arr.push(this.productList[i]);
-      }
-    }
+    this.spinner.show();
+    this.http
+      .get('https://fakestoreapi.com/products')
+      .pipe(
+        tap((res) => {
+          if (numberEnd >= this.productList.length) {
+            for (let i = numberStart; i < this.productList.length; i++) {
+              arr.push(this.productList[i]);
+            }
+            return arr;
+          } else {
+            for (let i = numberStart; i < numberEnd; i++) {
+              arr.push(this.productList[i]);
+            }
+          }
+        })
+      )
+      .subscribe((res) => {
+        this.spinner.hide();
+      });
+
     return arr;
   }
 
@@ -110,6 +128,7 @@ export class ProductsService {
   }
   getAllProductCategory(value) {
     let arr = [];
+
     for (let i = 0; i < this.totalProducts.length; i++) {
       if (this.totalProducts[i].breadcrumbs.indexOf(value) != -1) {
         arr.push(this.totalProducts[i]);

@@ -1,4 +1,4 @@
-<div class="container-xl" *ngIf="cartService.getCart().length">
+<div class="container-xl" *ngIf="cartProduct.length">
   <div class="row">
     <div class="col-lg-8 col-12 py-4 pr-5 shoppping-cart">
       <div class="row border-bottom">
@@ -8,7 +8,7 @@
         </div>
         <div class="col-1"></div>
       </div>
-      <div class="row mt-5" *ngFor="let item of cartService.getCart()">
+      <div class="row mt-5" *ngFor="let item of cartProduct">
         <div class="col-md-7 col-12 align-items-center">
           <div class="row">
             <div class="col-4 pl-2">
@@ -111,7 +111,7 @@
 <div
   class="container-xl text-center"
   style="height: 60vh"
-  *ngIf="!cartService.getCart().length"
+  *ngIf="!cartProduct.length"
 >
   <img src="../../../assets/img/noProductInCart.png" alt="" class="mt-5" />
   <p class="my-4">No product in my cart</p>

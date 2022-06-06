@@ -3,7 +3,7 @@ import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AuthService } from 'src/app/servicesdata/auth.service';
 import Swal from 'sweetalert2';
-
+import { NgxSpinnerService } from 'ngx-spinner';
 @Component({
   selector: 'app-sigup',
   templateUrl: './sigup.component.html',
@@ -32,7 +32,11 @@ export class SigupComponent implements OnInit {
     ]),
   });
 
-  constructor(private router: Router, private authService: AuthService) {}
+  constructor(
+    private router: Router,
+    private authService: AuthService,
+    private spinner: NgxSpinnerService
+  ) {}
   ngOnInit(): void {}
   get name() {
     return this.createAccount.get('name');
@@ -68,12 +72,14 @@ export class SigupComponent implements OnInit {
 
       this.authService.sigup(user).subscribe(
         (data) => {
+          this.spinner.hide();
           Swal.fire({
             icon: 'success',
             title: 'Sigup succesful',
           });
         },
         (err) => {
+          this.spinner.hide();
           Swal.fire({
             icon: 'error',
             title: 'Sigup failure',

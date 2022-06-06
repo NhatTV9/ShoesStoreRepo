@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductsService } from '../../servicesdata/products.service';
+import { NgxSpinnerService } from 'ngx-spinner';
 
 @Component({
   selector: 'app-shoe-category',
@@ -14,7 +15,10 @@ export class ShoeCategoryComponent implements OnInit {
   public page = 1;
   public showSileBar = true;
 
-  constructor(public productService: ProductsService) {}
+  constructor(
+    public productService: ProductsService,
+    private spinner: NgxSpinnerService
+  ) {}
   ngOnInit(): void {
     this.products = this.productService.getProduct(0, this.show);
   }
@@ -23,9 +27,12 @@ export class ShoeCategoryComponent implements OnInit {
     this.products = this.productService.getProduct(0, this.show);
   }
   handleChange(e) {
-    this.products = this.productService.getProductCate(this.show, e);
-    this.productService.productList =
-      this.productService.getAllProductCategory(e);
+    this.productService.getFake().subscribe((p) => {
+      this.products = this.productService.getProductCate(this.show, e);
+      this.productService.productList =
+        this.productService.getAllProductCategory(e);
+      this.spinner.hide();
+    });
   }
   next(e) {
     if (e == 1) {
