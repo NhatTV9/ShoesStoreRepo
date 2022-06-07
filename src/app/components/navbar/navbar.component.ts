@@ -61,7 +61,6 @@ export class NavbarComponent implements OnInit {
   }
   public checkNav = false;
   iconNavClick() {
-    console.log('click');
     this.checkNav = !this.checkNav;
   }
 }
