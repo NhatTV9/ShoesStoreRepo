@@ -46,8 +46,13 @@ export class LoginComponent implements OnInit {
     this.authService.login(user, this.stayLogIn.value).subscribe(
       (res) => {
         this.spinner.hide();
+        console.log(this.authService.navigationUrl);
+
         if (this.authService.navigationUrl == 'checkout') {
           this.router.navigateByUrl('/checkout');
+        }
+        if (this.authService.navigationUrl == 'tracking') {
+          this.router.navigateByUrl('/tracking');
         } else {
           this.router.navigateByUrl('/');
         }

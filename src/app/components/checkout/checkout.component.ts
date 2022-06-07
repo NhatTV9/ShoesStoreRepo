@@ -63,9 +63,10 @@ export class CheckoutComponent implements OnInit {
     private orderService: OrderService
   ) {}
   ngOnInit(): void {
-    this.activatedRouter.url.subscribe((p) => {
-      this.authService.navigationUrl = p[0].path;
-    });
+    // this.activatedRouter.url.subscribe((p) => {
+    //   this.authService.navigationUrl = p[0].path;
+    //   console.log(this.authService.navigationUrl);
+    // });
     if (this.authService.user.contact) {
       this.phoneNumber.setValue(this.authService.user.contact.phoneNumber);
       this.address.setValue(this.authService.user.contact.address);

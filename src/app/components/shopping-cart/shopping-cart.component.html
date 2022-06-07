@@ -1,15 +1,19 @@
-<div class="container-xl" *ngIf="cartProduct.length">
-  <div class="row">
+<div class="container-xl" *ngIf="cartProduct">
+  <div class="row" *ngIf="cartProduct.length">
     <div class="col-lg-8 col-12 py-4 pr-5 shoppping-cart">
       <div class="row border-bottom">
         <div class="col"><h2 class="font-weight-bolder">Cart</h2></div>
         <div class="col-2">
-          <p class="float-right mb-0 mt-4 font-weight-bolder">Total</p>
+          <p
+            class="float-right mb-0 mt-4 font-weight-bolder d-md-inline-block d-none"
+          >
+            Total
+          </p>
         </div>
-        <div class="col-1"></div>
+        <div class="col-2"></div>
       </div>
       <div class="row mt-5" *ngFor="let item of cartProduct">
-        <div class="col-md-7 col-12 align-items-center">
+        <div class="col-md-6 col-12 align-items-center">
           <div class="row">
             <div class="col-4 pl-2">
               <img [src]="item.item.images_list[0]" />
@@ -22,7 +26,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-3 align-items-center">
+        <div class="col-md-3 col-3 align-items-center">
           <div
             class="border rounded mt-5"
             style="font-size: 15px"
@@ -60,7 +64,11 @@
           ></i>
         </div>
       </div>
-      <button class="btn btn-primary mt-5 rounded" routerLink="/categories">
+
+      <button
+        class="bg-primary gradient px-4 py-2 mt-3 border-0 text-white rounded"
+        routerLink="/categories"
+      >
         Continue Shopping
       </button>
     </div>
@@ -80,7 +88,8 @@
           <tr>
             <td>Delivery fee</td>
             <td class="text-right">
-              {{ cartService.deliveryfee | currency: "USD" }}
+              <span>0</span>
+              <span>{{ cartService.deliveryfee | currency: "USD" }}</span>
             </td>
           </tr>
           <tr>
@@ -115,7 +124,10 @@
 >
   <img src="../../../assets/img/noProductInCart.png" alt="" class="mt-5" />
   <p class="my-4">No product in my cart</p>
-  <button class="btn btn-primary rounded" routerLink="/categories">
+  <button
+    class="bg-primary gradient px-4 py-2 border-0 text-white rounded"
+    routerLink="/categories"
+  >
     Continue Shopping
   </button>
 </div>

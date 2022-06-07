@@ -12,7 +12,7 @@ import {
   styleUrls: ['./shopping-cart.component.scss'],
 })
 export class ShoppingCartComponent implements OnInit {
-  public cartProduct;
+  public cartProduct = [];
   constructor(
     public cartService: CartService,
     private spinner: NgxSpinnerService,
