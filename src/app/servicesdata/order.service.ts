@@ -39,4 +39,14 @@ export class OrderService {
       return JSON.parse(orders).filter((p) => p.id === id)[0];
     }
   }
+  getOrdersByEmail() {
+    if (this.authService.isLogin()) {
+      let orders = localStorage.getItem('orders');
+      if (orders) {
+        return JSON.parse(orders).filter(
+          (p) => p.userEmail === this.authService.user.email
+        );
+      }
+    }
+  }
 }
