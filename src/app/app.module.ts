@@ -26,6 +26,7 @@ import { DealWeekComponent } from './components/deal-week/deal-week.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SigupComponent } from './components/sigup/sigup.component';
 import { NgxSpinnerModule } from 'ngx-spinner';
+import { OrderListComponent } from './components/order-list/order-list.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +47,7 @@ import { NgxSpinnerModule } from 'ngx-spinner';
     ConfirmationComponent,
     DealWeekComponent,
     SigupComponent,
+    OrderListComponent,
   ],
   imports: [
     BrowserModule,

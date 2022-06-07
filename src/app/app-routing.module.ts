@@ -16,6 +16,7 @@ import { ConfirmationComponent } from './components/confirmation/confirmation.co
 import { SigupComponent } from './components/sigup/sigup.component';
 import { AuthGuard } from './guards/auth.guard';
 import { CheckEditModeGuard } from './guards/check-edit-mode.guard';
+import { OrderListComponent } from './components/order-list/order-list.component';
 
 const routes: Routes = [
   {
@@ -67,6 +68,11 @@ const routes: Routes = [
     path: 'sigup',
 
     component: SigupComponent,
+  },
+  {
+    path: 'order-list',
+    component: OrderListComponent,
+    canActivate: [AuthGuard],
   },
   {
     path: '**',

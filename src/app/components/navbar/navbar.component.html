@@ -57,6 +57,14 @@
               >
                 Tracking order
               </button>
+              <button
+                ngbDropdownItem
+                class="py-2"
+                routerLink="/order-list"
+                (click)="iconNavClick()"
+              >
+                Your orders
+              </button>
             </div>
           </li>
           <li class="nav-item" routerLink="/contact" (click)="iconNavClick()">
