@@ -28,19 +28,14 @@
         <i class="fas fa-shopping-bag"></i>
       </div>
       <ng-template #updateQuantity>
-        <div class="border rounded-pill" id="add-product">
+        <div class="border rounded" id="add-product">
           <button
             (click)="cartService.remove(item)"
             class="btn border-right px-2"
           >
             <i class="fas fa-minus"></i>
           </button>
-          <input
-            type="number"
-            [value]="cartService.getQuantityItem(item.id)"
-            class="input border-0 font-weight-bold"
-            (keyup)="onKeyup($event, item)"
-          />
+          <span class="px-2">{{ cartService.getQuantityItem(item.id) }}</span>
           <button
             (click)="cartService.addItem(item)"
             class="btn border-left px-2"

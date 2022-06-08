@@ -2,7 +2,9 @@
   width: 100%;
   object-fit: contain;
 }
-
+#silde {
+  height: 80vh;
+}
 .add-icon {
   width: 2.6em;
   text-align: center;
@@ -16,6 +18,9 @@
 }
 .content-slide {
   width: 60%;
+}
+.picsum-img-wrapper {
+  height: 90vh;
 }
 //layout2
 .margin-100 {
@@ -65,8 +70,7 @@ p i {
 .cost {
   text-decoration: line-through;
 }
-.icon-product {
-}
+
 .icon-product > i {
   width: 2em;
   text-align: center;
@@ -81,6 +85,10 @@ p i {
   width: 100%;
   height: 200px;
   object-fit: contain;
+}
+#img-slide {
+  height: 100%;
+  object-fit: cover;
 }
 @media only screen and (max-width: 1400px) {
   #img-slide {

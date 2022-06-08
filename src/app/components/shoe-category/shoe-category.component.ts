@@ -9,7 +9,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
 })
 export class ShoeCategoryComponent implements OnInit {
   public products;
-  public shows = [24, 30];
+  public shows: Number[] = [24, 30];
   public show = 12;
   public pages = [];
   public page = 1;
@@ -23,7 +23,8 @@ export class ShoeCategoryComponent implements OnInit {
     this.products = this.productService.getProduct(0, this.show);
   }
   sort(value) {
-    this.show = value;
+    this.show = Number.parseInt(value);
+    console.log(typeof value);
     this.products = this.productService.getProduct(0, this.show);
   }
   handleChange(e) {

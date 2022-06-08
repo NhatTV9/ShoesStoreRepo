@@ -50,8 +50,7 @@ export class LoginComponent implements OnInit {
 
         if (this.authService.navigationUrl == 'checkout') {
           this.router.navigateByUrl('/checkout');
-        }
-        if (this.authService.navigationUrl == 'tracking') {
+        } else if (this.authService.navigationUrl == 'tracking') {
           this.router.navigateByUrl('/tracking');
         } else {
           this.router.navigateByUrl('/');

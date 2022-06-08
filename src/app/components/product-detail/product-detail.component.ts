@@ -31,9 +31,7 @@ export class ProductDetailComponent implements OnInit {
       });
     });
   }
-  addItem(product) {
-    this.cartService.addItem(product);
-  }
+
   clickImg(img, index) {
     this.imgcontainer = img;
     this.imgcurrent = index;

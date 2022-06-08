@@ -6,6 +6,11 @@
 .deal * {
   font-size: 12px;
 }
-.deal:hover {
-  cursor: pointer;
+.shadow1 {
+  box-shadow: none;
+  transition: 0.5s;
+}
+.shadow1:hover {
+  transform: translate(2px, 4px);
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 50%);
 }
