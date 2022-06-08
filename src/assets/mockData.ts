@@ -8077,22 +8077,4 @@ export default [
       },
     ],
   },
-  {
-    url: 'https://www.amazon.co.uk/dp/B003AUFCDC',
-    title:
-      'Leviton 41292-3RG Multimedia Outlet System 3-Port RCA Module Feedthrough, Grey',
-    asin: 'B003AUFCDC',
-    price: '\u00a356.52',
-    brand: 'Leviton',
-    product_details: '',
-    breadcrumbs:
-      "Shoes/Women's Shoes/Fashion & Athletic Trainers/Sports & Outdoor Shoes/Bowling Shoes",
-    images_list: ['https://m.media-amazon.com/images/I/413OY2i9U4L.jpg'],
-    features: [
-      {
-        'Includes A/V specified colors':
-          'red-right, black-left, yellow-video (composite); red-PR, blue-PB, green-Y (component)',
-      },
-    ],
-  },
 ];

@@ -1,4 +1,4 @@
-<div class="bg-white">
+<div class="bg-white shadow">
   <div class="container-xl">
     <nav class="navbar navbar-expand-md navbar-light">
       <a class="navbar-brand" routerLink="/home">
@@ -19,6 +19,48 @@
         [ngClass]="{ show: checkNav }"
       >
         <ul class="navbar-nav ml-auto align-items-lg-center align-items-end">
+          <li class="nav-item my-auto">
+            <div class="searchBox d-flex justify-content-end">
+              <button class="searchButton">
+                <i class="fas fa-search"></i>
+              </button>
+              <input
+                class="searchInput"
+                type="text"
+                name=""
+                [formControl]="search"
+                placeholder="Search"
+              />
+              <div
+                class="dropdown-menu px-3"
+                id="dropdown-menu"
+                *ngIf="showDropdown"
+                [class.show]="showDropdown"
+              >
+                <div *ngFor="let item of productSearch; let i = index">
+                  <div
+                    class="row"
+                    *ngIf="i < 10"
+                    routerLink="/productDetail/{{ item['id'] }}"
+                    (click)="iconNavClick()"
+                  >
+                    <div class="col-4">
+                      <img
+                        class="deal-img"
+                        [src]="item.images_list[0]"
+                        alt=""
+                      />
+                    </div>
+                    <div class="col-8">
+                      <p class="text-uppercase mt-3" id="title1">
+                        {{ item.title | textcustom: 15 }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
           <li class="nav-item" (click)="iconNavClick()">
             <a
               class="nav-link"
@@ -52,14 +94,6 @@
               <button
                 ngbDropdownItem
                 class="py-2"
-                routerLink="/tracking"
-                (click)="iconNavClick()"
-              >
-                Tracking order
-              </button>
-              <button
-                ngbDropdownItem
-                class="py-2"
                 routerLink="/order-list"
                 (click)="iconNavClick()"
               >
@@ -70,6 +104,22 @@
           <li class="nav-item" routerLink="/contact" (click)="iconNavClick()">
             <a class="nav-link">contact</a>
           </li>
+
+          <!-- cart -->
+          <li class="nav-item" (click)="iconNavClick()">
+            <span
+              class="nav-link cart"
+              routerLink="shopping-cart"
+              [attr.data-totalitems]="cartService.getTotalItems()"
+              ><i class="fas fa-shopping-cart" style="font-size: 16px"></i
+            ></span>
+            <span
+              class="nav-link cart1"
+              routerLink="shopping-cart"
+              style="padding-bottom: 0px"
+              ><i class="fas fa-shopping-cart" style="font-size: 16px"></i
+            ></span>
+          </li>
           <li class="nav-item">
             <a
               class="nav-link"
@@ -79,12 +129,20 @@
               >Login</a
             >
             <ng-template #elseBlock>
-              <!-- <span class="nav-link" (click)="onLogout()">Logout</span> -->
               <div class="nav-item" ngbDropdown>
-                <a href (click)="(false)" class="nav-link" ngbDropdownToggle
+                <a
+                  (click)="(false)"
+                  class="nav-link"
+                  style="font-size: 14px"
+                  ngbDropdownToggle
                   ><i class="fas fa-user"></i
                 ></a>
-                <div ngbDropdownMenu id="drop-down" class="shadow">
+                <div
+                  ngbDropdownMenu
+                  id="drop-down"
+                  class="shadow"
+                  style="right: 0; left: auto"
+                >
                   <button
                     ngbDropdownItem
                     class="py-2"
@@ -93,67 +151,9 @@
                   >
                     Logout
                   </button>
-                  <!-- <button
-                    ngbDropdownItem
-                    class="py-2"
-                    (click)="onLogout()"
-                    (click)="iconNavClick()"
-                  >
-                    My Profile
-                    
-                  </button> -->
                 </div>
               </div>
             </ng-template>
-          </li>
-          <!-- cart -->
-          <li class="nav-item" (click)="iconNavClick()">
-            <span
-              class="nav-link cart"
-              routerLink="shopping-cart"
-              [attr.data-totalitems]="cartService.getTotalItems()"
-              ><i class="fas fa-shopping-cart" style="font-size: 16px"></i
-            ></span>
-            <span class="nav-link cart1" routerLink="shopping-cart"
-              ><i class="fas fa-shopping-cart" style="font-size: 16px"></i
-            ></span>
-          </li>
-          <li class="nav-item my-auto">
-            <div class="searchBox d-flex justify-content-end">
-              <input
-                class="searchInput"
-                type="text"
-                name=""
-                [formControl]="search"
-                placeholder="Search"
-              />
-
-              <button class="searchButton">
-                <i class="fas fa-search"></i>
-              </button>
-              <div
-                class="dropdown-menu px-3"
-                id="dropdown-menu"
-                *ngIf="showDropdown"
-                [class.show]="showDropdown"
-              >
-                <div
-                  class="row"
-                  *ngFor="let item of productSearch; let i = index"
-                >
-                  <div class="col-4">
-                    <img class="deal-img" [src]="item.images_list[0]" alt="" />
-                  </div>
-                  <div class="col-8">
-                    <p class="text-uppercase mt-3" id="title1">
-                      {{ item.title | textcustom: 15 }}
-                    </p>
-                    <p>{{ item.price | currency: "USD" }}</p>
-                    <p *ngIf="!item.price">£161.63 - £202.04</p>
-                  </div>
-                </div>
-              </div>
-            </div>
           </li>
         </ul>
       </div>

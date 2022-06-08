@@ -1,7 +1,5 @@
-<div
-  class="jumbotron template-driven text-center w-md-50 w-100 my-5 mx-auto border p-5"
->
-  <h3>Sigup</h3>
+<div class="jumbotron template-driven w-50 my-5 mx-auto border p-5" id="sigup">
+  <h3 class="text-center">Sigup</h3>
   <hr />
   <form [formGroup]="createAccount">
     <!-- name -->
@@ -108,7 +106,7 @@
       [disabled]="f.invalid"
       (click)="submit()"
     >
-      Submit
+      Sigup
     </button>
   </form>
 </div>

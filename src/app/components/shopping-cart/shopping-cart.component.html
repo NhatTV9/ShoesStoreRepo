@@ -1,4 +1,4 @@
-<div class="container-xl" *ngIf="cartProduct">
+<div class="container-xl mt-5" *ngIf="cartProduct">
   <div class="row" *ngIf="cartProduct.length">
     <div class="col-lg-8 col-12 py-4 pr-5 shoppping-cart">
       <div class="row border-bottom">
@@ -38,11 +38,9 @@
             >
               -
             </button>
-            <input
-              type="text"
-              [value]="cartService.getQuantityItem(item.item.id)"
-              class="input border-0"
-            />
+            <span class="mx-3">{{
+              cartService.getQuantityItem(item.item.id)
+            }}</span>
             <button
               (click)="cartService.addItem(item.item)"
               class="btn border-left px-2"
@@ -88,7 +86,7 @@
           <tr>
             <td>Delivery fee</td>
             <td class="text-right">
-              <span>0</span>
+              <span *ngIf="!cartService.deliveryfee">0</span>
               <span>{{ cartService.deliveryfee | currency: "USD" }}</span>
             </td>
           </tr>
@@ -119,7 +117,7 @@
 </div>
 <div
   class="container-xl text-center"
-  style="height: 60vh"
+  style="height: 600px"
   *ngIf="!cartProduct.length"
 >
   <img src="../../../assets/img/noProductInCart.png" alt="" class="mt-5" />
